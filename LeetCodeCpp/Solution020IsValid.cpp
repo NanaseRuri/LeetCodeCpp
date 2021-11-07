@@ -42,12 +42,12 @@ public:
 		return stack.size() == 0;
 	}
 };
-
-int main() {
-	Solution020IsValid solution;
-	cout << solution.isValid("()") << endl;
-	cout << solution.isValid("()[]{}") << endl;
-	cout << solution.isValid("(]") << endl;
-	cout << solution.isValid("([)]") << endl;
-	cout << solution.isValid("{[]}") << endl;
-}
+//
+//int main() {
+//	Solution020IsValid solution;
+//	cout << solution.isValid("()") << endl;
+//	cout << solution.isValid("()[]{}") << endl;
+//	cout << solution.isValid("(]") << endl;
+//	cout << solution.isValid("([)]") << endl;
+//	cout << solution.isValid("{[]}") << endl;
+//}

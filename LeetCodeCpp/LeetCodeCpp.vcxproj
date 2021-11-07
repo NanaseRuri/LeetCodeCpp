@@ -159,6 +159,16 @@
     <ClCompile Include="Solution017LetterCombinations.cpp" />
     <ClCompile Include="Solution019RemoveNthFromEnd.cpp" />
     <ClCompile Include="Solution020IsValid.cpp" />
+    <ClCompile Include="Solution021MergeTwoLists.cpp" />
+    <ClCompile Include="Solution022GenerateParenthesis.cpp" />
+    <ClCompile Include="Solution023MergeKLists.cpp" />
+    <ClCompile Include="Solution024SwapPairs.cpp" />
+    <ClCompile Include="Solution025ReverseKGroup.cpp" />
+    <ClCompile Include="Solution026RemoveDuplicates.cpp" />
+    <ClCompile Include="Solution027RemoveElement.cpp" />
+    <ClCompile Include="Solution028StrStr.cpp" />
+    <ClCompile Include="Solution029Divide.cpp" />
+    <ClCompile Include="Solution030FindSubstring.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
