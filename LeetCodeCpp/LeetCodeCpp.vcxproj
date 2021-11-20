@@ -169,6 +169,17 @@
     <ClCompile Include="Solution028StrStr.cpp" />
     <ClCompile Include="Solution029Divide.cpp" />
     <ClCompile Include="Solution030FindSubstring.cpp" />
+    <ClCompile Include="Solution031NextPermutation.cpp" />
+    <ClCompile Include="Solution032LongestValidParentheses.cpp" />
+    <ClCompile Include="Solution033Search.cpp" />
+    <ClCompile Include="Solution034SearchRange.cpp" />
+    <ClCompile Include="Solution035SearchInsert.cpp" />
+    <ClCompile Include="Solution036IsValidSudoku.cpp" />
+    <ClCompile Include="Solution037SolveSudoku.cpp" />
+    <ClCompile Include="Solution038CountAndSay.cpp" />
+    <ClCompile Include="Solution039CombinationSum.cpp" />
+    <ClCompile Include="Solution040CombinationSum2.cpp" />
+    <ClCompile Include="Solution637AverageOfLevels.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
