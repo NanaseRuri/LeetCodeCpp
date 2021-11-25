@@ -179,6 +179,16 @@
     <ClCompile Include="Solution038CountAndSay.cpp" />
     <ClCompile Include="Solution039CombinationSum.cpp" />
     <ClCompile Include="Solution040CombinationSum2.cpp" />
+    <ClCompile Include="Solution041FirstMissingPositive.cpp" />
+    <ClCompile Include="Solution042Trap.cpp" />
+    <ClCompile Include="Solution043Multiply.cpp" />
+    <ClCompile Include="Solution044IsMatch.cpp" />
+    <ClCompile Include="Solution045Jump.cpp" />
+    <ClCompile Include="Solution046Permute.cpp" />
+    <ClCompile Include="Solution047PermuteUnique.cpp" />
+    <ClCompile Include="Solution048Rotate.cpp" />
+    <ClCompile Include="Solution049GroupAnagrams.cpp" />
+    <ClCompile Include="Solution050MyPow.cpp" />
     <ClCompile Include="Solution637AverageOfLevels.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
