@@ -8,7 +8,7 @@
 
 using namespace std;
 
-class Solution036IsValidSudoku {
+class Solution037SolveSudoku {
 private:
 	bool _rows[9][9]{};
 	bool _cols[9][9]{};
