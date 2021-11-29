@@ -68,7 +68,7 @@ private:
 			nums[left + i] = maxValue;
 			if (i > 2) {
 				Adjust(nums, left, 1, i - 1);
-			}			
+			}
 		}
 	}
 

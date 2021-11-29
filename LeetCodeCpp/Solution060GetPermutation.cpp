@@ -92,18 +92,18 @@ public:
 	}
 };
 
-int main() {
-	Solution060GetPermutation solution;
-	cout << solution.getPermutation(3, 3) << endl;
-	cout << solution.getPermutation(3, 6) << endl;
-	cout << solution.getPermutation(4, 9) << endl;
-	cout << solution.getPermutation(3, 1) << endl;
-	cout << solution.getPermutation(1, 1) << endl;
-
-
-	cout << solution.getPermutation1(3, 3) << endl;
-	cout << solution.getPermutation1(3, 6) << endl;
-	cout << solution.getPermutation1(4, 9) << endl;
-	cout << solution.getPermutation1(3, 1) << endl;
-	cout << solution.getPermutation1(1, 1) << endl;
-}
+//int main() {
+//	Solution060GetPermutation solution;
+//	cout << solution.getPermutation(3, 3) << endl;
+//	cout << solution.getPermutation(3, 6) << endl;
+//	cout << solution.getPermutation(4, 9) << endl;
+//	cout << solution.getPermutation(3, 1) << endl;
+//	cout << solution.getPermutation(1, 1) << endl;
+//
+//
+//	cout << solution.getPermutation1(3, 3) << endl;
+//	cout << solution.getPermutation1(3, 6) << endl;
+//	cout << solution.getPermutation1(4, 9) << endl;
+//	cout << solution.getPermutation1(3, 1) << endl;
+//	cout << solution.getPermutation1(1, 1) << endl;
+//}

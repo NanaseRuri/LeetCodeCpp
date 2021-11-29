@@ -199,6 +199,16 @@
     <ClCompile Include="Solution058LengthOfLastWord.cpp" />
     <ClCompile Include="Solution059GenerateMatrix.cpp" />
     <ClCompile Include="Solution060GetPermutation.cpp" />
+    <ClCompile Include="Solution061RotateRight.cpp" />
+    <ClCompile Include="Solution062UniquePaths.cpp" />
+    <ClCompile Include="Solution063UniquePathsWithObstacles.cpp" />
+    <ClCompile Include="Solution064MinPathSum.cpp" />
+    <ClCompile Include="Solution065IsNumber.cpp" />
+    <ClCompile Include="Solution066PlusOne.cpp" />
+    <ClCompile Include="Solution067AddBinary.cpp" />
+    <ClCompile Include="Solution068FullJustify.cpp" />
+    <ClCompile Include="Solution069MySqrt.cpp" />
+    <ClCompile Include="Solution070CimbStairs.cpp" />
     <ClCompile Include="Solution637AverageOfLevels.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -61,7 +61,7 @@ namespace Solution025 {
 						auto nextNext = head->next->next;
 						head->next->next = preHead->next;
 						preHead->next = head->next;
-						head->next = nextNext;						
+						head->next = nextNext;
 					}
 					preHead = head;
 					head = preHead->next;

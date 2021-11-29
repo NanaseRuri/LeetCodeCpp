@@ -21,7 +21,7 @@ public:
 					maxLength = currentLength;
 				}
 
-				if (left < lastIndex[s[i]] + 1) 
+				if (left < lastIndex[s[i]] + 1)
 				{
 					left = lastIndex[s[i]] + 1;
 				}
