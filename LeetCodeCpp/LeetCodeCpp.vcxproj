@@ -209,6 +209,16 @@
     <ClCompile Include="Solution068FullJustify.cpp" />
     <ClCompile Include="Solution069MySqrt.cpp" />
     <ClCompile Include="Solution070CimbStairs.cpp" />
+    <ClCompile Include="Solution071SimplifyPath.cpp" />
+    <ClCompile Include="Solution072MinDistance.cpp" />
+    <ClCompile Include="Solution073SetZeroes.cpp" />
+    <ClCompile Include="Solution074SearchMatrix.cpp" />
+    <ClCompile Include="Solution075SortColors.cpp" />
+    <ClCompile Include="Solution076MinWindow.cpp" />
+    <ClCompile Include="Solution077Combine.cpp" />
+    <ClCompile Include="Solution078Subsets.cpp" />
+    <ClCompile Include="Solution079Exist.cpp" />
+    <ClCompile Include="Solution080RemoveDuplicates.cpp" />
     <ClCompile Include="Solution637AverageOfLevels.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
