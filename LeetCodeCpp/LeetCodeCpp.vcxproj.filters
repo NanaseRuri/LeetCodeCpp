@@ -13,250 +13,274 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\1-10">
+      <UniqueIdentifier>{eeb43414-0dab-46c2-949c-85e9826ad9fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\11-20">
+      <UniqueIdentifier>{f17b6fed-de98-4ff1-8c27-c3690e21650f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\21-30">
+      <UniqueIdentifier>{6e06dafd-30df-4689-88ca-2c106271b03b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\31-40">
+      <UniqueIdentifier>{9714b9d7-165d-4575-97cd-60f314b20916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\41-50">
+      <UniqueIdentifier>{ef742240-6268-40ac-995a-b430d033569b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\51-60">
+      <UniqueIdentifier>{d1e8a0be-eb23-40f9-bac3-72efd1450401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\61-70">
+      <UniqueIdentifier>{eadfa9b9-6fb1-4c06-b0e4-32483ec17323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\71-80">
+      <UniqueIdentifier>{666b7ae2-ad5f-491f-9a57-58a0bdf2215e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Solution001TwoSum.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution002AddTwoNumbers.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution003LongestSubstringWithoutRepeatingCharacters.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution004MedianOfTwoSortedArrays.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution005LongestPalindrome.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution006Convert.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution007Reverse.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution008MyAtoi.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution009IsPalindrome.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution010IsMatch.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution011MaxArea.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution012IntToRoman.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution013RomanToInt.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution014LongestCommonPrefix.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution015ThreeSum.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution016ThreeSumClosest.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution017LetterCombinations.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution018FourSum.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution019RemoveNthFromEnd.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution020IsValid.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution021MergeTwoLists.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution022GenerateParenthesis.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution023MergeKLists.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution024SwapPairs.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution025ReverseKGroup.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution026RemoveDuplicates.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution027RemoveElement.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution028StrStr.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution029Divide.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution030FindSubstring.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution031NextPermutation.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution032LongestValidParentheses.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution033Search.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution034SearchRange.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution035SearchInsert.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution036IsValidSudoku.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution037SolveSudoku.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution038CountAndSay.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Solution637AverageOfLevels.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Solution001TwoSum.cpp">
+      <Filter>源文件\1-10</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution002AddTwoNumbers.cpp">
+      <Filter>源文件\1-10</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution003LongestSubstringWithoutRepeatingCharacters.cpp">
+      <Filter>源文件\1-10</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution004MedianOfTwoSortedArrays.cpp">
+      <Filter>源文件\1-10</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution005LongestPalindrome.cpp">
+      <Filter>源文件\1-10</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution006Convert.cpp">
+      <Filter>源文件\1-10</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution007Reverse.cpp">
+      <Filter>源文件\1-10</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution008MyAtoi.cpp">
+      <Filter>源文件\1-10</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution009IsPalindrome.cpp">
+      <Filter>源文件\1-10</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution010IsMatch.cpp">
+      <Filter>源文件\1-10</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution011MaxArea.cpp">
+      <Filter>源文件\11-20</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution012IntToRoman.cpp">
+      <Filter>源文件\11-20</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution013RomanToInt.cpp">
+      <Filter>源文件\11-20</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution014LongestCommonPrefix.cpp">
+      <Filter>源文件\11-20</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution015ThreeSum.cpp">
+      <Filter>源文件\11-20</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution016ThreeSumClosest.cpp">
+      <Filter>源文件\11-20</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution017LetterCombinations.cpp">
+      <Filter>源文件\11-20</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution018FourSum.cpp">
+      <Filter>源文件\11-20</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution019RemoveNthFromEnd.cpp">
+      <Filter>源文件\11-20</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution020IsValid.cpp">
+      <Filter>源文件\11-20</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution021MergeTwoLists.cpp">
+      <Filter>源文件\21-30</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution022GenerateParenthesis.cpp">
+      <Filter>源文件\21-30</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution023MergeKLists.cpp">
+      <Filter>源文件\21-30</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution024SwapPairs.cpp">
+      <Filter>源文件\21-30</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution025ReverseKGroup.cpp">
+      <Filter>源文件\21-30</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution026RemoveDuplicates.cpp">
+      <Filter>源文件\21-30</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution027RemoveElement.cpp">
+      <Filter>源文件\21-30</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution028StrStr.cpp">
+      <Filter>源文件\21-30</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution029Divide.cpp">
+      <Filter>源文件\21-30</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution030FindSubstring.cpp">
+      <Filter>源文件\21-30</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution031NextPermutation.cpp">
+      <Filter>源文件\31-40</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution032LongestValidParentheses.cpp">
+      <Filter>源文件\31-40</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution033Search.cpp">
+      <Filter>源文件\31-40</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution034SearchRange.cpp">
+      <Filter>源文件\31-40</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution035SearchInsert.cpp">
+      <Filter>源文件\31-40</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution036IsValidSudoku.cpp">
+      <Filter>源文件\31-40</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution037SolveSudoku.cpp">
+      <Filter>源文件\31-40</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution038CountAndSay.cpp">
+      <Filter>源文件\31-40</Filter>
+    </ClCompile>
     <ClCompile Include="Solution039CombinationSum.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\31-40</Filter>
     </ClCompile>
     <ClCompile Include="Solution040CombinationSum2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\31-40</Filter>
     </ClCompile>
     <ClCompile Include="Solution041FirstMissingPositive.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\41-50</Filter>
     </ClCompile>
     <ClCompile Include="Solution042Trap.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\41-50</Filter>
     </ClCompile>
     <ClCompile Include="Solution043Multiply.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\41-50</Filter>
     </ClCompile>
     <ClCompile Include="Solution044IsMatch.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\41-50</Filter>
     </ClCompile>
     <ClCompile Include="Solution045Jump.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\41-50</Filter>
     </ClCompile>
     <ClCompile Include="Solution046Permute.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\41-50</Filter>
     </ClCompile>
     <ClCompile Include="Solution047PermuteUnique.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\41-50</Filter>
     </ClCompile>
     <ClCompile Include="Solution048Rotate.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\41-50</Filter>
     </ClCompile>
     <ClCompile Include="Solution049GroupAnagrams.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\41-50</Filter>
     </ClCompile>
     <ClCompile Include="Solution050MyPow.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\41-50</Filter>
     </ClCompile>
     <ClCompile Include="Solution051SolveNQueens.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\51-60</Filter>
     </ClCompile>
     <ClCompile Include="Solution052TotalNQueens.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\51-60</Filter>
     </ClCompile>
     <ClCompile Include="Solution053MaxSubArray.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\51-60</Filter>
     </ClCompile>
     <ClCompile Include="Solution054SpiralOrder.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\51-60</Filter>
     </ClCompile>
     <ClCompile Include="Solution055CanJump.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\51-60</Filter>
     </ClCompile>
     <ClCompile Include="Solution056Merge.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\51-60</Filter>
     </ClCompile>
     <ClCompile Include="Solution057Insert.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\51-60</Filter>
     </ClCompile>
     <ClCompile Include="Solution058LengthOfLastWord.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\51-60</Filter>
     </ClCompile>
     <ClCompile Include="Solution059GenerateMatrix.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\51-60</Filter>
     </ClCompile>
     <ClCompile Include="Solution060GetPermutation.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\51-60</Filter>
     </ClCompile>
     <ClCompile Include="Solution061RotateRight.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\61-70</Filter>
     </ClCompile>
     <ClCompile Include="Solution062UniquePaths.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\61-70</Filter>
     </ClCompile>
     <ClCompile Include="Solution063UniquePathsWithObstacles.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\61-70</Filter>
     </ClCompile>
     <ClCompile Include="Solution064MinPathSum.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\61-70</Filter>
     </ClCompile>
     <ClCompile Include="Solution065IsNumber.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\61-70</Filter>
     </ClCompile>
     <ClCompile Include="Solution066PlusOne.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\61-70</Filter>
     </ClCompile>
     <ClCompile Include="Solution067AddBinary.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\61-70</Filter>
     </ClCompile>
     <ClCompile Include="Solution068FullJustify.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\61-70</Filter>
     </ClCompile>
     <ClCompile Include="Solution069MySqrt.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\61-70</Filter>
     </ClCompile>
     <ClCompile Include="Solution070CimbStairs.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\61-70</Filter>
     </ClCompile>
     <ClCompile Include="Solution071SimplifyPath.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\71-80</Filter>
     </ClCompile>
     <ClCompile Include="Solution072MinDistance.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\71-80</Filter>
     </ClCompile>
     <ClCompile Include="Solution073SetZeroes.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\71-80</Filter>
     </ClCompile>
     <ClCompile Include="Solution074SearchMatrix.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\71-80</Filter>
     </ClCompile>
     <ClCompile Include="Solution075SortColors.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\71-80</Filter>
     </ClCompile>
     <ClCompile Include="Solution076MinWindow.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\71-80</Filter>
     </ClCompile>
     <ClCompile Include="Solution077Combine.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\71-80</Filter>
     </ClCompile>
     <ClCompile Include="Solution078Subsets.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\71-80</Filter>
     </ClCompile>
     <ClCompile Include="Solution079Exist.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\71-80</Filter>
     </ClCompile>
     <ClCompile Include="Solution080RemoveDuplicates.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\71-80</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
