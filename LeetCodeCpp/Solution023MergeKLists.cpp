@@ -5,16 +5,9 @@
 #include <algorithm>
 #include <limits>
 #include <stack>
+#include "ListNode.h"
 
 using namespace std;
-
-struct ListNode {
-	int val;
-	ListNode* next;
-	ListNode() : val(0), next(nullptr) {}
-	ListNode(int x) : val(x), next(nullptr) {}
-	ListNode(int x, ListNode* next) : val(x), next(next) {}
-};
 
 struct MinHeap {
 private:
@@ -127,18 +120,6 @@ public:
 		return guard->next;
 	}
 };
-
-ListNode* GetListNode(vector<int>values) {
-	ListNode* head = new ListNode(values[0]);
-	ListNode* dump = head;
-	for (int i = 1; i < values.size(); i++)
-	{
-		ListNode* temp = new ListNode(values[i]);
-		dump->next = temp;
-		dump = dump->next;
-	}
-	return head;
-}
 
 //int main() {
 //	vector<ListNode*> listNodes;

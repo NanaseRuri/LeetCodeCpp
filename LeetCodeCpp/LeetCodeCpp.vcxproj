@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ListNode.cpp" />
     <ClCompile Include="Solution001TwoSum.cpp" />
     <ClCompile Include="Solution002AddTwoNumbers.cpp" />
     <ClCompile Include="Solution003LongestSubstringWithoutRepeatingCharacters.cpp" />
@@ -219,7 +220,20 @@
     <ClCompile Include="Solution078Subsets.cpp" />
     <ClCompile Include="Solution079Exist.cpp" />
     <ClCompile Include="Solution080RemoveDuplicates.cpp" />
+    <ClCompile Include="Solution081Search.cpp" />
+    <ClCompile Include="Solution082DeleteDuplicates.cpp" />
+    <ClCompile Include="Solution083DeleteDuplicates.cpp" />
+    <ClCompile Include="Solution084LargestRectangleArea.cpp" />
+    <ClCompile Include="Solution085MaximalRectangle.cpp" />
+    <ClCompile Include="Solution086Partition.cpp" />
+    <ClCompile Include="Solution087IsScramble.cpp" />
+    <ClCompile Include="Solution088Merge.cpp" />
+    <ClCompile Include="Solution089GrayCode.cpp" />
+    <ClCompile Include="Solution090SubsetsWithDup.cpp" />
     <ClCompile Include="Solution637AverageOfLevels.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ListNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

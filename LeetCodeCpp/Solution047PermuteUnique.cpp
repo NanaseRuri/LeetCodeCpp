@@ -47,7 +47,6 @@ public:
 		sort(nums.begin(), nums.end());
 		int numsSize = nums.size();
 
-
 		vector<int> currentResult;
 		bool* indexUsed = new bool[numsSize] {};
 
@@ -83,8 +82,8 @@ public:
 		}
 		nums[left] = key;
 
-		QuickSort(nums, left1, right - 1);
-		QuickSort(nums, right + 1, right);
+		QuickSort(nums, left1, left1 - 1);
+		QuickSort(nums, left1 + 1, right);
 	}
 };
 

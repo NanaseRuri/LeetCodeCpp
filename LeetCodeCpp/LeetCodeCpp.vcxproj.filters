@@ -37,6 +37,9 @@
     <Filter Include="源文件\71-80">
       <UniqueIdentifier>{666b7ae2-ad5f-491f-9a57-58a0bdf2215e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\81-90">
+      <UniqueIdentifier>{314762fb-2c12-4e0d-9099-61c76bc178f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution637AverageOfLevels.cpp">
@@ -282,5 +285,43 @@
     <ClCompile Include="Solution080RemoveDuplicates.cpp">
       <Filter>源文件\71-80</Filter>
     </ClCompile>
+    <ClCompile Include="Solution081Search.cpp">
+      <Filter>源文件\81-90</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution082DeleteDuplicates.cpp">
+      <Filter>源文件\81-90</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution083DeleteDuplicates.cpp">
+      <Filter>源文件\81-90</Filter>
+    </ClCompile>
+    <ClCompile Include="ListNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution084LargestRectangleArea.cpp">
+      <Filter>源文件\81-90</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution085MaximalRectangle.cpp">
+      <Filter>源文件\81-90</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution086Partition.cpp">
+      <Filter>源文件\81-90</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution087IsScramble.cpp">
+      <Filter>源文件\81-90</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution088Merge.cpp">
+      <Filter>源文件\81-90</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution089GrayCode.cpp">
+      <Filter>源文件\81-90</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution090SubsetsWithDup.cpp">
+      <Filter>源文件\81-90</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ListNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

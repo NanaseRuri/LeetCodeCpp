@@ -7,32 +7,11 @@
 #include <stack>
 #include <queue>
 #include <unordered_set>
+#include "ListNode.h"
 
 using namespace std;
 
-namespace Solution061 {
-	struct ListNode {
-		int val;
-		ListNode* next;
-		ListNode() : val(0), next(nullptr) {}
-		ListNode(int x) : val(x), next(nullptr) {}
-		ListNode(int x, ListNode* next) : val(x), next(next) {}
-	};
 
-	ListNode* GetListNode(vector<int>values) {
-		ListNode* head = new ListNode(values[0]);
-		ListNode* dump = head;
-		for (int i = 1; i < values.size(); i++)
-		{
-			ListNode* temp = new ListNode(values[i]);
-			dump->next = temp;
-			dump = dump->next;
-		}
-		return head;
-	}
-}
-
-using namespace Solution061;
 class Solution060GetPermutation {
 public:
 	ListNode* rotateRight(ListNode* head, int k) {

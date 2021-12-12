@@ -5,75 +5,53 @@
 #include <algorithm>
 #include <limits>
 #include <stack>
+#include "ListNode.h"
 
 using namespace std;
 
-namespace Solution025 {
-	struct ListNode {
-		int val;
-		ListNode* next;
-		ListNode() : val(0), next(nullptr) {}
-		ListNode(int x) : val(x), next(nullptr) {}
-		ListNode(int x, ListNode* next) : val(x), next(next) {}
-	};
-
-	ListNode* GetListNode(vector<int>values) {
-		ListNode* head = new ListNode(values[0]);
-		ListNode* dump = head;
-		for (int i = 1; i < values.size(); i++)
+class Solution025ReverseKGroup {
+private:
+	bool CanExchangeNextTime(ListNode* head, int nextNodeCount) {
+		for (int i = 0; i < nextNodeCount; i++)
 		{
-			ListNode* temp = new ListNode(values[i]);
-			dump->next = temp;
-			dump = dump->next;
+			if (head->next == nullptr) {
+				return false;
+			}
+			head = head->next;
 		}
-		return head;
+		return true;
 	}
-
-	class Solution025ReverseKGroup {
-	private:
-		bool CanExchangeNextTime(ListNode* head, int nextNodeCount) {
-			for (int i = 0; i < nextNodeCount; i++)
-			{
-				if (head->next == nullptr) {
-					return false;
-				}
-				head = head->next;
-			}
-			return true;
+public:
+	ListNode* reverseKGroup(ListNode* head, int k) {
+		if (head == nullptr || k <= 1) {
+			return head;
 		}
-	public:
-		ListNode* reverseKGroup(ListNode* head, int k) {
-			if (head == nullptr || k <= 1) {
-				return head;
-			}
 
-			ListNode* guard = new ListNode();
-			ListNode* preHead = guard;
-			guard->next = head;
-			while (head != nullptr)
-			{
-				if (!CanExchangeNextTime(head, k - 1)) {
-					break;
-				}
-				else {
-					for (int i = 0; i < k - 1; i++)
-					{
-						auto nextNext = head->next->next;
-						head->next->next = preHead->next;
-						preHead->next = head->next;
-						head->next = nextNext;
-					}
-					preHead = head;
-					head = preHead->next;
-				}
+		ListNode* guard = new ListNode();
+		ListNode* preHead = guard;
+		guard->next = head;
+		while (head != nullptr)
+		{
+			if (!CanExchangeNextTime(head, k - 1)) {
+				break;
 			}
-
-			return guard->next;
+			else {
+				for (int i = 0; i < k - 1; i++)
+				{
+					auto nextNext = head->next->next;
+					head->next->next = preHead->next;
+					preHead->next = head->next;
+					head->next = nextNext;
+				}
+				preHead = head;
+				head = preHead->next;
+			}
 		}
-	};
-}
 
-using namespace Solution025;
+		return guard->next;
+	}
+};
+
 //int main() {
 //	ListNode* node1 = GetListNode({ 1,2,3,4 ,5 });
 //	ListNode* node2 = GetListNode({ 1,2,3,4 ,5 });
