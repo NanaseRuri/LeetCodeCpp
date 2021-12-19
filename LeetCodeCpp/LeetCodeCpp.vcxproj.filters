@@ -40,6 +40,9 @@
     <Filter Include="源文件\81-90">
       <UniqueIdentifier>{314762fb-2c12-4e0d-9099-61c76bc178f4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\91-100">
+      <UniqueIdentifier>{779baeee-420f-4d58-9ca3-63837a6c0137}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution637AverageOfLevels.cpp">
@@ -318,9 +321,45 @@
     <ClCompile Include="Solution090SubsetsWithDup.cpp">
       <Filter>源文件\81-90</Filter>
     </ClCompile>
+    <ClCompile Include="Solution091NumDecodings.cpp">
+      <Filter>源文件\91-100</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution092ReverseBetween.cpp">
+      <Filter>源文件\91-100</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution093RestoreIpAddresses.cpp">
+      <Filter>源文件\91-100</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution094InorderTraversal.cpp">
+      <Filter>源文件\91-100</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution095GenerateTrees.cpp">
+      <Filter>源文件\91-100</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution096NumTrees.cpp">
+      <Filter>源文件\91-100</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution097IsInterleave.cpp">
+      <Filter>源文件\91-100</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution098IsValidBST.cpp">
+      <Filter>源文件\91-100</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution099RecoverTree.cpp">
+      <Filter>源文件\91-100</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution100IsSameTree.cpp">
+      <Filter>源文件\91-100</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ListNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeNode.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

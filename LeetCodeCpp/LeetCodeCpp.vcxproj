@@ -230,10 +230,22 @@
     <ClCompile Include="Solution088Merge.cpp" />
     <ClCompile Include="Solution089GrayCode.cpp" />
     <ClCompile Include="Solution090SubsetsWithDup.cpp" />
+    <ClCompile Include="Solution091NumDecodings.cpp" />
+    <ClCompile Include="Solution092ReverseBetween.cpp" />
+    <ClCompile Include="Solution093RestoreIpAddresses.cpp" />
+    <ClCompile Include="Solution094InorderTraversal.cpp" />
+    <ClCompile Include="Solution095GenerateTrees.cpp" />
+    <ClCompile Include="Solution096NumTrees.cpp" />
+    <ClCompile Include="Solution097IsInterleave.cpp" />
+    <ClCompile Include="Solution098IsValidBST.cpp" />
+    <ClCompile Include="Solution099RecoverTree.cpp" />
+    <ClCompile Include="Solution100IsSameTree.cpp" />
     <ClCompile Include="Solution637AverageOfLevels.cpp" />
+    <ClCompile Include="TreeNode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ListNode.h" />
+    <ClInclude Include="TreeNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
