@@ -240,6 +240,16 @@
     <ClCompile Include="Solution098IsValidBST.cpp" />
     <ClCompile Include="Solution099RecoverTree.cpp" />
     <ClCompile Include="Solution100IsSameTree.cpp" />
+    <ClCompile Include="Solution101IsSymmetric.cpp" />
+    <ClCompile Include="Solution102LevelOrder.cpp" />
+    <ClCompile Include="Solution103ZigzagLevelOrder.cpp" />
+    <ClCompile Include="Solution104MaxDepth.cpp" />
+    <ClCompile Include="Solution105BuildTree.cpp" />
+    <ClCompile Include="Solution106BuildTree.cpp" />
+    <ClCompile Include="Solution107LevelOrderBottom.cpp" />
+    <ClCompile Include="Solution108SortedArrayToBST.cpp" />
+    <ClCompile Include="Solution109SortedListToBST.cpp" />
+    <ClCompile Include="Solution110IsBalanced.cpp" />
     <ClCompile Include="Solution637AverageOfLevels.cpp" />
     <ClCompile Include="TreeNode.cpp" />
   </ItemGroup>
