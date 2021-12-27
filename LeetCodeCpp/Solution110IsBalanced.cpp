@@ -51,18 +51,18 @@ public:
 	}
 };
 
-int main() {
-	Solution110IsBalanced solution;
-	vector<int> treeNodeValues1{ 1,2,3,4,5,6,INT32_MAX,8 };
-	auto treeNode1 = BuildTreeNode(treeNodeValues1);
-
-	vector<int> treeNodeValues2{ 3,9,20,INT32_MAX,INT32_MAX,15,7 };
-	auto treeNode2 = BuildTreeNode(treeNodeValues2);
-
-	vector<int> treeNodeValues3{ 1,2,2,3,3,INT32_MAX,INT32_MAX,4,4 };
-	auto treeNode3 = BuildTreeNode(treeNodeValues3);
-
-	cout << solution.isBalanced(treeNode1) << endl;
-	cout << solution.isBalanced(treeNode2) << endl;
-	cout << solution.isBalanced(treeNode3) << endl;
-}
+//int main() {
+//	Solution110IsBalanced solution;
+//	vector<int> treeNodeValues1{ 1,2,3,4,5,6,INT32_MAX,8 };
+//	auto treeNode1 = BuildTreeNode(treeNodeValues1);
+//
+//	vector<int> treeNodeValues2{ 3,9,20,INT32_MAX,INT32_MAX,15,7 };
+//	auto treeNode2 = BuildTreeNode(treeNodeValues2);
+//
+//	vector<int> treeNodeValues3{ 1,2,2,3,3,INT32_MAX,INT32_MAX,4,4 };
+//	auto treeNode3 = BuildTreeNode(treeNodeValues3);
+//
+//	cout << solution.isBalanced(treeNode1) << endl;
+//	cout << solution.isBalanced(treeNode2) << endl;
+//	cout << solution.isBalanced(treeNode3) << endl;
+//}

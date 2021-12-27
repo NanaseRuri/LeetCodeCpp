@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ListNode.cpp" />
+    <ClCompile Include="Node.cpp" />
     <ClCompile Include="Solution001TwoSum.cpp" />
     <ClCompile Include="Solution002AddTwoNumbers.cpp" />
     <ClCompile Include="Solution003LongestSubstringWithoutRepeatingCharacters.cpp" />
@@ -250,11 +251,22 @@
     <ClCompile Include="Solution108SortedArrayToBST.cpp" />
     <ClCompile Include="Solution109SortedListToBST.cpp" />
     <ClCompile Include="Solution110IsBalanced.cpp" />
+    <ClCompile Include="Solution111MinDepth.cpp" />
+    <ClCompile Include="Solution112HasPathSum.cpp" />
+    <ClCompile Include="Solution113PathSum.cpp" />
+    <ClCompile Include="Solution114Flatten.cpp" />
+    <ClCompile Include="Solution115NumDistinct.cpp" />
+    <ClCompile Include="Solution116Connect.cpp" />
+    <ClCompile Include="Solution117Connect.cpp" />
+    <ClCompile Include="Solution118Generate.cpp" />
+    <ClCompile Include="Solution119GetRow.cpp" />
+    <ClCompile Include="Solution120MinimumTotal.cpp" />
     <ClCompile Include="Solution637AverageOfLevels.cpp" />
     <ClCompile Include="TreeNode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ListNode.h" />
+    <ClInclude Include="Node.h" />
     <ClInclude Include="TreeNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -46,6 +46,9 @@
     <Filter Include="源文件\101-110">
       <UniqueIdentifier>{658e5ba7-049f-4b3b-86b9-f5e3f16927da}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\111-120">
+      <UniqueIdentifier>{b1d10158-10e9-49ca-812c-98736eb81278}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution637AverageOfLevels.cpp">
@@ -387,12 +390,48 @@
     <ClCompile Include="Solution110IsBalanced.cpp">
       <Filter>源文件\101-110</Filter>
     </ClCompile>
+    <ClCompile Include="Solution111MinDepth.cpp">
+      <Filter>源文件\111-120</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution112HasPathSum.cpp">
+      <Filter>源文件\111-120</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution113PathSum.cpp">
+      <Filter>源文件\111-120</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution114Flatten.cpp">
+      <Filter>源文件\111-120</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution115NumDistinct.cpp">
+      <Filter>源文件\111-120</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution116Connect.cpp">
+      <Filter>源文件\111-120</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution117Connect.cpp">
+      <Filter>源文件\111-120</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution118Generate.cpp">
+      <Filter>源文件\111-120</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution119GetRow.cpp">
+      <Filter>源文件\111-120</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution120MinimumTotal.cpp">
+      <Filter>源文件\111-120</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ListNode.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="TreeNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
