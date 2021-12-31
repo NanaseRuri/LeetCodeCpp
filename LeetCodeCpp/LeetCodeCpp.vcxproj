@@ -261,6 +261,16 @@
     <ClCompile Include="Solution118Generate.cpp" />
     <ClCompile Include="Solution119GetRow.cpp" />
     <ClCompile Include="Solution120MinimumTotal.cpp" />
+    <ClCompile Include="Solution121MaxProfit.cpp" />
+    <ClCompile Include="Solution122MaxProfit.cpp" />
+    <ClCompile Include="Solution123MaxProfit.cpp" />
+    <ClCompile Include="Solution124MaxPathSum.cpp" />
+    <ClCompile Include="Solution125IsPalindrome.cpp" />
+    <ClCompile Include="Solution126FindLadders.cpp" />
+    <ClCompile Include="Solution127LadderLength.cpp" />
+    <ClCompile Include="Solution128LongestConsecutive.cpp" />
+    <ClCompile Include="Solution129SumNumbers.cpp" />
+    <ClCompile Include="Solution130Solve.cpp" />
     <ClCompile Include="Solution637AverageOfLevels.cpp" />
     <ClCompile Include="TreeNode.cpp" />
   </ItemGroup>

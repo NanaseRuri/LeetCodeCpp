@@ -13,7 +13,7 @@
 
 using namespace std;
 
-class Solution119GetRow
+class Solution120MinimumTotal
 {
 public:
 	int minimumTotal(vector<vector<int>>& triangle) {
