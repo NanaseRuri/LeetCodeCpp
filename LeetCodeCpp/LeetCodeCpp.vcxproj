@@ -271,6 +271,16 @@
     <ClCompile Include="Solution128LongestConsecutive.cpp" />
     <ClCompile Include="Solution129SumNumbers.cpp" />
     <ClCompile Include="Solution130Solve.cpp" />
+    <ClCompile Include="Solution131Partition.cpp" />
+    <ClCompile Include="Solution132MinCut.cpp" />
+    <ClCompile Include="Solution133CloneGraph.cpp" />
+    <ClCompile Include="Solution134CanCompleteCircuit.cpp" />
+    <ClCompile Include="Solution135Candy.cpp" />
+    <ClCompile Include="Solution136SingleNumber.cpp" />
+    <ClCompile Include="Solution137SingleNumber.cpp" />
+    <ClCompile Include="Solution138CopyRandomList.cpp" />
+    <ClCompile Include="Solution139WordBreak.cpp" />
+    <ClCompile Include="Solution140WordBreak.cpp" />
     <ClCompile Include="Solution637AverageOfLevels.cpp" />
     <ClCompile Include="TreeNode.cpp" />
   </ItemGroup>

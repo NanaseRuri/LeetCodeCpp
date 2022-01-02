@@ -715,6 +715,61 @@
 &emsp; &emsp; 根据分析可知，只要不与边界的 O 相连接的 O 都会被置为 X，因此对这些 O 进行标记即可。<br/>
 &emsp; &emsp; 时间复杂度 O(n * m)，空间复杂度为 O(max(n, m))。
 
+## 131 . 分割回文串
+
+&emsp; &emsp; 方法 1：DFS 加上记忆化搜索即可。判断每个长度的是否为回文串，同时使用临时变量对已经遍历过的回文串进行记录，然后对剩下的字符串进行递归。<br/>
+&emsp; &emsp; 时间复杂度 O(n * 2 ^ n)，空间复杂度为 O(n ^ 2)。<br/>
+&emsp; &emsp; 方法 2：使用动态规划构建判断是否为回文串的 dp 数组以节省判断回文串的时间。<br/>
+&emsp; &emsp; 构建一个长和宽都为 sLength 且全为 true 的 dp 数组，dp 条件为 dp[i + 1][j - 1] && s[i] == s[j]。dp 数组的含义为 s 从 i 到 j 之间是否为回文串。<br/>
+&emsp; &emsp; 时间复杂度 O(n * 2 ^ n)，空间复杂度为 O(n ^ 2)。<br/>
+
+## 132 . 分割回文串
+
+&emsp; &emsp; 使用上述的动态规划条件建立回文字符串的查询数组 palidromeRecord，然后建立一个 dp 数组 minCut 用以获取最短长度。从 0 遍历到 sLength，当 palidromeRecord[0][i] 为 true 时，minCut[i]，表示从 0 到 i 不需要分割即为回文串。当 palidromeRecord[0][i] 为 false 时，则需要从 0 遍历到 i，当 palidromeRecord[j + 1][i] 为 true 时，minCut[i] = min(minCut[i], minCut[j] + 1)。<br/>
+&emsp; &emsp; 时间复杂度 O(n * 2 ^ n)，空间复杂度为 O(n ^ 2)。
+
+## 133 . 克隆图
+
+&emsp; &emsp; BFS，然后使用 unordered_map<int, Node*> 避免重复添加节点即可。使用队列存储需要添加 neighbors 的 Node，当 map 中不存在时加入队列即可。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度为 O(n)。
+
+## 134 . 加油站
+
+&emsp; &emsp; 根据分析可知，当从起点 i 跑了 count 个加油站后，如果无法到达终点站，则中间的都不可能跑到终点站，因为中间的起点油量只会比开始的起点更少，因此这些地方都不需要遍历。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度为 O(1)。
+
+## 135 . 分发糖果
+
+&emsp; &emsp; 使用与 42 题类似的爬坡算法，分别从左到右以及从右到左遍历数组，建立两个数组记录糖果数，当上升时糖果数 +1，否则糖果数置为 1。然后这两个数组的最大糖果数即为当前孩子的糖果数。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度为 O(n)。
+
+## 136 . 只出现一次的数字
+
+&emsp; &emsp; 根据计算的性质，同一个数字被异或两次会变成 0，逐步异或即可。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度为 O(1)。
+
+## 137 . 只出现一次的数字 II
+
+&emsp; &emsp; 将每一位进行相加，然后对 3 取余，然后再加上该位即可。<br/>
+&emsp; &emsp; 时间复杂度 O(Kn)，空间复杂度为 O(1)。K = 32。
+
+## 138 . 复制带随机指针的链表
+
+&emsp; &emsp; 方法 1：利用哈希表将原节点和新节点对应起来即可。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度为 O(n)。<br/>
+&emsp; &emsp; 方法 2：原地处理，通过将新节点插入到原节点之后，然后新节点的下一个节点即原来的下一个节点。以实现空间复杂度为 O(1) 的算法。<br/>
+&emsp; &emsp; 需要遍历三次链表，时间复杂度 O(n)，空间复杂度为 O(1)。
+
+## 139 . 单词拆分
+
+&emsp; &emsp; 建立长度为 sLength + 1 的 dp 数组，dp[0] = true，从 1 开始遍历，dp[i] 表示从 0 到 i 是否可以用 wordDict 中的单词拼接。最后返回 dp[sLength] 即为结果。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度为 O(n)。
+
+## 140 . 单词拆分 II
+
+&emsp; &emsp; DFS 加上记忆化搜索。使用字符串记录当前的字符串，使用 vector<vector<string>> 记录已经调用过 subStr 获取到的字符串，使用 vector<vector<int>> 记录从 startIndex 开始到指定长度是否被判断过存在。-1 代表不存在，0 代表为判断，1 代表判断存在。<br/>
+&emsp; &emsp; 时间复杂度 O(n ^ n)，空间复杂度为 O(n ^ 2)。
+
 ## 637 . 二叉树的层平均值
 
 &emsp; &emsp; 广度优先搜索。<br/>

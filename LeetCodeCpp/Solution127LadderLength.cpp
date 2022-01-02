@@ -34,7 +34,7 @@ public:
 		{
 			step++;
 			int queueSize = wordQueue.size();
-			for (size_t i = 0; i < queueSize; i++)
+			for (int i = 0; i < queueSize; i++)
 			{
 				string currentWord = wordQueue.front();
 				string wordReplace = currentWord;

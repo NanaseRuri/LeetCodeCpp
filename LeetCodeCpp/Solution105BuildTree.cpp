@@ -42,7 +42,6 @@ public:
 		int preOrderSize = preorder.size();
 		int leftIndex = 0;
 		int rightIndex = preOrderSize - 1;
-		int middleIndexOfIorder;
 
 		return GetTree(preorder, inorder, 0, 0, rightIndex);
 	}

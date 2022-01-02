@@ -52,6 +52,9 @@
     <Filter Include="源文件\121-130">
       <UniqueIdentifier>{af5574bc-d4b5-4a23-a01d-fe8eed02612a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\131-140">
+      <UniqueIdentifier>{5f257d31-49d9-45be-b017-c592e7024fea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution637AverageOfLevels.cpp">
@@ -455,6 +458,36 @@
     </ClCompile>
     <ClCompile Include="Solution130Solve.cpp">
       <Filter>源文件\121-130</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution131Partition.cpp">
+      <Filter>源文件\131-140</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution132MinCut.cpp">
+      <Filter>源文件\131-140</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution133CloneGraph.cpp">
+      <Filter>源文件\131-140</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution134CanCompleteCircuit.cpp">
+      <Filter>源文件\131-140</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution135Candy.cpp">
+      <Filter>源文件\131-140</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution136SingleNumber.cpp">
+      <Filter>源文件\131-140</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution137SingleNumber.cpp">
+      <Filter>源文件\131-140</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution138CopyRandomList.cpp">
+      <Filter>源文件\131-140</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution139WordBreak.cpp">
+      <Filter>源文件\131-140</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution140WordBreak.cpp">
+      <Filter>源文件\131-140</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

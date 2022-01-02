@@ -1,4 +1,7 @@
 #pragma once
+#include<vector>
+
+using namespace std;
 class TreeNode
 {
 public:
@@ -10,6 +13,4 @@ public:
 	TreeNode(int x, TreeNode* left, TreeNode* right);
 };
 
-#include<vector>;
-using namespace std;
 TreeNode* BuildTreeNode(vector<int> nodeValues);
