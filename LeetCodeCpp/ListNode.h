@@ -9,4 +9,4 @@ public:
 
 #include <vector>
 using namespace std;
-ListNode* GetListNode(vector<int>values);
+ListNode* BuildListNode(vector<int>values);

@@ -55,6 +55,12 @@
     <Filter Include="源文件\131-140">
       <UniqueIdentifier>{5f257d31-49d9-45be-b017-c592e7024fea}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\141-150">
+      <UniqueIdentifier>{67f70ba0-3e3e-4de5-aeec-7965ac11a4d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\5961-5970">
+      <UniqueIdentifier>{00a219f3-1dee-4c14-8e56-edef2211857a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution637AverageOfLevels.cpp">
@@ -488,6 +494,48 @@
     </ClCompile>
     <ClCompile Include="Solution140WordBreak.cpp">
       <Filter>源文件\131-140</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution141HasCycle.cpp">
+      <Filter>源文件\141-150</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution142DetectCycle.cpp">
+      <Filter>源文件\141-150</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution143ReorderList.cpp">
+      <Filter>源文件\141-150</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution144PreorderTraversal.cpp">
+      <Filter>源文件\141-150</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution145PostorderTraversal.cpp">
+      <Filter>源文件\141-150</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution146LRUCache.cpp">
+      <Filter>源文件\141-150</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution147InsertionSortList.cpp">
+      <Filter>源文件\141-150</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution148SortList.cpp">
+      <Filter>源文件\141-150</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution149MaxPoints.cpp">
+      <Filter>源文件\141-150</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution150EvalRPN.cpp">
+      <Filter>源文件\141-150</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution5967CheckString.cpp">
+      <Filter>源文件\5961-5970</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution5968NumberOfBeams.cpp">
+      <Filter>源文件\5961-5970</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution5969AsteroidsDestroyed.cpp">
+      <Filter>源文件\5961-5970</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution5970MaximumInvitations.cpp">
+      <Filter>源文件\5961-5970</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

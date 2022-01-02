@@ -281,6 +281,20 @@
     <ClCompile Include="Solution138CopyRandomList.cpp" />
     <ClCompile Include="Solution139WordBreak.cpp" />
     <ClCompile Include="Solution140WordBreak.cpp" />
+    <ClCompile Include="Solution141HasCycle.cpp" />
+    <ClCompile Include="Solution142DetectCycle.cpp" />
+    <ClCompile Include="Solution143ReorderList.cpp" />
+    <ClCompile Include="Solution144PreorderTraversal.cpp" />
+    <ClCompile Include="Solution145PostorderTraversal.cpp" />
+    <ClCompile Include="Solution146LRUCache.cpp" />
+    <ClCompile Include="Solution147InsertionSortList.cpp" />
+    <ClCompile Include="Solution148SortList.cpp" />
+    <ClCompile Include="Solution149MaxPoints.cpp" />
+    <ClCompile Include="Solution150EvalRPN.cpp" />
+    <ClCompile Include="Solution5967CheckString.cpp" />
+    <ClCompile Include="Solution5968NumberOfBeams.cpp" />
+    <ClCompile Include="Solution5969AsteroidsDestroyed.cpp" />
+    <ClCompile Include="Solution5970MaximumInvitations.cpp" />
     <ClCompile Include="Solution637AverageOfLevels.cpp" />
     <ClCompile Include="TreeNode.cpp" />
   </ItemGroup>

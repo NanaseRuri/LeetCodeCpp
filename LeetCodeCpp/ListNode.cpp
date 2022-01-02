@@ -7,7 +7,7 @@ ListNode::ListNode() : val(0), next(nullptr) {}
 ListNode::ListNode(int x) : val(x), next(nullptr) {}
 ListNode::ListNode(int x, ListNode* next) : val(x), next(next) {}
 
-ListNode* GetListNode(vector<int>values) {
+ListNode* BuildListNode(vector<int>values) {
 	ListNode* head = new ListNode(values[0]);
 	ListNode* dump = head;
 	for (int i = 1; i < values.size(); i++)

@@ -94,9 +94,9 @@ public:
 	}
 };
 
-int main() {
-	string s = "catsanddog";
-	vector<string>wordDict{ "cat", "cats", "and", "sand", "dog" };
-	Solution140WordBreak solution;
-	solution.wordBreak(s, wordDict);
-}
+//int main() {
+//	string s = "catsanddog";
+//	vector<string>wordDict{ "cat", "cats", "and", "sand", "dog" };
+//	Solution140WordBreak solution;
+//	solution.wordBreak(s, wordDict);
+//}
