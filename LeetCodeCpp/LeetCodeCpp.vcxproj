@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -291,6 +291,19 @@
     <ClCompile Include="Solution148SortList.cpp" />
     <ClCompile Include="Solution149MaxPoints.cpp" />
     <ClCompile Include="Solution150EvalRPN.cpp" />
+    <ClCompile Include="Solution151ReverseWords.cpp" />
+    <ClCompile Include="Solution152MaxProduct.cpp" />
+    <ClCompile Include="Solution153FindMin.cpp" />
+    <ClCompile Include="Solution154FindMin.cpp" />
+    <ClCompile Include="Solution155MinStack.cpp" />
+    <ClCompile Include="Solution160GetIntersectionNode.cpp" />
+    <ClCompile Include="Solution162FindPeakElement.cpp" />
+    <ClCompile Include="Solution164MaximumGap.cpp" />
+    <ClCompile Include="Solution165CompareVersion.cpp" />
+    <ClCompile Include="Solution166FractionToDecimal.cpp" />
+    <ClCompile Include="Solution167TwoSum.cpp" />
+    <ClCompile Include="Solution168ConvertToTitle.cpp" />
+    <ClCompile Include="Solution169MajorityElement.cpp" />
     <ClCompile Include="Solution5967CheckString.cpp" />
     <ClCompile Include="Solution5968NumberOfBeams.cpp" />
     <ClCompile Include="Solution5969AsteroidsDestroyed.cpp" />

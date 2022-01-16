@@ -61,6 +61,12 @@
     <Filter Include="源文件\5961-5970">
       <UniqueIdentifier>{00a219f3-1dee-4c14-8e56-edef2211857a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\151-160">
+      <UniqueIdentifier>{098e5338-e18a-4073-8c50-087f562e71ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\161-170">
+      <UniqueIdentifier>{2d58e894-0a7a-45c6-ad48-71ba6b4e452b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution637AverageOfLevels.cpp">
@@ -536,6 +542,45 @@
     </ClCompile>
     <ClCompile Include="Solution5970MaximumInvitations.cpp">
       <Filter>源文件\5961-5970</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution151ReverseWords.cpp">
+      <Filter>源文件\151-160</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution152MaxProduct.cpp">
+      <Filter>源文件\151-160</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution153FindMin.cpp">
+      <Filter>源文件\151-160</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution154FindMin.cpp">
+      <Filter>源文件\151-160</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution155MinStack.cpp">
+      <Filter>源文件\151-160</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution160GetIntersectionNode.cpp">
+      <Filter>源文件\161-170</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution162FindPeakElement.cpp">
+      <Filter>源文件\161-170</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution164MaximumGap.cpp">
+      <Filter>源文件\161-170</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution165CompareVersion.cpp">
+      <Filter>源文件\161-170</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution166FractionToDecimal.cpp">
+      <Filter>源文件\161-170</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution167TwoSum.cpp">
+      <Filter>源文件\161-170</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution168ConvertToTitle.cpp">
+      <Filter>源文件\161-170</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution169MajorityElement.cpp">
+      <Filter>源文件\161-170</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
