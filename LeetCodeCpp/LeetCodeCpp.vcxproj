@@ -304,6 +304,11 @@
     <ClCompile Include="Solution167TwoSum.cpp" />
     <ClCompile Include="Solution168ConvertToTitle.cpp" />
     <ClCompile Include="Solution169MajorityElement.cpp" />
+    <ClCompile Include="Solution171TitleToNumber.cpp" />
+    <ClCompile Include="Solution172TrailingZeroes.cpp" />
+    <ClCompile Include="Solution173BSTIterator.cpp" />
+    <ClCompile Include="Solution174CalculateMinimumHP.cpp" />
+    <ClCompile Include="Solution179LargestNumber.cpp" />
     <ClCompile Include="Solution5967CheckString.cpp" />
     <ClCompile Include="Solution5968NumberOfBeams.cpp" />
     <ClCompile Include="Solution5969AsteroidsDestroyed.cpp" />
@@ -315,6 +320,13 @@
     <ClInclude Include="ListNode.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="TreeNode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Solution175JoinTwoTable.txt" />
+    <None Include="Solution176SecondSalary.txt" />
+    <None Include="Solution177TopNSalary.txt" />
+    <None Include="Solution178GradeOrder.txt" />
+    <None Include="Solution180ContinueNumber.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

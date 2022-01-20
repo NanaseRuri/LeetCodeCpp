@@ -27,9 +27,9 @@ public:
 		return result;
 	}
 };
-
-int main() {
-	Solution168ConvertToTitle solution;
-	solution.convertToTitle(701);
-	solution.convertToTitle(28);
-}
+//
+//int main() {
+//	Solution168ConvertToTitle solution;
+//	solution.convertToTitle(701);
+//	solution.convertToTitle(28);
+//}

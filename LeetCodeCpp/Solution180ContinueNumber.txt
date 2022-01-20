@@ -1,0 +1,9 @@
+SELECT DISTINCT Num AS ConsecutiveNums FROM(
+	SELECT Num as SerialCount FROM
+	(
+		SELECT Num,
+		row_number() over(order by id) - row_number() over(partition by Num order by Id) as SerialNumberSubGroup
+		FROM Logs
+	) AS Sub
+	GROUP BY Num,SerialNumberSubGroup HAVING COUNT(*) >=3
+) AS Sub2

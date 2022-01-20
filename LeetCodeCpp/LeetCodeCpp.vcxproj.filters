@@ -67,6 +67,9 @@
     <Filter Include="源文件\161-170">
       <UniqueIdentifier>{2d58e894-0a7a-45c6-ad48-71ba6b4e452b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\171-180">
+      <UniqueIdentifier>{f4df2b07-1be2-48dc-8f6a-7db3a3789a56}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution637AverageOfLevels.cpp">
@@ -582,6 +585,21 @@
     <ClCompile Include="Solution169MajorityElement.cpp">
       <Filter>源文件\161-170</Filter>
     </ClCompile>
+    <ClCompile Include="Solution171TitleToNumber.cpp">
+      <Filter>源文件\171-180</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution172TrailingZeroes.cpp">
+      <Filter>源文件\171-180</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution173BSTIterator.cpp">
+      <Filter>源文件\171-180</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution174CalculateMinimumHP.cpp">
+      <Filter>源文件\171-180</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution179LargestNumber.cpp">
+      <Filter>源文件\171-180</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ListNode.h">
@@ -593,5 +611,22 @@
     <ClInclude Include="Node.h">
       <Filter>头文件</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Solution175JoinTwoTable.txt">
+      <Filter>源文件\171-180</Filter>
+    </None>
+    <None Include="Solution176SecondSalary.txt">
+      <Filter>源文件\171-180</Filter>
+    </None>
+    <None Include="Solution178GradeOrder.txt">
+      <Filter>源文件\171-180</Filter>
+    </None>
+    <None Include="Solution177TopNSalary.txt">
+      <Filter>源文件\171-180</Filter>
+    </None>
+    <None Include="Solution180ContinueNumber.txt">
+      <Filter>源文件\171-180</Filter>
+    </None>
   </ItemGroup>
 </Project>
