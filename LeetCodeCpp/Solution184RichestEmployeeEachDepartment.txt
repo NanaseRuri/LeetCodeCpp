@@ -1,0 +1,22 @@
+SELECT departmentTable.Name AS Department, maxSalaryEmployee.Name AS Employee, Salary
+FROM(
+	SELECT Name,maxSalaryTable.Salary,maxSalaryTable.DepartmentId AS DepartmentId FROM Employee employeeTemp 
+    JOIN (
+		SELECT DepartmentId,MAX(Salary) AS Salary FROM Employee GROUP BY DepartmentId
+	) maxSalaryTable 
+	ON employeeTemp.DepartmentId = maxSalaryTable.DepartmentId and employeeTemp.Salary = maxSalaryTable.Salary) maxSalaryEmployee 
+	JOIN Department departmentTable
+	ON maxSalaryEmployee.DepartmentId = departmentTable.Id
+
+SELECT department.Name AS Department,employee.Name AS Employee,employee.Salary FROM
+	Employee employee
+		JOIN
+		(
+			SELECT DepartmentId,MAX(Salary) AS Salary FROM Employee GROUP BY DepartmentId
+		) maxSalaryTable
+        ON 
+			employee.DepartmentId = maxSalaryTable.DepartmentId AND employee.Salary = maxSalaryTable.Salary 
+        JOIN 
+			Department department 
+		ON 
+			employee.DepartmentId = department.Id

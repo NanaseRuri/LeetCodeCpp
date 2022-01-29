@@ -946,7 +946,55 @@
 &emsp; &emsp; 使用子查询，以及使用 row_number() 分别记录 ID 出现的行，以及对 Num 进行分组然后根据 Id 排序后的 row_number()，两个 row_number 相减后，根据相减过后的列进行分组。然后选出计数大于等于 3 个的数字。<br/>
 &emsp; &emsp; 时间复杂度 O(nlogn * logm)，空间复杂度为递归空间 O(logn)。m 为数字长度。
 
+## 181 . 超过经理收入的员工
 
+&emsp; &emsp; 使用 JOIN 即可。
+
+## 182 . 查找重复的电子邮箱
+
+&emsp; &emsp; 使用 GROUP + HAVING COUNT 即可。
+
+## 183 . 从不订购的客户
+
+&emsp; &emsp; 使用 LEFT JOIN 加上 WHERE CustomerId IS NULL 即可。
+
+## 184. 部门工资最高的员工
+
+&emsp; &emsp; 使用 GROUP BY 选出各部门最高的工资，然后将该临时表与 Employee 表和 Department 表进行 JOIN 即可。
+
+## 185 . 部门工资前三高的所有员工
+
+&emsp; &emsp; 使用窗口函数 DENSE_RANK 选出各个部门前三工资的员工，然后与 Department 进行 JOIN 操作即可。
+
+## 187 . 重复的DNA序列
+
+&emsp; &emsp; 方法 1：每 10 个字符记录字符串是否存在过。<br/>
+&emsp; &emsp; 时间复杂度 O(kn)，空间复杂度 O(n)。k = 10。<br/>
+&emsp; &emsp; 方法 2：将 ACGT 分别映射到 0、1、2、3，然后记录每个字符串的值。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(n)。
+
+## 188 . 买卖股票的最佳时机 IV
+
+&emsp; &emsp; 123 题变种，与 123 题一样的 dp 条件即可。<br/>
+&emsp; &emsp; 时间复杂度 O(kn)，空间复杂度 O(k)。
+
+## 189 . 轮转数组
+
+&emsp; &emsp; 方法 1：使用数组存储后 k 位数字，然后删除 nums 的后 k 位数字，再把这些数字插入到开头。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(k)。<br/>
+&emsp; &emsp; 方法 2：使用数组存储前 size - k 位数字，然后删除 nums 的前 size - k 位数字，再把这些数字插入到结尾。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(n - k)。<br/>
+&emsp; &emsp; 方法 3：先将数组进行翻转，然后对前 k 位数字进行反转，再对后 n - k 位数字进行反转。<br/>
+&emsp; &emsp; 时间复杂度 O(2n)，空间复杂度 O(1)。<br/>
+&emsp; &emsp; 方法 4：进行数学分析可知，每个 (i + k) % numsSize 下标的数字将被赋值为 i，该步骤需要执行 gcd(k, n) 次才能确保每个数字被赋值到。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(1)。
+
+## 190 . 颠倒二进制位
+
+&emsp; &emsp; 方法 1：遍历 32 次，依次颠倒 32 位二进制数字<br/>
+&emsp; &emsp; 时间复杂度 O(logn)，空间复杂度 O(1)。<br/>
+&emsp; &emsp; 方法 2：使用位运算，自底向上翻转。每1位、2位、4位、8位最后对16位进行交换。<br/>
+&emsp; &emsp; 时间复杂度 O(loglogn)，空间复杂度 O(1)。
 
 ## 637 . 二叉树的层平均值
 

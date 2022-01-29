@@ -70,6 +70,9 @@
     <Filter Include="源文件\171-180">
       <UniqueIdentifier>{f4df2b07-1be2-48dc-8f6a-7db3a3789a56}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\181-190">
+      <UniqueIdentifier>{3eecf4d3-2aba-4634-a6a3-4fab611d6f57}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution637AverageOfLevels.cpp">
@@ -600,6 +603,18 @@
     <ClCompile Include="Solution179LargestNumber.cpp">
       <Filter>源文件\171-180</Filter>
     </ClCompile>
+    <ClCompile Include="Solution187FindRepeatedDnaSequences.cpp">
+      <Filter>源文件\181-190</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution188MaxProfit.cpp">
+      <Filter>源文件\181-190</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution189Rotate.cpp">
+      <Filter>源文件\181-190</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution190ReverseBits.cpp">
+      <Filter>源文件\181-190</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ListNode.h">
@@ -628,5 +643,22 @@
     <None Include="Solution180ContinueNumber.txt">
       <Filter>源文件\171-180</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Solution181EmployeeRicherThanManager.txt">
+      <Filter>源文件\181-190</Filter>
+    </Text>
+    <Text Include="Solution182DuplicateEmail.txt">
+      <Filter>源文件\181-190</Filter>
+    </Text>
+    <Text Include="Solution183CustomerNoOrder.txt">
+      <Filter>源文件\181-190</Filter>
+    </Text>
+    <Text Include="Solution184RichestEmployeeEachDepartment.txt">
+      <Filter>源文件\181-190</Filter>
+    </Text>
+    <Text Include="Solution185TopThreeSalaryEachDepartment.txt">
+      <Filter>源文件\181-190</Filter>
+    </Text>
   </ItemGroup>
 </Project>

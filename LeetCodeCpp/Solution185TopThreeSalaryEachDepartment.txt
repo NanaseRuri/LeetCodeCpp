@@ -1,0 +1,14 @@
+SELECT 
+	d.Name Department,topThree.Name Employee,topThree.Salary
+FROM 
+	Department d 
+JOIN
+	(
+		SELECT 
+			DepartmentId,Name,Salary,DENSE_RANK() OVER(PARTITION BY DepartmentId ORDER BY Salary DESC) AS currentRanking 
+		FROM 
+			Employee
+	) 
+    topThree 
+ON
+	topThree.currentRanking <= 3 and d.Id = topThree.DepartmentId
