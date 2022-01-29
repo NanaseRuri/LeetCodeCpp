@@ -1,0 +1,9 @@
+SELECT 
+	Id
+FROM 
+	(SELECT 
+		Id,recordDate,Lag(recordDate,1) OVER(ORDER BY recordDate) AS preDate,Temperature,Lag(Temperature,1) OVER(ORDER BY recordDate) AS preTemperature
+	FROM 
+		Weather) temp
+WHERE 
+	Temperature > preTemperature AND DATEDIFF(recordDate,preDate) = 1

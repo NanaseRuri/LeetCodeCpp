@@ -44,8 +44,8 @@ public:
 	}
 };
 
-int main() {
-	Solution190ReverseBits solution;
-	solution.reverseBits(964176192);
-	solution.reverseBits(3221225471);
-}
+//int main() {
+//	Solution190ReverseBits solution;
+//	solution.reverseBits(964176192);
+//	solution.reverseBits(3221225471);
+//}

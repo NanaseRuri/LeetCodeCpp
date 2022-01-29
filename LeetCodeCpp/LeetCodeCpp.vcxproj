@@ -313,6 +313,10 @@
     <ClCompile Include="Solution188MaxProfit.cpp" />
     <ClCompile Include="Solution189Rotate.cpp" />
     <ClCompile Include="Solution190ReverseBits.cpp" />
+    <ClCompile Include="Solution191HammingWeight.cpp" />
+    <ClCompile Include="Solution198Rob.cpp" />
+    <ClCompile Include="Solution199RightSideView.cpp" />
+    <ClCompile Include="Solution200NumIslands.cpp" />
     <ClCompile Include="Solution5967CheckString.cpp" />
     <ClCompile Include="Solution5968NumberOfBeams.cpp" />
     <ClCompile Include="Solution5969AsteroidsDestroyed.cpp" />
@@ -338,6 +342,8 @@
     <Text Include="Solution183CustomerNoOrder.txt" />
     <Text Include="Solution184RichestEmployeeEachDepartment.txt" />
     <Text Include="Solution185TopThreeSalaryEachDepartment.txt" />
+    <Text Include="Solution196RemoveDuplicateEmail.txt" />
+    <Text Include="Solution197IncreaseTemperature.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
