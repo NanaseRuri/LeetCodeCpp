@@ -76,6 +76,9 @@
     <Filter Include="源文件\191-200">
       <UniqueIdentifier>{77a29377-ae3b-4e46-b0ad-4b7fca89dfa9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\201-210">
+      <UniqueIdentifier>{97972bca-5a60-4816-8c3a-04d39cf66ecd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution637AverageOfLevels.cpp">
@@ -629,6 +632,36 @@
     </ClCompile>
     <ClCompile Include="Solution200NumIslands.cpp">
       <Filter>源文件\191-200</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution201RangeBitwiseAnd.cpp">
+      <Filter>源文件\201-210</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution202IsHappy.cpp">
+      <Filter>源文件\201-210</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution203RemoveElements.cpp">
+      <Filter>源文件\201-210</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution204CountPrimes.cpp">
+      <Filter>源文件\201-210</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution205IsIsomorphic.cpp">
+      <Filter>源文件\201-210</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution206ReverseList.cpp">
+      <Filter>源文件\201-210</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution207CanFinish.cpp">
+      <Filter>源文件\201-210</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution208Trie.cpp">
+      <Filter>源文件\201-210</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution209MinSubArrayLen.cpp">
+      <Filter>源文件\201-210</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution210FindOrder.cpp">
+      <Filter>源文件\201-210</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

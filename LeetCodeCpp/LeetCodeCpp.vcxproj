@@ -317,6 +317,16 @@
     <ClCompile Include="Solution198Rob.cpp" />
     <ClCompile Include="Solution199RightSideView.cpp" />
     <ClCompile Include="Solution200NumIslands.cpp" />
+    <ClCompile Include="Solution201RangeBitwiseAnd.cpp" />
+    <ClCompile Include="Solution202IsHappy.cpp" />
+    <ClCompile Include="Solution203RemoveElements.cpp" />
+    <ClCompile Include="Solution204CountPrimes.cpp" />
+    <ClCompile Include="Solution205IsIsomorphic.cpp" />
+    <ClCompile Include="Solution206ReverseList.cpp" />
+    <ClCompile Include="Solution207CanFinish.cpp" />
+    <ClCompile Include="Solution208Trie.cpp" />
+    <ClCompile Include="Solution209MinSubArrayLen.cpp" />
+    <ClCompile Include="Solution210FindOrder.cpp" />
     <ClCompile Include="Solution5967CheckString.cpp" />
     <ClCompile Include="Solution5968NumberOfBeams.cpp" />
     <ClCompile Include="Solution5969AsteroidsDestroyed.cpp" />
