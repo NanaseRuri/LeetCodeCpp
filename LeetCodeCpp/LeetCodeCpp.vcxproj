@@ -327,6 +327,16 @@
     <ClCompile Include="Solution208Trie.cpp" />
     <ClCompile Include="Solution209MinSubArrayLen.cpp" />
     <ClCompile Include="Solution210FindOrder.cpp" />
+    <ClCompile Include="Solution211WordDictionary.cpp" />
+    <ClCompile Include="Solution212FindWords.cpp" />
+    <ClCompile Include="Solution213Rob.cpp" />
+    <ClCompile Include="Solution214ShortestPalindrome.cpp" />
+    <ClCompile Include="Solution215FindKthLargest.cpp" />
+    <ClCompile Include="Solution216CombinationSum3.cpp" />
+    <ClCompile Include="Solution217ContainsDuplicate.cpp" />
+    <ClCompile Include="Solution218GetSkyline.cpp" />
+    <ClCompile Include="Solution219ContainsNearbyDuplicate.cpp" />
+    <ClCompile Include="Solution220ContainsNearbyAlmostDuplicate.cpp" />
     <ClCompile Include="Solution5967CheckString.cpp" />
     <ClCompile Include="Solution5968NumberOfBeams.cpp" />
     <ClCompile Include="Solution5969AsteroidsDestroyed.cpp" />

@@ -79,6 +79,9 @@
     <Filter Include="源文件\201-210">
       <UniqueIdentifier>{97972bca-5a60-4816-8c3a-04d39cf66ecd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\211-220">
+      <UniqueIdentifier>{7a9d3fc9-53dd-4b3a-b796-99a0ccdb7ca4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution637AverageOfLevels.cpp">
@@ -662,6 +665,36 @@
     </ClCompile>
     <ClCompile Include="Solution210FindOrder.cpp">
       <Filter>源文件\201-210</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution211WordDictionary.cpp">
+      <Filter>源文件\211-220</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution212FindWords.cpp">
+      <Filter>源文件\211-220</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution213Rob.cpp">
+      <Filter>源文件\211-220</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution214ShortestPalindrome.cpp">
+      <Filter>源文件\211-220</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution215FindKthLargest.cpp">
+      <Filter>源文件\211-220</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution218GetSkyline.cpp">
+      <Filter>源文件\211-220</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution216CombinationSum3.cpp">
+      <Filter>源文件\211-220</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution217ContainsDuplicate.cpp">
+      <Filter>源文件\211-220</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution219ContainsNearbyDuplicate.cpp">
+      <Filter>源文件\211-220</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution220ContainsNearbyAlmostDuplicate.cpp">
+      <Filter>源文件\211-220</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
