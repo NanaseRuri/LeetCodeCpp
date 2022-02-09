@@ -337,6 +337,16 @@
     <ClCompile Include="Solution218GetSkyline.cpp" />
     <ClCompile Include="Solution219ContainsNearbyDuplicate.cpp" />
     <ClCompile Include="Solution220ContainsNearbyAlmostDuplicate.cpp" />
+    <ClCompile Include="Solution221MaximalSquare.cpp" />
+    <ClCompile Include="Solution222CountNodes.cpp" />
+    <ClCompile Include="Solution223ComputeArea.cpp" />
+    <ClCompile Include="Solution224Calculate.cpp" />
+    <ClCompile Include="Solution225MyStack.cpp" />
+    <ClCompile Include="Solution226InvertTree.cpp" />
+    <ClCompile Include="Solution227Calculate.cpp" />
+    <ClCompile Include="Solution228SummaryRanges.cpp" />
+    <ClCompile Include="Solution229MajorityElement.cpp" />
+    <ClCompile Include="Solution230KthSmallest.cpp" />
     <ClCompile Include="Solution5967CheckString.cpp" />
     <ClCompile Include="Solution5968NumberOfBeams.cpp" />
     <ClCompile Include="Solution5969AsteroidsDestroyed.cpp" />
