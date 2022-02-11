@@ -347,6 +347,16 @@
     <ClCompile Include="Solution228SummaryRanges.cpp" />
     <ClCompile Include="Solution229MajorityElement.cpp" />
     <ClCompile Include="Solution230KthSmallest.cpp" />
+    <ClCompile Include="Solution231IsPowerOfTwo.cpp" />
+    <ClCompile Include="Solution232MyQueue.cpp" />
+    <ClCompile Include="Solution233CountDigitOne.cpp" />
+    <ClCompile Include="Solution234IsPalindrome.cpp" />
+    <ClCompile Include="Solution235LowestCommonAncestor.cpp" />
+    <ClCompile Include="Solution236LowestCommonAncestor.cpp" />
+    <ClCompile Include="Solution237DeleteNode.cpp" />
+    <ClCompile Include="Solution238ProductExceptSelf.cpp" />
+    <ClCompile Include="Solution239MaxSlidingWindow.cpp" />
+    <ClCompile Include="Solution240SearchMatrix.cpp" />
     <ClCompile Include="Solution5967CheckString.cpp" />
     <ClCompile Include="Solution5968NumberOfBeams.cpp" />
     <ClCompile Include="Solution5969AsteroidsDestroyed.cpp" />
