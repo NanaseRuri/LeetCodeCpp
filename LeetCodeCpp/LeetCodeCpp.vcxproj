@@ -357,6 +357,14 @@
     <ClCompile Include="Solution238ProductExceptSelf.cpp" />
     <ClCompile Include="Solution239MaxSlidingWindow.cpp" />
     <ClCompile Include="Solution240SearchMatrix.cpp" />
+    <ClCompile Include="Solution241DiffWaysToCompute.cpp" />
+    <ClCompile Include="Solution242IsAnagram.cpp" />
+    <ClCompile Include="Solution257BinaryTreePaths.cpp" />
+    <ClCompile Include="Solution258AddDigits.cpp" />
+    <ClCompile Include="Solution260SingleNumber.cpp" />
+    <ClCompile Include="Solution263IsUgly.cpp" />
+    <ClCompile Include="Solution264NthUglyNumber.cpp" />
+    <ClCompile Include="Solution268MissingNumber.cpp" />
     <ClCompile Include="Solution5967CheckString.cpp" />
     <ClCompile Include="Solution5968NumberOfBeams.cpp" />
     <ClCompile Include="Solution5969AsteroidsDestroyed.cpp" />
@@ -384,6 +392,7 @@
     <Text Include="Solution185TopThreeSalaryEachDepartment.txt" />
     <Text Include="Solution196RemoveDuplicateEmail.txt" />
     <Text Include="Solution197IncreaseTemperature.txt" />
+    <Text Include="Solution262JournalAndUser.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

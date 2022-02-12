@@ -88,6 +88,15 @@
     <Filter Include="源文件\231-240">
       <UniqueIdentifier>{1a83a048-a249-4aa4-a9af-b5533a2173e3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\241-250">
+      <UniqueIdentifier>{8ffab7bb-2f22-425c-824e-f591a12ab26e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\251-260">
+      <UniqueIdentifier>{e7d385b5-8200-4154-8cee-98ce0d8620f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\261-270">
+      <UniqueIdentifier>{3495c138-6c4e-43fe-a1e8-50c3af29aac2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution637AverageOfLevels.cpp">
@@ -762,6 +771,30 @@
     <ClCompile Include="Solution240SearchMatrix.cpp">
       <Filter>源文件\231-240</Filter>
     </ClCompile>
+    <ClCompile Include="Solution241DiffWaysToCompute.cpp">
+      <Filter>源文件\241-250</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution242IsAnagram.cpp">
+      <Filter>源文件\241-250</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution257BinaryTreePaths.cpp">
+      <Filter>源文件\251-260</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution258AddDigits.cpp">
+      <Filter>源文件\251-260</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution260SingleNumber.cpp">
+      <Filter>源文件\251-260</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution263IsUgly.cpp">
+      <Filter>源文件\261-270</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution264NthUglyNumber.cpp">
+      <Filter>源文件\261-270</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution268MissingNumber.cpp">
+      <Filter>源文件\261-270</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ListNode.h">
@@ -812,6 +845,9 @@
     </Text>
     <Text Include="Solution197IncreaseTemperature.txt">
       <Filter>源文件\191-200</Filter>
+    </Text>
+    <Text Include="Solution262JournalAndUser.txt">
+      <Filter>源文件\261-270</Filter>
     </Text>
   </ItemGroup>
 </Project>
