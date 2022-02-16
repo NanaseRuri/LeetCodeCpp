@@ -97,6 +97,15 @@
     <Filter Include="源文件\261-270">
       <UniqueIdentifier>{3495c138-6c4e-43fe-a1e8-50c3af29aac2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\271-280">
+      <UniqueIdentifier>{deaba938-9ed0-4517-a017-2aec01518c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\281-290">
+      <UniqueIdentifier>{3298da39-8628-4090-aef3-4cda6c002805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\291-300">
+      <UniqueIdentifier>{23cc7c14-3797-47b3-a04c-b1a9d689f0e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution637AverageOfLevels.cpp">
@@ -794,6 +803,54 @@
     </ClCompile>
     <ClCompile Include="Solution268MissingNumber.cpp">
       <Filter>源文件\261-270</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution273NumberToWords.cpp">
+      <Filter>源文件\271-280</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution274HIndex.cpp">
+      <Filter>源文件\271-280</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution275HIndex.cpp">
+      <Filter>源文件\271-280</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution278FirstBadVersion.cpp">
+      <Filter>源文件\271-280</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution279NumSquares.cpp">
+      <Filter>源文件\271-280</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution282AddOperators.cpp">
+      <Filter>源文件\281-290</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution283MoveZeroes.cpp">
+      <Filter>源文件\281-290</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution284PeekingIterator.cpp">
+      <Filter>源文件\281-290</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution287FindDuplicate.cpp">
+      <Filter>源文件\281-290</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution289GameOfLife.cpp">
+      <Filter>源文件\281-290</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution290WordPattern.cpp">
+      <Filter>源文件\281-290</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution291CanWinNim.cpp">
+      <Filter>源文件\291-300</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution295MedianFinder.cpp">
+      <Filter>源文件\291-300</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution297Codec.cpp">
+      <Filter>源文件\291-300</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution299GetHint.cpp">
+      <Filter>源文件\291-300</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution300LengthOfLIS.cpp">
+      <Filter>源文件\291-300</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

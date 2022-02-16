@@ -1165,7 +1165,7 @@
 
 ## 223 . 矩形面积
 
-&emsp; &emsp; 根据数学分析，若存在重叠区域，重叠区域的投影长度为 {max(ax1, bx1), min(ax2, bx2)},{max{ay1, by1}, min(ay2, by2)}，若两者任一者为负数，则不存在重叠区域。<br/>
+&emsp; &emsp; 根据数学分析，若存在重叠区域，重叠区域的投影长度为 {max(ax1, bx1), min(ax2, bx2)}, {max{ay1, by1}, min(ay2, by2)}，若两者任一者为负数，则不存在重叠区域。<br/>
 &emsp; &emsp; 时间复杂度 O(1)，空间复杂度 O(1)。
 
 ## 224 . 基本计算器
@@ -1339,11 +1339,109 @@
 &emsp; &emsp; 方法 3：由于理想情况下 nums[i] = i，因此 nums[i] ^ i = 0，所以通过从 0 异或到 i，再把数组元素依次异或即可得到结果。<br/>
 &emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(1)。
 
+## 273 . 整数转换英文表示
 
+&emsp; &emsp; 每 10 ^ 9 次方进行一次递归，递归 4 次。<br/>
+&emsp; &emsp; 时间复杂度 O(1)，空间复杂度 O(1)。
 
+## 274 . H 指数
 
+&emsp; &emsp; 方法 1：对原数组进行倒序排序，然后找到第一个 citations[i] <= h 退出循环。<br/>
+&emsp; &emsp; 时间复杂度 O(nlogn)，空间复杂度 O(1)。<br/>
+&emsp; &emsp; 方法 2：使用计数排序，声明长度为 n + 1 的桶 counter，若论文的引用数超过 n，则 counter[n]++，否则对应的 counter[citations[i]]++。<br/>
+&emsp; &emsp; 倒序遍历 counter，使用变量 total 记录下当前总的论文数，当 total >= i 时，i 即为结果。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(n)。
 
+## 275 . H 指数
 
+&emsp; &emsp; 二分查找，当 citations[middle] < citationsSize - middle，则 left = middle + 1，否则 right = middle - 1。最后返回 citationsSize - left。<br/>
+&emsp; &emsp; 时间复杂度 O(logn)，空间复杂度 O(1)。
+
+## 278 . 第一个错误的版本
+
+&emsp; &emsp; 送分二分查找。<br/>
+&emsp; &emsp; 时间复杂度 O(logn)，空间复杂度 O(1)。
+
+## 279 . 完全平方数
+
+&emsp; &emsp; dp，声明一个长度为 n + 1 的 dp 数组，每次从 1 到 sqrt(i) 进行循环，使用变量 minN 记录每次最小的平方和数量，minN = min(minN, dp[i - j * j])，最后 dp[i] = minN + 1，然后返回 dp[n] 即为结果。<br/>
+&emsp; &emsp; 时间复杂度 O(n * $\sqrt{n}$)，空间复杂度 O(1)。
+
+## 282 . 给表达式添加运算符
+
+&emsp; &emsp; DFS，DFS 函数记录原始字符串 num，当前拼出来的字符串 currentString，当前遍历到的原始字符串的下标 index，当前拼出来的字符串算出来的值 currentSum，还有上一次加入到 currentSum 的数值 lastNum。<br/>
+&emsp; &emsp; 当 index == 0 时，代表不需要考虑字符串的添加符号问题，直接进行下一次遍历。否则则需要考虑在后续的不同位置插入符号。<br/>
+&emsp; &emsp; 当插入 + 号时，下一层遍历的 currentSum = currentSum + currentNum，lastNum = currentNum。<br/>
+&emsp; &emsp; 当插入 - 号时，下一层遍历的 currentSum = currentSum - currentNum，lastNum = -currentNum。<br/>
+&emsp; &emsp; 当插入 * 号时，由于乘号的运算符等级更高，将会把之前计入运算的数字给截取，因此下一层遍历的 currentSum = currentSum - lastNum + lastNum * currentNum，lastNum = lastNum * currentNum。<br/>
+&emsp; &emsp; 当一层遍历完后，需要将字符串 resize 为原来的长度，提升字符串引用的通用性。减少拷贝以提高效率。<br/>
+&emsp; &emsp; 由于每一层存在添加 +、-、* 以及不添加任何符号的情况，时间复杂度 O(4 ^ n)，空间复杂度 O(n)。
+
+## 283 . 移动零
+
+&emsp; &emsp; 使用双指针法，声明 left 和 right 从 0 开始遍历，如果 nums[right] != 0，则交换 nums[left] 和 nums[right]，且 left++。同时从左侧出发保证非 0 元素保持原顺序。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(1)。
+
+## 284 . 顶端迭代器
+
+&emsp; &emsp; 题意为 Iterator 类已实现接口，调用 Iterator 的接口实现功能即可。<br/>
+&emsp; &emsp; 时间复杂度 O(1)，空间复杂度 O(1)。<br/>
+&emsp; &emsp; 进阶即使用泛型，指定参数为 vector<T> 然后返回类型都改为 T 即可。
+
+## 287 . 寻找重复数
+
+&emsp; &emsp; 方法 1：二分查找思想：声明 left = 0 和 right = n - 1。然后二分循环，middle = (left + right) / 2，遍历数组中少于 middle 的数字的个数 count。根据分析可知，由于数组的数组从 1 - N 开始分布，如果 count <= middle 的话，说明必然存在大于 middle 的重复数字，否则则存在小于等于 middle 的重复数字。以此为条件进行二分查找。<br/>
+&emsp; &emsp; 二分查找复杂度 O(logn)，每二分一次需要遍历一次数组统计数字个数，时间复杂度 O(nlogn)，空间复杂度 O(1)。<br/>
+&emsp; &emsp; 方法 2：使用位运算，使用 32 位进行与或运算得到结果。根据分析可知，如果其他每个数字都只存在一个，一个数字存在多个，那么该数字的二进制位则会更多。根据这一分析，遍历 32 次，对每一位都遍历数组查看该位出现的次数，当其超过应当出现的次数时，则进行与或运算。<br/>
+&emsp; &emsp; 时间复杂度 O(nlogn)，空间复杂度 O(1)。<br/>
+&emsp; &emsp; 方法 3：由于题目严格限定了数字在 1 - N 且数组长度为 N + 1，因此使用快慢指针的话数组总能在某个地方达成环。参考 142 题的找环入口即可。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(1)。<br/>
+
+## 289 . 生命游戏
+
+&emsp; &emsp; 使用复合状态避免数组的拷贝。<br/>
+&emsp; &emsp; 时间复杂度 O(m * n)，空间复杂度 O(1)。
+
+## 290 . 单词规律
+
+&emsp; &emsp; 使用两个 map 分别从 char 映射到 string 以及从 string 映射到 char 进行查询。遍历完 pattern 需要判断是否遍历完 s。<br/>
+&emsp; &emsp; 时间复杂度 O(m * n)，空间复杂度 O(1)。
+
+## 292. Nim 游戏
+
+&emsp; &emsp; 根据分析可知，只要拿到 4 的倍数则可以进行一轮循环。因此只要不为 4 的倍数就能赢。<br/>
+&emsp; &emsp; 时间复杂度 O(1)，空间复杂度 O(1)。
+
+## 295. 数据流的中位数
+
+&emsp; &emsp; 方法 1：使用两个优先队列，分别建立最小堆以及最大堆，最大堆中放的都是小于最小堆的数，从而保证最大堆顶和最小堆顶的数和的一半为中位数。同时通过判断两个堆的大小从而保证两个队列的数量最大相差为 1，若存在一个数量更多的队列，则直接返回该队列的堆顶。<br/>
+&emsp; &emsp; 时间复杂度 O(logn)，空间复杂度 O(n)。<br/>
+&emsp; &emsp; 方法 2：使用数组或有序集合，通过二分查找插入元素以及查询。<br/>
+&emsp; &emsp; 时间复杂度 O(logn)，空间复杂度 O(n)。
+
+## 297 . 二叉树的序列化与反序列化
+
+&emsp; &emsp; 实际上为自定义的序列化以及反序列化函数，即可以任意遍历顺序。<br/>
+&emsp; &emsp; 采取 DFS 加上前序遍历即可。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(n)。
+
+## 297 . 二叉树的序列化与反序列化
+
+&emsp; &emsp; 实际上为自定义的序列化以及反序列化函数，即可以任意遍历顺序。<br/>
+&emsp; &emsp; 采取 DFS 加上前序遍历即可。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(n)。
+
+## 299 . 猜数字游戏
+
+&emsp; &emsp; 看懂题目即送分题。使用两个数组存储两个字符串中各个数字出现的次数。遍历两个字符串，若 secret[i] == guess[i]，则 a++，否则统计数字次数。最后同时遍历两个数组，b += min(secret[i], guess[i]) 即可。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(1)。
+
+## 300 . 最长递增子序列
+
+&emsp; &emsp; 方法 1：使用 dp，dp 条件为从 0 - i 判断数组是否存在小于当前元素的元素，若存在，最长递增子序列为该元素的子序列 +1。<br/>
+&emsp; &emsp; 时间复杂度 O(n ^ 2)，空间复杂度 O(n)。<br/>
+&emsp; &emsp; 方法 2：使用 dp，而此时 dp 数组记录的是最小序列为 n 时最小的尾元素。然后可以利用二分查找，通过判断该元素是否小于当前元素，是则最大长度可加 1。<br/>
+&emsp; &emsp; 时间复杂度 O(nlogn)，空间复杂度 O(n)。
 
 ## 637 . 二叉树的层平均值
 

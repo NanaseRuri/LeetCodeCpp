@@ -72,8 +72,8 @@ public:
 	}
 };
 
-int main() {
-	Solution264NthUglyNumber solution;
-	solution.nthUglyNumber(10);
-	solution.nthUglyNumber(1314);
-}
+//int main() {
+//	Solution264NthUglyNumber solution;
+//	solution.nthUglyNumber(10);
+//	solution.nthUglyNumber(1314);
+//}
