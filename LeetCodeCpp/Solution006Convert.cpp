@@ -38,11 +38,39 @@ public:
 			return result;
 		}
 	}
+
+	string convert1(string s, int numRows) {
+		if (numRows == 1) {
+			return s;
+		}
+
+		string result;
+		int sLength = s.length();
+		int gap = 2 * (numRows - 1);
+		for (int i = 0; i < sLength; i += gap)
+		{
+			result += s[i];
+		}
+
+		for (int i = 1; i < numRows - 1; ++i) {
+			int currentGap = 2 * i;
+			for (int j = i; j < sLength; j += gap - currentGap) {
+				result += s[j];
+				currentGap = gap - currentGap;
+			}
+		}
+
+		for (int i = numRows - 1; i < sLength; i += gap) {
+			result += s[i];
+		}
+
+		return result;
+	}
 };
 
 //int main() {
 //	Solution006Convert solution;
 //	cout << solution.convert("PAYPALISHIRING", 3) << endl;
-//	cout << solution.convert("PAYPALISHIRING", 4) << endl;
+//	cout << solution.convert1("PAYPALISHIRING", 4) << endl;
 //	cout << solution.convert("A", 1) << endl;
 //}

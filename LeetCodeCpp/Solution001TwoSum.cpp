@@ -1,5 +1,6 @@
 #include <vector>
 #include <algorithm>
+#include <unordered_map>
 
 using namespace std;
 class Solution001TwoSum {
@@ -49,6 +50,24 @@ public:
 			if (result.size() == 2)
 			{
 				return result;
+			}
+		}
+
+		return vector<int>();
+	}
+
+	vector<int> twoSum1(vector<int>& nums, int target)
+	{
+		unordered_map<int, int> indexValueMap;
+
+		int numsSize = nums.size();
+		for (int i = 0; i < numsSize; i++)
+		{
+			if (indexValueMap.find(target - nums[i]) != indexValueMap.end()) {
+				return vector<int>{i, indexValueMap[target - nums[i]]};
+			}
+			else {
+				indexValueMap[nums[i]] = i;
 			}
 		}
 

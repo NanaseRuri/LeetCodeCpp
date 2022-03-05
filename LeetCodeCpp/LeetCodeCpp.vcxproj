@@ -308,6 +308,7 @@
     <ClCompile Include="Solution172TrailingZeroes.cpp" />
     <ClCompile Include="Solution173BSTIterator.cpp" />
     <ClCompile Include="Solution174CalculateMinimumHP.cpp" />
+    <ClCompile Include="Solution1791FindCenter.cpp" />
     <ClCompile Include="Solution179LargestNumber.cpp" />
     <ClCompile Include="Solution187FindRepeatedDnaSequences.cpp" />
     <ClCompile Include="Solution188MaxProfit.cpp" />
@@ -317,6 +318,7 @@
     <ClCompile Include="Solution198Rob.cpp" />
     <ClCompile Include="Solution199RightSideView.cpp" />
     <ClCompile Include="Solution200NumIslands.cpp" />
+    <ClCompile Include="Solution2016MaximumDifference.cpp" />
     <ClCompile Include="Solution201RangeBitwiseAnd.cpp" />
     <ClCompile Include="Solution202IsHappy.cpp" />
     <ClCompile Include="Solution203RemoveElements.cpp" />
@@ -326,13 +328,16 @@
     <ClCompile Include="Solution207CanFinish.cpp" />
     <ClCompile Include="Solution208Trie.cpp" />
     <ClCompile Include="Solution209MinSubArrayLen.cpp" />
+    <ClCompile Include="Solution2104SubArrayRanges.cpp" />
     <ClCompile Include="Solution210FindOrder.cpp" />
     <ClCompile Include="Solution211WordDictionary.cpp" />
     <ClCompile Include="Solution212FindWords.cpp" />
     <ClCompile Include="Solution213Rob.cpp" />
     <ClCompile Include="Solution214ShortestPalindrome.cpp" />
     <ClCompile Include="Solution215FindKthLargest.cpp" />
+    <ClCompile Include="Solution2169CountOperations.cpp" />
     <ClCompile Include="Solution216CombinationSum3.cpp" />
+    <ClCompile Include="Solution2170MinimumOperations.cpp" />
     <ClCompile Include="Solution217ContainsDuplicate.cpp" />
     <ClCompile Include="Solution218GetSkyline.cpp" />
     <ClCompile Include="Solution219ContainsNearbyDuplicate.cpp" />
@@ -381,6 +386,11 @@
     <ClCompile Include="Solution297Codec.cpp" />
     <ClCompile Include="Solution299GetHint.cpp" />
     <ClCompile Include="Solution300LengthOfLIS.cpp" />
+    <ClCompile Include="Solution350Intersect.cpp" />
+    <ClCompile Include="Solution509Fib.cpp" />
+    <ClCompile Include="Solution521FindLUSlength.cpp" />
+    <ClCompile Include="Solution564NearestPalindromic.cpp" />
+    <ClCompile Include="Solution566MatrixReshape.cpp" />
     <ClCompile Include="Solution5967CheckString.cpp" />
     <ClCompile Include="Solution5968NumberOfBeams.cpp" />
     <ClCompile Include="Solution5969AsteroidsDestroyed.cpp" />
