@@ -253,6 +253,7 @@
     <ClCompile Include="Solution110IsBalanced.cpp" />
     <ClCompile Include="Solution111MinDepth.cpp" />
     <ClCompile Include="Solution112HasPathSum.cpp" />
+    <ClCompile Include="Solution1137Tribonacci.cpp" />
     <ClCompile Include="Solution113PathSum.cpp" />
     <ClCompile Include="Solution114Flatten.cpp" />
     <ClCompile Include="Solution115NumDistinct.cpp" />
@@ -323,11 +324,13 @@
     <ClCompile Include="Solution202IsHappy.cpp" />
     <ClCompile Include="Solution203RemoveElements.cpp" />
     <ClCompile Include="Solution204CountPrimes.cpp" />
+    <ClCompile Include="Solution2055PlatesBetweenCandles.cpp" />
     <ClCompile Include="Solution205IsIsomorphic.cpp" />
     <ClCompile Include="Solution206ReverseList.cpp" />
     <ClCompile Include="Solution207CanFinish.cpp" />
     <ClCompile Include="Solution208Trie.cpp" />
     <ClCompile Include="Solution209MinSubArrayLen.cpp" />
+    <ClCompile Include="Solution2100GoodDaysToRobBank.cpp" />
     <ClCompile Include="Solution2104SubArrayRanges.cpp" />
     <ClCompile Include="Solution210FindOrder.cpp" />
     <ClCompile Include="Solution211WordDictionary.cpp" />
@@ -386,8 +389,12 @@
     <ClCompile Include="Solution297Codec.cpp" />
     <ClCompile Include="Solution299GetHint.cpp" />
     <ClCompile Include="Solution300LengthOfLIS.cpp" />
+    <ClCompile Include="Solution322CoinChange.cpp" />
     <ClCompile Include="Solution350Intersect.cpp" />
+    <ClCompile Include="Solution392IsSubsequence.cpp" />
+    <ClCompile Include="Solution504ConvertToBase7.cpp" />
     <ClCompile Include="Solution509Fib.cpp" />
+    <ClCompile Include="Solution518Change.cpp" />
     <ClCompile Include="Solution521FindLUSlength.cpp" />
     <ClCompile Include="Solution564NearestPalindromic.cpp" />
     <ClCompile Include="Solution566MatrixReshape.cpp" />
@@ -396,6 +403,9 @@
     <ClCompile Include="Solution5969AsteroidsDestroyed.cpp" />
     <ClCompile Include="Solution5970MaximumInvitations.cpp" />
     <ClCompile Include="Solution637AverageOfLevels.cpp" />
+    <ClCompile Include="Solution740DeleteAndEarn.cpp" />
+    <ClCompile Include="Solution746MinCostClimbingStairs.cpp" />
+    <ClCompile Include="Solution918MaxSubarraySumCircular.cpp" />
     <ClCompile Include="TreeNode.cpp" />
   </ItemGroup>
   <ItemGroup>

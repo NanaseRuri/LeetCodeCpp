@@ -90,6 +90,23 @@ public:
 
 		return stepCount;
 	}
+
+	int jump3(vector<int>& nums)
+	{
+		int numsSize = nums.size();
+		vector<int> dp(numsSize);
+
+		for (int i = 1, j = 0; i < numsSize; i++)
+		{
+			while (j + nums[j] < i)
+			{
+				j++;
+			}
+			dp[i] = dp[j] + 1;
+		}
+
+		return dp[numsSize - 1];
+	}
 };
 
 //int main() {
