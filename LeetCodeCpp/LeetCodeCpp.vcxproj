@@ -241,6 +241,7 @@
     <ClCompile Include="Solution098IsValidBST.cpp" />
     <ClCompile Include="Solution099RecoverTree.cpp" />
     <ClCompile Include="Solution100IsSameTree.cpp" />
+    <ClCompile Include="Solution1014MaxScoreSightseeingPair.cpp" />
     <ClCompile Include="Solution101IsSymmetric.cpp" />
     <ClCompile Include="Solution102LevelOrder.cpp" />
     <ClCompile Include="Solution103ZigzagLevelOrder.cpp" />
@@ -272,6 +273,7 @@
     <ClCompile Include="Solution128LongestConsecutive.cpp" />
     <ClCompile Include="Solution129SumNumbers.cpp" />
     <ClCompile Include="Solution130Solve.cpp" />
+    <ClCompile Include="Solution1314MatrixBlockSum.cpp" />
     <ClCompile Include="Solution131Partition.cpp" />
     <ClCompile Include="Solution132MinCut.cpp" />
     <ClCompile Include="Solution133CloneGraph.cpp" />
@@ -297,6 +299,7 @@
     <ClCompile Include="Solution153FindMin.cpp" />
     <ClCompile Include="Solution154FindMin.cpp" />
     <ClCompile Include="Solution155MinStack.cpp" />
+    <ClCompile Include="Solution1567GetMaxLen.cpp" />
     <ClCompile Include="Solution160GetIntersectionNode.cpp" />
     <ClCompile Include="Solution162FindPeakElement.cpp" />
     <ClCompile Include="Solution164MaximumGap.cpp" />
@@ -323,6 +326,7 @@
     <ClCompile Include="Solution201RangeBitwiseAnd.cpp" />
     <ClCompile Include="Solution202IsHappy.cpp" />
     <ClCompile Include="Solution203RemoveElements.cpp" />
+    <ClCompile Include="Solution2049CountHighestScoreNodes.cpp" />
     <ClCompile Include="Solution204CountPrimes.cpp" />
     <ClCompile Include="Solution2055PlatesBetweenCandles.cpp" />
     <ClCompile Include="Solution205IsIsomorphic.cpp" />
@@ -389,22 +393,30 @@
     <ClCompile Include="Solution297Codec.cpp" />
     <ClCompile Include="Solution299GetHint.cpp" />
     <ClCompile Include="Solution300LengthOfLIS.cpp" />
+    <ClCompile Include="Solution309MaxProfit.cpp" />
     <ClCompile Include="Solution322CoinChange.cpp" />
+    <ClCompile Include="Solution343IntegerBreak.cpp" />
     <ClCompile Include="Solution350Intersect.cpp" />
+    <ClCompile Include="Solution377CombinationSum4.cpp" />
     <ClCompile Include="Solution392IsSubsequence.cpp" />
+    <ClCompile Include="Solution413NumberOfArithmeticSlices.cpp" />
     <ClCompile Include="Solution504ConvertToBase7.cpp" />
     <ClCompile Include="Solution509Fib.cpp" />
     <ClCompile Include="Solution518Change.cpp" />
     <ClCompile Include="Solution521FindLUSlength.cpp" />
     <ClCompile Include="Solution564NearestPalindromic.cpp" />
     <ClCompile Include="Solution566MatrixReshape.cpp" />
+    <ClCompile Include="Solution589PreorderOfNTree.cpp" />
+    <ClCompile Include="Solution590Postorder.cpp" />
     <ClCompile Include="Solution5967CheckString.cpp" />
     <ClCompile Include="Solution5968NumberOfBeams.cpp" />
     <ClCompile Include="Solution5969AsteroidsDestroyed.cpp" />
     <ClCompile Include="Solution5970MaximumInvitations.cpp" />
     <ClCompile Include="Solution637AverageOfLevels.cpp" />
+    <ClCompile Include="Solution714MaxProfit.cpp" />
     <ClCompile Include="Solution740DeleteAndEarn.cpp" />
     <ClCompile Include="Solution746MinCostClimbingStairs.cpp" />
+    <ClCompile Include="Solution798BestRotation.cpp" />
     <ClCompile Include="Solution918MaxSubarraySumCircular.cpp" />
     <ClCompile Include="TreeNode.cpp" />
   </ItemGroup>

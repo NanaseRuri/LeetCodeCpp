@@ -1456,6 +1456,12 @@
 &emsp; &emsp; 方法 2：使用 dp，而此时 dp 数组记录的是最小序列为 n 时最小的尾元素。然后可以利用二分查找，通过判断该元素是否小于当前元素，是则最大长度可加 1。<br/>
 &emsp; &emsp; 时间复杂度 O(nlogn)，空间复杂度 O(n)。
 
+## 309 . 最佳买卖股票时机含冷冻期
+
+&emsp; &emsp; DP，使用三个变量分别记录当前的买入价 buy，处于冷冻期的收益 sellInCold，未处于冷冻期的收益 sellNotInCold。<br/>
+&emsp; &emsp; DP 条件为当前使用临时变量 newBuy = max(buy, sellNotInCold - prices[i])，newSellInCold = buy + prices[i]，newSellNotInCold = max(sellInCold, newSellInCold)。将其依次赋值给 buy、sellInCold、sellNotInCold。最后返回 max(sellInCold, sellNotInCold) 即可。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(1)。
+
 ## 322 . 零钱兑换
 
 &emsp; &emsp; 方法 1：经典背包问题，使用一个长为 amount + 1 作为 dp 数组，将其各个数字置为 amount + 1 作为标志位，指示没有满足条件的组合。然后 dp[0] 置为 0。<br/>
@@ -1464,12 +1470,27 @@
 &emsp; &emsp; 方法 2：使用 DFS + 记忆化搜索，进行递归，然后每次递归若满足条件，判断是否更短。<br/>
 &emsp; &emsp; 时间复杂度 O(m * n)，空间复杂度 O(n)。
 
+## 343 . 整数拆分
+
+&emsp; &emsp; 背包问题，i 从 1 遍历到 n，然后 j 从 1 遍历到 i，依次算出当前所能获得的最大乘积。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(n)。<br/>
+&emsp; &emsp; 根据分析可知，当一个数字完全拆成以 2 或者 3 为组合的数字可以得到更大值，所以可以直接根据 2 和 3 为间隔进行 dp，以减少 dp 的次数。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(n)。<br/>
+&emsp; &emsp; 再根据分析可知，以 6 为例，当 6 拆成 3 + 3 时可以获得比 2 * 2 * 2 更大的乘积，因此当数字尽可能拆成多的 3 时，可以获得更大的结果。<br/>
+&emsp; &emsp; 时间复杂度 O(1)，空间复杂度 O(1)。
+
 ## 350 . 两个数组的交集 II
 
 &emsp; &emsp; 使用一个 map 即可。先遍历 nums1，将当前数字进行 +1，然后遍历 nums2，若存在，对当前数字 -1，当等于 0 时去除该数字。可先通过遍历较少的数组，再遍历较多的数组进行优化。同时由于数字最多只有 1000 个，且最大为 1000，可直接使用一个 1001 长度的数组作为 map。<br/>
 &emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(n)。<br/>
 &emsp; &emsp; 若给定数组已经排好序，则可以使用双指针法对空间复杂度进行优化。<br/>
 &emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(1)。
+
+## 377 . 组合总和 Ⅳ
+
+&emsp; &emsp; 518 题变种，完全背包。将目标值放在外层循环即可。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(n)。<br/>
+&emsp; &emsp; 若存在负数，则可能出现无限种序列。触发规定最长长度或者保证全部数字都是负数。
 
 ## 392 . 判断子序列
 
@@ -1479,6 +1500,13 @@
 &emsp; &emsp; 使用变量 add 记录下在 dic 中的行数，如果 s[i] 在 dic[add] 中存在，那么 add = dic[add][s[i] - 'a'] + 1，跳到目标下标的下一个下标进行下一次查询。<br/>
 &emsp; &emsp; 通过这种方法，可以在大量输入 S 查找时节省在 t 中进行查询的时间，进而完成进阶要求。<br/>
 &emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(26 * m)。
+
+## 413 . 等差数列划分
+
+&emsp; &emsp; 方法 1：使用双指针获取每次能获取到的最长等差数列，若不满足，则将左指针置为当前右指针的左一个位置。获取到长度后， result += (right - left - 1) * (right - left -2) / 2. <br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(1)。<br/>
+&emsp; &emsp; 方法 2：根据分析可知，从连续长度 3 开始，每增加一长度，总的结果较上一个长度增加 1。因此，使用变量 count 记录下当前的数量，可直接判定差值，从第二组开始计算，如果差值与之前一致，则将 count++，不一致则 count = 0，然后 result += count 即可。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(1)。
 
 ## 504 . 七进制树
 
@@ -1516,10 +1544,29 @@
 &emsp; &emsp; 使用变量记录下当前的行与列号然后与最大列数进行比较即可。<br/>
 &emsp; &emsp; 时间复杂度 O(m * n)，空间复杂度 O(1)。
 
+## 589 . N 叉树的前序遍历
+
+&emsp; &emsp; 方法 1：二叉树前序遍历变种。DFS。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(n)。<br/>
+&emsp; &emsp; 方法 2：将元素按照从后向前的顺序放入栈中，然后依次取出即可。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(n)。
+
+## 590 . N 叉树的后序遍历
+
+&emsp; &emsp; 方法 1：二叉树后序遍历变种。DFS。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(n)。<br/>
+&emsp; &emsp; 方法 2：先把根节点放入栈中，然后每次取出元素时，若不为空，将该元素重新放入栈中，同时将 nullptr 放入栈中作为模拟栈顶返回的标志位，然后将 children 按照从后向前的顺序放入栈中。若为空，则再次弹出一次并把获得的值放入结果中即可。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(n)。
+
 ## 637 . 二叉树的层平均值
 
 &emsp; &emsp; 广度优先搜索。<br/>
 &emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(n)。
+
+## 714 . 买卖股票的最佳时机含手续费
+
+&emsp; &emsp; 122 题变种，把 sell 条件减去手续费即可。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(1)。
 
 ## 740 . 删除并获得点数
 
@@ -1531,16 +1578,38 @@
 &emsp; &emsp; 送分dp。与最少到底层的阶梯数一致的题目。<br/>
 &emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(1)。
 
+## 798 . 得分最高的最小轮调
+
+&emsp; &emsp; 方法 1：预处理数组 + 前缀和。使用一个长为 n 的差分数组进行处理，遍历数组，<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(n)。<br/>
+&emsp; &emsp; 方法 2：dp。使用 dp 数组，记录下每一位数字移动多少位后不再能计入得分。记录当前已能得到的分数 cur，从 1 遍历到 n，cur = cur - step[i] + 1，代表着当前能够得分的数字数。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(n)。
+
 ## 918 . 环形子数组的最大和
 
 &emsp; &emsp; 根据分析可知，若最大子数组和不与循环数组相关，则与 53 题一致，直接使用 Kadane 算法即可。<br/>
 &emsp; &emsp; 如果与循环数组有关，那么则中间必然存在一个最小的连续和，使用 Kadane 算法求出中间最小的连续和，然后使用数组总和减去该连续和，与原最大连续和进行比较即可。<br/>
 &emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(1)。
 
+## 1014. 最佳观光组合
+
+&emsp; &emsp; 根据分析，当前最大值等于 nums[j] - j + nums[i] + i，当 nums[j] - j 固定时，求 nums[i] + i 的最大值即可。由此推出 dp 条件：result = max(result, currentValue + nums[j] - j)，currentValue = max(currentValue, nums[i] + i)。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(1)。
+
 ## 1137. 找出星型图的中心节点
 
 &emsp; &emsp; 564 题的变种，根据 564 题斐波那契数列的思想即可。<br/>
 &emsp; &emsp; 使用 dp 的时间复杂度 O(n)，空间复杂度 O(1)。或使用快速幂的时间复杂度 O(logn)，空间复杂度(1)。
+
+## 1314 . 矩阵区域和
+
+&emsp; &emsp; 使用二维数组记录下各个点的前缀和，然后 sum = pre[i + k + 1][i + k + 1] - pre[i + k + 1][i - k] - pre[i - k][i + k + 1] + pre[i - k][i - k] 得到当前的结果值即可。<br/>
+&emsp; &emsp; 时间复杂度 O(m * n)，空间复杂度 O(m * n)。
+
+## 1567 . 乘积为正数的最长子数组长度
+
+&emsp; &emsp; 使用两个变量 positive 和 negative 记录当前所能得到的正乘积和负乘积的个数。当当前数大于 0 时，newPositive = positive + 1，若 newNegative = negative > 0 ? negative + 1 : 0。小于 0 时，newPositive = negative > 0 : negative + 1 : 0；newNegative = positive + 1。等于 0 时，positive = negative = 0。然后将其重新赋给 negative 和 positive，最后判断当前所能获得的最长子数组长度。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(1)。
 
 ## 1791. 找出星型图的中心节点
 
@@ -1551,6 +1620,11 @@
 
 &emsp; &emsp; 送分题<br/>
 &emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(1)。
+
+## 2049 . 统计最高分的节点数目
+
+&emsp; &emsp; 使用全局变量记录下当前能获得的最大乘积，然后进行 DFS。在每层记录下当前的节点个数，以及左子树的节点个数，右子树的节点个数。然后取该三者的乘积即为统计的最高分。每次判断当前获得的最高分与全局的最高分进行比较，从而对子树组合数进行响应的判断。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(n)。
 
 ## 2055 . 蜡烛之间的盘子
 

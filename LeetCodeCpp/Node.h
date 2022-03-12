@@ -12,6 +12,7 @@ public:
 	Node* next;
 	Node* random;
 	vector<Node*> neighbors;
+	vector<Node*> children;
 
 	Node();
 

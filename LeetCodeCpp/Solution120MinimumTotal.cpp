@@ -43,4 +43,29 @@ public:
 
 		return minValue;
 	}
+
+	int minimumTotal1(vector<vector<int>>& triangle) {
+		vector<int> result{ triangle[0][0] };
+
+		int triangleSize = triangle.size();
+		for (int i = 1; i < triangleSize; i++) {
+			vector<int> newResult(i + 1);
+			newResult[0] = result[0] + triangle[i][0];
+
+			for (int j = 1; j < i; j++) {
+				newResult[j] = min(result[j], result[j - 1]) + triangle[i][j];
+			}
+			newResult[i] = result[i - 1] + triangle[i][i];
+
+			swap(newResult, result);
+		}
+
+		return *min_element(result.begin(), result.end());
+	}
 };
+
+//int main() {
+//	Solution120MinimumTotal solution;
+//	vector<vector<int>>triangle{ {2},{3,4},{6,5,7},{4,1,8,3} };
+//	solution.minimumTotal1(triangle);
+//}

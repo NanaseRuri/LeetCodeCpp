@@ -37,7 +37,7 @@ public:
 			theResultBeforePreResult = preResult;
 			preResult = result;
 		}
-
+		
 		return result;
 	}
 
@@ -82,13 +82,10 @@ public:
 //	cout << solution.numDecodings(s) << endl;
 //
 //	s = "06";
-//	cout << solution.numDecodings(s) << endl;
+//	cout << solution.numDecodings1(s) << endl;
 //
-//	s = "06";
-//	cout << solution.numDecodings(s) << endl;
-//
-//	s = "06";
-//	cout << solution.numDecodings(s) << endl;
+//	s = "1000";
+//	cout << solution.numDecodings1(s) << endl;
 //
 //	s = "26";
 //	cout << solution.numDecodings(s) << endl;

@@ -74,12 +74,37 @@ public:
 		}
 		return result;
 	}
+
+
+	int trap2(vector<int>& height) {
+		int heightSize = height.size();
+
+		vector<int> leftMax(heightSize);
+		vector<int> rightMax(heightSize);
+
+		leftMax[0] = height[0];
+		for (int i = 1; i < heightSize; ++i) {
+			leftMax[i] = max(leftMax[i - 1], height[i]);
+		}
+
+		rightMax[heightSize - 1] = height[heightSize - 1];
+		for (int i = heightSize - 2; i >= 0; --i) {
+			rightMax[i] = max(rightMax[i + 1], height[i]);
+		}
+
+		int result = 0;
+		for (int i = 0; i < heightSize; ++i) {
+			result += (min(leftMax[i], rightMax[i]) - height[i]);
+		}
+
+		return result;
+	}
 };
 
 //int main() {
 //	vector<int> nums{ 0,1,0,2,1,0,1,3,2,1,2,1 };
 //	vector<int> nums1{ 4,2,0,3,2,5 };
 //	Solution042Trap solution;
-//	cout << solution.trap(nums) << endl;
-//	cout << solution.trap(nums1) << endl;
+//	cout << solution.trap2(nums) << endl;
+//	cout << solution.trap2(nums1) << endl;
 //}

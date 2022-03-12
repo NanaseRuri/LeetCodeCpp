@@ -1,11 +1,11 @@
 #include "Node.h"
-Node::Node() : val(0), left(nullptr), right(nullptr), next(nullptr),random(nullptr) {}
+Node::Node() : val(0), left(nullptr), right(nullptr), next(nullptr), random(nullptr) {}
 
 Node::Node(int val) : val(val), left(nullptr), right(nullptr), next(nullptr), random(nullptr) {}
 
 Node::Node(int val, Node* left, Node* right, Node* next) : val(val), left(left), right(right), next(next), random(nullptr) {}
 
-Node::Node(int _val, vector<Node*> _neighbors) : val(_val), neighbors(_neighbors), random(nullptr) {}
+Node::Node(int _val, vector<Node*> _neighbors) : val(_val), neighbors(_neighbors), random(nullptr), left(nullptr), right(nullptr), next(nullptr) {}
 
 Node* BuildNode(vector<int> nodeValues) {
 	queue<Node*> nodes;
