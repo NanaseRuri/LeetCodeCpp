@@ -46,7 +46,12 @@ public:
 	}
 
 	int top() {
-		return _minStackImpl.top() + _minValue;
+		if (_minStackImpl.top() < 0) {
+			return _minValue;
+		}
+		else {
+			return _minStackImpl.top() + _minValue;
+		}
 	}
 
 	int getMin() {

@@ -69,6 +69,59 @@ public:
 
 		return { leftOfLeftPart,rightOfRightPart };
 	}
+
+
+	int BinarySearchHigh(vector<int>& nums, int target) {
+		int left = 0;
+		int right = nums.size() - 1;
+		int result = nums.size();
+
+		while (left <= right)
+		{
+			int middle = (left + right) / 2;
+			if (nums[middle] <= target) {
+				left = middle + 1;
+			}
+			else {
+				right = middle - 1;
+				result = middle;
+			}
+		}
+
+		return result;
+	}
+
+	int BinarySearchLow(vector<int>& nums, int target) {
+		int left = 0;
+		int right = nums.size() - 1;
+		int result = nums.size();
+
+		while (left <= right)
+		{
+			int middle = (left + right) / 2;
+			if (nums[middle] < target) {
+				left = middle + 1;
+			}
+			else {
+				right = middle - 1;
+				result = middle;
+			}
+		}
+
+		return result;
+	}
+
+	vector<int> searchRange1(vector<int>& nums, int target) {
+		int left = BinarySearchLow(nums, target);
+		int right = BinarySearchHigh(nums, target) - 1;
+
+		if (left < nums.size() && nums[left] == target) {
+			return vector<int>{left, right};
+		}
+		else {
+			return vector<int>{-1, -1};
+		}
+	}
 };
 
 //int main() {
@@ -83,8 +136,8 @@ public:
 //	int target3 = 0;
 //	int target4 = 11;
 //
-//	vector<int> result1 = solution.searchRange(nums1, target1);
-//	vector<int> result2 = solution.searchRange(nums2, target2);
-//	vector<int> result3 = solution.searchRange(nums3, target3);
-//	vector<int> result4 = solution.searchRange(nums4, target4);
+//	vector<int> result1 = solution.searchRange1(nums1, target1);
+//	vector<int> result2 = solution.searchRange1(nums2, target2);
+//	vector<int> result3 = solution.searchRange1(nums3, target3);
+//	vector<int> result4 = solution.searchRange1(nums4, target4);
 //}

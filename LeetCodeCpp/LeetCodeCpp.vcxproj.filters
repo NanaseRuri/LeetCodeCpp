@@ -250,6 +250,123 @@
     <Filter Include="源文件\1001-2000\1301-1400\1311-1320">
       <UniqueIdentifier>{ad528b38-a44d-43bd-a9f7-acb436af2bbf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1-1000\901-1000\931-940">
+      <UniqueIdentifier>{edec4770-e3d8-4ce5-b81b-bc51d3a501a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\meituan">
+      <UniqueIdentifier>{95f58b18-71d0-4709-8fea-a788445a2de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\501-600\591-600">
+      <UniqueIdentifier>{9b9520ba-0a60-467a-af4d-b3034f33eff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LCP">
+      <UniqueIdentifier>{c7048f98-a0bf-4732-a8b4-3d2cfcd6f270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Offer">
+      <UniqueIdentifier>{e6448fba-f8e8-40c1-8712-dc923bb5b793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\601-700\601-610">
+      <UniqueIdentifier>{bf8ece62-c536-4378-a62a-761952877c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1501-1600\1521-1530">
+      <UniqueIdentifier>{35ba3a57-bf99-41d7-b4c3-3c38e14a4b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1401-1500">
+      <UniqueIdentifier>{e48b1fb1-efac-45cf-a650-700ed54080b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1401-1500\1491-1500">
+      <UniqueIdentifier>{7a1274d3-8713-4705-a072-fe79c37ffd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1201-1300">
+      <UniqueIdentifier>{02f022d0-feec-49d2-9bef-1d3a3f0fc4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1201-1300\1281-1290">
+      <UniqueIdentifier>{f29cd37b-a30e-4eb1-8f54-2b79cc562ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\901-1000\971-980">
+      <UniqueIdentifier>{9e00141a-2f24-40cf-ab19-30e237a7835c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1701-1800\1771-1780">
+      <UniqueIdentifier>{f5a5010b-c0b8-474e-a9c2-852cd39f83ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1801-1900">
+      <UniqueIdentifier>{66a7414d-6984-47bc-a52a-556b99046151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1801-1900\1821-1830">
+      <UniqueIdentifier>{01786855-1006-4a5b-bf14-f0d0f5347404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1501-1600\1501-1600">
+      <UniqueIdentifier>{2c948965-e1e7-46f9-9114-89e94877df1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1501-1600\1501-1600\1501-1510">
+      <UniqueIdentifier>{8e483fe4-87e6-4de8-bef8-5c8c8bf86ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1701-1800\1781-1790">
+      <UniqueIdentifier>{6abde0c3-63f3-40e5-83dd-1e30958ab45d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\601-700\651-660">
+      <UniqueIdentifier>{46f888b6-bde5-420a-bd84-0ca8be084a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\401-500\411-420">
+      <UniqueIdentifier>{fe4346fa-7829-485f-a3b1-37ec4f1dd3b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\401-500\491-500">
+      <UniqueIdentifier>{f691a452-644b-4a48-94ac-74f490f377df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1201-1300\1231-1240">
+      <UniqueIdentifier>{338f9581-563c-4563-9910-f774b263e7d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1501-1600\1581-1590">
+      <UniqueIdentifier>{6e83c809-a32e-4827-916f-62afb63f26b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1601-1700">
+      <UniqueIdentifier>{8330fefd-f589-4f37-b880-0fc4a00ea559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1601-1700\1671-1680">
+      <UniqueIdentifier>{50b5f029-cf10-4f34-84d7-0219288572e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1501-1600\1571-1580">
+      <UniqueIdentifier>{60716214-23bb-4ecc-9b33-640e67cf9e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1701-1800\1761-1770">
+      <UniqueIdentifier>{25afd2a8-0594-4076-9aa3-4216ce509ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\301-400\381-390">
+      <UniqueIdentifier>{d24432a4-71ee-4427-a210-b1e2b47ad6f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1601-1700\1601-1610">
+      <UniqueIdentifier>{244aeb03-c7da-4237-b3ed-2e82eaa610c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1301-1400\1351-1360">
+      <UniqueIdentifier>{c1cb2a36-f688-4577-bb92-4b515b838ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\401-500\401-410">
+      <UniqueIdentifier>{8ca0cbe8-edc8-4221-8ea1-29b045655dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\801-900">
+      <UniqueIdentifier>{28cb57fe-36e6-4f38-b379-09b6e0c4911c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\801-900\871-880">
+      <UniqueIdentifier>{c37c50fa-8b17-45ec-8a30-ba69ca17469d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\901-1000\951-960">
+      <UniqueIdentifier>{0df84ecf-4a76-4bb0-840e-c06bb9cddd9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2001-3000\2001-2100\2031-2040">
+      <UniqueIdentifier>{0b673729-8a10-4112-a7cf-ab640cd51d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1301-1400\1301-1310">
+      <UniqueIdentifier>{ba9f061f-020e-4f38-92c6-0dc9867324b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\701-800\701-710">
+      <UniqueIdentifier>{360fc1ea-d0c0-477c-8322-b7368000b829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\401-500\431-440">
+      <UniqueIdentifier>{5c4ea26a-c975-4283-be91-dd27b55fd95c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\601-700\661-670">
+      <UniqueIdentifier>{b5dae064-ccef-44d1-8c38-e70325106906}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution001TwoSum.cpp">
@@ -1086,11 +1203,152 @@
     <ClCompile Include="Solution590Postorder.cpp">
       <Filter>源文件\1-1000\501-600\581-590</Filter>
     </ClCompile>
-    <ClCompile Include="Solution413NumberOfArithmeticSlices.cpp">
-      <Filter>源文件\1-1000\401-500</Filter>
-    </ClCompile>
     <ClCompile Include="Solution1314MatrixBlockSum.cpp">
       <Filter>源文件\1001-2000\1301-1400\1311-1320</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution931MinFallingPathSum.cpp">
+      <Filter>源文件\1-1000\901-1000\931-940</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution393ValidUtf8.cpp">
+      <Filter>源文件\1-1000\301-400\391-400</Filter>
+    </ClCompile>
+    <ClCompile Include="meituan001ValidUserName.cpp">
+      <Filter>源文件\meituan</Filter>
+    </ClCompile>
+    <ClCompile Include="meituan003PurchaseAgent.cpp">
+      <Filter>源文件\meituan</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution599FindRestaurant.cpp">
+      <Filter>源文件\1-1000\501-600\591-600</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution720LongestWord.cpp">
+      <Filter>源文件\1-1000\701-800\711-720</Filter>
+    </ClCompile>
+    <ClCompile Include="LCP29OrchestraLayout.cpp">
+      <Filter>源文件\LCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Offer09CQueue.cpp">
+      <Filter>源文件\Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="Offer30MinStack.cpp">
+      <Filter>源文件\Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="Offer06ReversePrint.cpp">
+      <Filter>源文件\Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="Offer24ReverseList.cpp">
+      <Filter>源文件\Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="Offer35CopyRandomList.cpp">
+      <Filter>源文件\Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="Offer05ReplaceSpace.cpp">
+      <Filter>源文件\Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="Offer58ReverseLeftWords.cpp">
+      <Filter>源文件\Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="Offer53MissingNumber.cpp">
+      <Filter>源文件\Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="Offer53Search.cpp">
+      <Filter>源文件\Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="Offer44FindNthDigit.cpp">
+      <Filter>源文件\Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution606Tree2str.cpp">
+      <Filter>源文件\1-1000\601-700\601-610</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1523CountOdds.cpp">
+      <Filter>源文件\1001-2000\1501-1600\1521-1530</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1491Average.cpp">
+      <Filter>源文件\1001-2000\1401-1500\1491-1500</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1281SubtractProductAndSum.cpp">
+      <Filter>源文件\1001-2000\1201-1300\1281-1290</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution976LargestPerimeter.cpp">
+      <Filter>源文件\1-1000\901-1000\971-980</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1779NearestValidPoint.cpp">
+      <Filter>源文件\1001-2000\1701-1800\1771-1780</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1822ArraySign.cpp">
+      <Filter>源文件\1001-2000\1801-1900\1821-1830</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1502CanMakeArithmeticProgression.cpp">
+      <Filter>源文件\1001-2000\1501-1600\1501-1600\1501-1510</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1790AreAlmostEqual.cpp">
+      <Filter>源文件\1001-2000\1701-1800\1781-1790</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution653FindTarget.cpp">
+      <Filter>源文件\1-1000\601-700\651-660</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution413NumberOfArithmeticSlices.cpp">
+      <Filter>源文件\1-1000\401-500\411-420</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution496NextGreaterElement.cpp">
+      <Filter>源文件\1-1000\401-500\491-500</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1232CheckStraightLine.cpp">
+      <Filter>源文件\1001-2000\1201-1300\1231-1240</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1588SumOddLengthSubarrays.cpp">
+      <Filter>源文件\1001-2000\1501-1600\1581-1590</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1672MaximumWealth.cpp">
+      <Filter>源文件\1001-2000\1601-1700\1671-1680</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1572DiagonalSum.cpp">
+      <Filter>源文件\1001-2000\1501-1600\1571-1580</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1768MergeAlternately.cpp">
+      <Filter>源文件\1001-2000\1701-1800\1761-1770</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1678Interpret.cpp">
+      <Filter>源文件\1001-2000\1601-1700\1671-1680</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution389FindTheDifference.cpp">
+      <Filter>源文件\1-1000\301-400\381-390</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution303NumArray.cpp">
+      <Filter>源文件\1-1000\301-400\301-310</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1603ParkingSystem.cpp">
+      <Filter>源文件\1001-2000\1601-1700\1601-1610</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1356SortByBits.cpp">
+      <Filter>源文件\1001-2000\1301-1400\1351-1360</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution404SumOfLeftLeaves.cpp">
+      <Filter>源文件\1-1000\401-500\401-410</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution876MiddleNode.cpp">
+      <Filter>源文件\1-1000\801-900\871-880</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1290GtDecimalValue.cpp">
+      <Filter>源文件\1001-2000\1201-1300\1281-1290</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution953IsAlienSorted.cpp">
+      <Filter>源文件\1-1000\901-1000\951-960</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution2038WinnerOfGame.cpp">
+      <Filter>源文件\2001-3000\2001-2100\2031-2040</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1309FreqAlphabets.cpp">
+      <Filter>源文件\1001-2000\1301-1400\1301-1310</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution709ToLowerCase.cpp">
+      <Filter>源文件\1-1000\701-800\701-710</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution440FindKthNumber.cpp">
+      <Filter>源文件\1-1000\401-500\431-440</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution661ImageSmoother.cpp">
+      <Filter>源文件\1-1000\601-700\661-670</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1101,6 +1359,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -1146,5 +1407,10 @@
     <Text Include="Solution262JournalAndUser.txt">
       <Filter>源文件\1-1000\201-300\261-270</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LeetCodeCpp.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

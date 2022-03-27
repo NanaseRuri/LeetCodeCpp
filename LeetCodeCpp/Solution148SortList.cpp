@@ -95,12 +95,67 @@ class Solution148SortList
 
 
 public:
+	//ListNode* sortList(ListNode* head) {
+	//	return SortList(head, nullptr);
+	//}
+
+	//ListNode* SortList(ListNode* head, ListNode* tail) {
+	//	if (head == nullptr) {
+	//		return nullptr;
+	//	}
+	//	if (head->next == tail) {
+	//		head->next = nullptr;
+	//		return head;
+	//	}
+
+	//	ListNode* middleNode = GetMiddleNode(head, tail);
+	//	ListNode* left = SortList(head, middleNode);
+	//	ListNode* right = SortList(middleNode, tail);
+	//	return MergeListNode(left, right);
+	//}
+
+	//ListNode* GetMiddleNode(ListNode* head, ListNode* tail) {
+	//	ListNode* slow = head;
+	//	while (head != tail && head->next != tail)
+	//	{
+	//		head = head->next->next;
+	//		slow = slow->next;
+	//	}
+	//	return slow;
+	//}
+
+	//ListNode* MergeListNode(ListNode* listNode1, ListNode* listNode2) {
+	//	ListNode* guard = new ListNode();
+	//	ListNode* dump = guard;
+
+	//	while (listNode1 != nullptr && listNode2 != nullptr)
+	//	{
+	//		if (listNode1->val > listNode2->val) {
+	//			dump->next = listNode2;
+	//			listNode2 = listNode2->next;
+	//		}
+	//		else {
+	//			dump->next = listNode1;
+	//			listNode1 = listNode1->next;
+	//		}
+	//		dump = dump->next;
+	//	}
+	//	if (listNode1 != nullptr) {
+	//		dump->next = listNode1;
+	//	}
+	//	else if (listNode2 != nullptr) {
+	//		dump->next = listNode2;
+	//	}
+	//	return guard->next;
+	//}
+
+
 	ListNode* sortList(ListNode* head) {
-		return SortList(head, nullptr);
+		return sortList(head, nullptr);
 	}
 
-	ListNode* SortList(ListNode* head, ListNode* tail) {
-		if (head == nullptr) {
+	ListNode* sortList(ListNode* head, ListNode* tail) {
+		if (head == tail) {
 			return nullptr;
 		}
 		if (head->next == tail) {
@@ -109,14 +164,14 @@ public:
 		}
 
 		ListNode* middleNode = GetMiddleNode(head, tail);
-		ListNode* left = SortList(head, middleNode);
-		ListNode* right = SortList(middleNode, tail);
-		return MergeListNode(left, right);
+		ListNode* newHead = sortList(head, middleNode);
+		ListNode* newTail = sortList(middleNode, tail);
+		return MergeListNode(newHead, newTail);
 	}
 
 	ListNode* GetMiddleNode(ListNode* head, ListNode* tail) {
 		ListNode* slow = head;
-		while (head->next != tail && head->next->next != tail)
+		while (head != tail && head->next != tail)
 		{
 			head = head->next->next;
 			slow = slow->next;
@@ -124,28 +179,30 @@ public:
 		return slow;
 	}
 
-	ListNode* MergeListNode(ListNode* listNode1, ListNode* listNode2) {
+	ListNode* MergeListNode(ListNode* list1, ListNode* list2) {
 		ListNode* guard = new ListNode();
 		ListNode* dump = guard;
-
-		while (listNode1 != nullptr && listNode2 != nullptr)
+		while (list1 != nullptr && list2 != nullptr)
 		{
-			if (listNode1->val > listNode2->val) {
-				dump->next = listNode2;
-				listNode2 = listNode2->next;
+			if (list1->val <= list2->val) {
+				dump->next = list1;
+				dump = dump->next;
+				list1 = list1->next;
 			}
 			else {
-				dump->next = listNode1;
-				listNode1 = listNode1->next;
+				dump->next = list2;
+				dump = dump->next;
+				list2 = list2->next;
 			}
-			dump = dump->next;
 		}
-		if (listNode1 != nullptr) {
-			dump->next = listNode1;
+
+		if (list1 != nullptr) {
+			dump->next = list1;
 		}
-		else if (listNode2 != nullptr) {
-			dump->next = listNode2;
+		else if (list2 != nullptr) {
+			dump->next = list2;
 		}
+
 		return guard->next;
 	}
 };

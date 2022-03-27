@@ -50,11 +50,50 @@ public:
 		}
 		return dp[sLength];
 	}
+
+
+	bool wordBreak1(string s, vector<string>& wordDict) {
+		int sLength = s.length();
+		vector<bool> dp(sLength + 1);
+		dp[0] = true;
+
+		unordered_set<string> wordSet;
+		int minWordLength = INT32_MAX;
+		int maxWordLength = 0;
+		for (auto& word : wordDict) {
+			int currentWowrdLength = word.length();
+			minWordLength = min(currentWowrdLength, minWordLength);
+			maxWordLength = max(currentWowrdLength, maxWordLength);
+			wordSet.insert(word);
+		}
+
+		for (int left = 0; left < sLength; left++) {
+			if (!dp[left]) {
+				continue;
+			}
+
+			for (int j = minWordLength; j <= maxWordLength; j++) {
+				if (left + j > sLength) {
+					break;
+				}
+
+				if (wordSet.find(s.substr(left, j)) != wordSet.end()) {
+					dp[left + j] = true;
+				}
+			}
+		}
+
+		return dp[sLength];
+	}
 };
 
 //int main() {
-//	string s = "applepenapple";
-//	vector<string> wordDict{ "apple", "pen" };
+//	string s1 = "applepenapple";
+//	vector<string> wordDict1{ "apple", "pen" };
+//
+//	string s2 = "catsandog";
+//	vector<string> wordDict2{ "cats", "dog", "sand", " and ", "cat" };
 //	Solution139WordBreak solution;
-//	solution.wordBreak(s, wordDict);
+//	solution.wordBreak1(s1, wordDict1);
+//	solution.wordBreak1(s2, wordDict2);
 //}

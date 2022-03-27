@@ -64,6 +64,39 @@ public:
 
 		return -1;
 	}
+
+	int strStr1(string haystack, string needle) {
+		int haystackLength = haystack.length();
+		int needleLength = needle.length();
+		vector<int> next(needleLength);
+
+		for (int i = 1, j = 0; i < needleLength; i++) {
+			while (j > 0 && needle[i] != needle[j]) {
+				j = next[j - 1];
+			}
+			if (needle[i] == needle[j]) {
+				j++;
+			}
+			next[i] = j;
+		}
+
+		for (int i = 0, j = 0; i < haystackLength; i++)
+		{
+			while (j > 0 && haystack[i] != needle[j]) {
+				j = next[j - 1];
+			}
+
+			if (haystack[i] == needle[j]) {
+				++j;
+			}
+
+			if (j == needleLength) {
+				return i - needleLength + 1;
+			}
+		}
+
+		return -1;
+	}
 };
 
 //int main() {
