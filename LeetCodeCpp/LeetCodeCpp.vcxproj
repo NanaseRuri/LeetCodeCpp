@@ -29,26 +29,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -322,8 +322,10 @@
     <ClCompile Include="Solution155MinStack.cpp" />
     <ClCompile Include="Solution1567GetMaxLen.cpp" />
     <ClCompile Include="Solution1572DiagonalSum.cpp" />
+    <ClCompile Include="Solution1582NumSpecial.cpp" />
     <ClCompile Include="Solution1588SumOddLengthSubarrays.cpp" />
     <ClCompile Include="Solution1603ParkingSystem.cpp" />
+    <ClCompile Include="Solution1606BusiestServers.cpp" />
     <ClCompile Include="Solution160GetIntersectionNode.cpp" />
     <ClCompile Include="Solution162FindPeakElement.cpp" />
     <ClCompile Include="Solution164MaximumGap.cpp" />
@@ -354,6 +356,8 @@
     <ClCompile Include="Solution200NumIslands.cpp" />
     <ClCompile Include="Solution2016MaximumDifference.cpp" />
     <ClCompile Include="Solution201RangeBitwiseAnd.cpp" />
+    <ClCompile Include="Solution2024MaxConsecutiveAnswers.cpp" />
+    <ClCompile Include="Solution2028MissingRolls.cpp" />
     <ClCompile Include="Solution202IsHappy.cpp" />
     <ClCompile Include="Solution2038WinnerOfGame.cpp" />
     <ClCompile Include="Solution203RemoveElements.cpp" />
@@ -425,6 +429,7 @@
     <ClCompile Include="Solution299GetHint.cpp" />
     <ClCompile Include="Solution300LengthOfLIS.cpp" />
     <ClCompile Include="Solution303NumArray.cpp" />
+    <ClCompile Include="Solution307NumArray.cpp" />
     <ClCompile Include="Solution309MaxProfit.cpp" />
     <ClCompile Include="Solution322CoinChange.cpp" />
     <ClCompile Include="Solution343IntegerBreak.cpp" />
@@ -435,7 +440,13 @@
     <ClCompile Include="Solution393ValidUtf8.cpp" />
     <ClCompile Include="Solution404SumOfLeftLeaves.cpp" />
     <ClCompile Include="Solution413NumberOfArithmeticSlices.cpp" />
+    <ClCompile Include="Solution416CanPartition.cpp" />
+    <ClCompile Include="Solution420StrongPasswordChecker.cpp" />
+    <ClCompile Include="Solution429LevelOrder.cpp" />
+    <ClCompile Include="Solution432AllOne.cpp" />
     <ClCompile Include="Solution440FindKthNumber.cpp" />
+    <ClCompile Include="Solution450DeleteNode.cpp" />
+    <ClCompile Include="Solution456Find132pattern.cpp" />
     <ClCompile Include="Solution496NextGreaterElement.cpp" />
     <ClCompile Include="Solution504ConvertToBase7.cpp" />
     <ClCompile Include="Solution509Fib.cpp" />
@@ -443,6 +454,7 @@
     <ClCompile Include="Solution521FindLUSlength.cpp" />
     <ClCompile Include="Solution564NearestPalindromic.cpp" />
     <ClCompile Include="Solution566MatrixReshape.cpp" />
+    <ClCompile Include="Solution572IsSubtree.cpp" />
     <ClCompile Include="Solution589PreorderOfNTree.cpp" />
     <ClCompile Include="Solution590Postorder.cpp" />
     <ClCompile Include="Solution5967CheckString.cpp" />
@@ -454,16 +466,28 @@
     <ClCompile Include="Solution653FindTarget.cpp" />
     <ClCompile Include="Solution637AverageOfLevels.cpp" />
     <ClCompile Include="Solution661ImageSmoother.cpp" />
+    <ClCompile Include="Solution682CalPoints.cpp" />
+    <ClCompile Include="Solution693HasAlternatingBits.cpp" />
+    <ClCompile Include="Solution704Search.cpp" />
+    <ClCompile Include="Solution706MyHashMap.cpp" />
     <ClCompile Include="Solution709ToLowerCase.cpp" />
     <ClCompile Include="Solution714MaxProfit.cpp" />
     <ClCompile Include="Solution720LongestWord.cpp" />
+    <ClCompile Include="Solution728SelfDividingNumbers.cpp" />
     <ClCompile Include="Solution740DeleteAndEarn.cpp" />
+    <ClCompile Include="Solution744NextGreatestLetter.cpp" />
+    <ClCompile Include="Solution762CountPrimeSetBits.cpp" />
     <ClCompile Include="Solution746MinCostClimbingStairs.cpp" />
+    <ClCompile Include="Solution780ReachingPoints.cpp" />
+    <ClCompile Include="Solution796RotateString.cpp" />
     <ClCompile Include="Solution798BestRotation.cpp" />
+    <ClCompile Include="Solution844BackspaceCompare.cpp" />
     <ClCompile Include="Solution876MiddleNode.cpp" />
     <ClCompile Include="Solution918MaxSubarraySumCircular.cpp" />
     <ClCompile Include="Solution931MinFallingPathSum.cpp" />
     <ClCompile Include="Solution953IsAlienSorted.cpp" />
+    <ClCompile Include="Solution961RepeatedNTimes.cpp" />
+    <ClCompile Include="Solution965IsUnivalTree.cpp" />
     <ClCompile Include="Solution976LargestPerimeter.cpp" />
     <ClCompile Include="TreeNode.cpp" />
   </ItemGroup>
@@ -471,6 +495,7 @@
     <ClInclude Include="ListNode.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
     <ClInclude Include="TreeNode.h" />
   </ItemGroup>
   <ItemGroup>

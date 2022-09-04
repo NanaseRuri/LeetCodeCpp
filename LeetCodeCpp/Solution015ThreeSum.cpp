@@ -8,6 +8,47 @@ using namespace std;
 
 class Solution015ThreeSum {
 public:
+
+	vector<vector<int>> threeSum2(vector<int>& nums) {
+		int numsSize = nums.size();
+
+		vector<vector<int>> result;
+		sort(nums.begin(), nums.end());
+		int leftLimit = numsSize - 2;
+		int middleLimit = numsSize - 1;
+		for (int i = 0; i < leftLimit; i++) {
+			if (i > 0 && nums[i] == nums[i - 1]) {
+				continue;
+			}
+
+			int target = -nums[i];
+			int middle = i + 1;
+			int right = numsSize - 1;
+			while (middle < right)
+			{
+				if (middle > i + 1 && nums[middle] == nums[middle - 1]) {
+					middle++;
+					continue;
+				}
+
+				int currentSum = nums[middle] + nums[right];
+				if (currentSum < target) {
+					middle++;
+					continue;
+				}
+				else if (currentSum > target) {
+					--right;
+					continue;
+				}
+				else {
+					result.emplace_back(vector<int>{nums[i], nums[middle], nums[right]});
+				}
+			}
+		}
+
+		return result;
+	}
+
 	vector<vector<int>> threeSum(vector<int>& nums) {
 		int size = nums.size();
 
@@ -80,10 +121,10 @@ public:
 //	vector<int> nums{ -1,0,1,2,-1,-4 };
 //	vector<int> nums4{ -4,-2,1,-5,-4,-4,4,-2,0,4,0,-2,3,1,-5,0 };
 //	vector<int> nums5{ -1,0,1,2,-1,-4,-2,-3,3,0,4 };
-//	vector<int> nums6{ 1,2,-2,-1};
+//	vector<int> nums6{ 1,2,-2,-1 };
 //
 //	Solution015ThreeSum sum;
-//	vector<vector<int>> result = sum.threeSum(nums6);
+//	vector<vector<int>> result = sum.threeSum2(nums);
 //	for (int i = 0; i < result.size(); i++)
 //	{
 //		for (int j = 0; j < result[i].size(); j++) {

@@ -1,5 +1,4 @@
-#include <string>
-#include <iostream>
+#include "stdafx.h"
 
 using namespace std;
 class Solution003LongestSubstringWithoutRepeatingCharacters {
@@ -29,13 +28,28 @@ public:
 			lastIndex[s[i]] = i;
 		}
 
-		// ±éÀúµ½×îºó
+		// éå†åˆ°æœ€å
 		int lastLength = s.length() - left;
 		if (maxLength < lastLength) {
 			maxLength = lastLength;
 		}
 
 		return maxLength;
+	}
+
+
+	int lengthOfLongestSubstring1(string s) {
+		vector<int> lastIndex(256, -1);
+		int left = -1;
+		int result = 0;
+		int sLength = s.length();
+		for (int i = 0; i < sLength; ++i) {
+			left = max(left, lastIndex[s[i]]);
+			result = max(result, i - left);
+			lastIndex[s[i]] = i;
+		}
+
+		return result;
 	}
 };
 
@@ -45,10 +59,14 @@ public:
 //	string s2 = "pwwkew";
 //	string s3 = "";
 //	string s4 = "abba";
+//	string s5 = " ";
 //	Solution003LongestSubstringWithoutRepeatingCharacters solution;
 //	cout << solution.lengthOfLongestSubstring(s) << endl;
 //	cout << solution.lengthOfLongestSubstring(s1) << endl;
 //	cout << solution.lengthOfLongestSubstring(s2) << endl;
 //	cout << solution.lengthOfLongestSubstring(s3) << endl;
 //	cout << solution.lengthOfLongestSubstring(s4) << endl;
+//
+//	cout << solution.lengthOfLongestSubstring1(s3) << endl;
+//	cout << solution.lengthOfLongestSubstring1(s5) << endl;
 //}

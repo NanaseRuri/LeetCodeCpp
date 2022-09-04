@@ -15,26 +15,33 @@
 class Solution599FindRestaurant {
 public:
 	vector<string> findRestaurant(vector<string>& list1, vector<string>& list2) {
-		unordered_map<string, int> indexMap;
-		for (int i = 0; i < list1.size(); i++) {
-			indexMap[list1[i]] = i;
+		vector<string> result;
+		unordered_map<string, int> restaurantIndexMap;
+
+		int list1Size = list1.size();
+		for (int i = 0; i < list1Size; i++)
+		{
+			restaurantIndexMap.emplace(pair<string, int>{ list1[i], i });
 		}
 
-		vector<string> result;
-		int indexSum = INT32_MAX;
-		for (int i = 0; i < list2.size(); i++) {
-			if (indexMap.count(list2[i]) > 0) {
-				int j = indexMap[list2[i]];
-				if (i + j < indexSum) {
+		int minIndexSum = INT32_MAX;
+
+		int list2Szie = list2.size();
+		for (int i = 0; i < list2Szie; i++)
+		{
+			if (restaurantIndexMap.find(list2[i]) != restaurantIndexMap.end()) {
+				int index = i + restaurantIndexMap[list2[i]];
+				if (index < minIndexSum) {
 					result.clear();
 					result.push_back(list2[i]);
-					indexSum = i + j;
+					minIndexSum = index;
 				}
-				else if (i + j == indexSum) {
+				else if (index == minIndexSum) {
 					result.push_back(list2[i]);
 				}
 			}
 		}
+
 		return result;
 	}
 };

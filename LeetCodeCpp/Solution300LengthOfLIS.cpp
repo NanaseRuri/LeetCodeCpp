@@ -17,6 +17,39 @@ using namespace std;
 class Solution300LengthOfLIS
 {
 public:
+	int lengthOfLIS2(vector<int>& nums) {
+		int numsSize = nums.size();
+		if (numsSize == 0) {
+			return 0;
+		}
+
+		vector<int> dp(numsSize + 1);
+		dp[0] = -5000;
+		int length = 0;
+		for (int i = 0; i < numsSize; i++) {
+			if (dp[length] < nums[i]) {
+				++length;
+				dp[length] = nums[i];
+			}
+			else {
+				int left = 0;
+				int right = length;
+				while (left <= right) {
+					int middle = (left + right) / 2;
+					if (dp[middle] < nums[i]) {
+						left = middle + 1;
+					}
+					else {
+						right = middle - 1;
+					}
+				}
+				dp[left] = nums[i];
+			}
+		}
+
+		return length;
+	}
+
 	int lengthOfLIS1(vector<int>& nums) {
 		int numsSize = nums.size();
 		vector<int> dp(numsSize);
