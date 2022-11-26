@@ -1657,15 +1657,15 @@
 &emsp; &emsp; 记录下上一次位与的值即可。<br/>
 &emsp; &emsp; 时间复杂度 O(logn)，空间复杂度 O(1)。
 
-## 706. 设计哈希映射
-
-&emsp; &emsp; 使用 vector<list<pair<int, int>>>，使用链地址法作为映射原理即可。<br/>
-&emsp; &emsp; 时间复杂度 O(n/b)，空间复杂度 O(n)。b 为哈希表的长度。
-
 ## 704. 二分查找
 
 &emsp; &emsp; 送分题。<br/>
 &emsp; &emsp; 时间复杂度 O(logn)，空间复杂度 O(1)。
+
+## 706. 设计哈希映射
+
+&emsp; &emsp; 使用 vector<list<pair<int, int>>>，使用链地址法作为映射原理即可。<br/>
+&emsp; &emsp; 时间复杂度 O(n/b)，空间复杂度 O(n)。b 为哈希表的长度。
 
 ## 709. 转换成小写字母
 
@@ -1729,6 +1729,21 @@
 
 &emsp; &emsp; 使用双指针，并且使用两个临时变量记录当前需要跳过的字符个数即可。<br/>
 &emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(1)。
+
+## 844. 比较含退格的字符串
+
+&emsp; &emsp; 使用双指针，并且使用两个临时变量记录当前需要跳过的字符个数即可。<br/>
+&emsp; &emsp; 时间复杂度 O(n)，空间复杂度 O(1)。
+
+## 857. 雇佣 K 名工人的最低成本
+
+&emsp; &emsp; 根据分析可知，totalCost >= wage[i] / quality[i] * totalQuality，在确定最高性价比的 k - 1 个人的最小 totalQuality 后，找到 k 从而得到最小的 wage[i] / quality[i] 即能得到最小结果。<br/>
+&emsp; &emsp; 使用最大堆 + 贪心算法进行解决。<br/>
+&emsp; &emsp; 首先创建一个从 0 到 n - 1 的数组 workerIndexes，然后根据最高的性价比对该数组进行排序。性价比为 wage[i] / quality[i]。排在最前的为 wage[i] / quality[i] 最小。<br/>
+&emsp; &emsp; 然后，使用一个最大堆 qualityQueue 记录当前所使用到的人员的 quality，用以得到最小的 totalQuality。<br/>
+&emsp; &emsp; workerIndexes 先从 0 遍历到 k - 1，得到当前前 k - 1 性价比的人员的 totalQuality，同时 qualityQueue 记录这些 quality。<br/>
+&emsp; &emsp; workerIndexes 从 k 遍历到 n - 1，得到当前的 totalQuality，把当前工人的 quality 放入 qualityQueue 中，判断当前最小的花费。然后 totalQuality -= qualityQueue.top() 得到当前性价比下能得到的最小 totalQuality，同时 qualityQueue.pop() 除去该 quality。<br/>
+&emsp; &emsp; 时间复杂度 O(nlogn)，空间复杂度 O(n)。时间复杂度主要来自于最小堆的建立以及创建 workerIndexes 时排序的时间。
 
 ## 876. 链表的中间结点
 

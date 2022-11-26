@@ -1,3 +1,8 @@
+#pragma once
+
+#include <vector>
+using namespace std;
+
 class ListNode {
 public:
 	int val;
@@ -7,6 +12,4 @@ public:
 	ListNode(int x, ListNode* next);
 };
 
-#include <vector>
-using namespace std;
 ListNode* BuildListNode(vector<int>values);

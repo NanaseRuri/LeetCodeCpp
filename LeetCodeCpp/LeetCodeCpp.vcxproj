@@ -327,6 +327,7 @@
     <ClCompile Include="Solution1603ParkingSystem.cpp" />
     <ClCompile Include="Solution1606BusiestServers.cpp" />
     <ClCompile Include="Solution160GetIntersectionNode.cpp" />
+    <ClCompile Include="Solution1619TrimMean.cpp" />
     <ClCompile Include="Solution162FindPeakElement.cpp" />
     <ClCompile Include="Solution164MaximumGap.cpp" />
     <ClCompile Include="Solution165CompareVersion.cpp" />
@@ -476,12 +477,15 @@
     <ClCompile Include="Solution728SelfDividingNumbers.cpp" />
     <ClCompile Include="Solution740DeleteAndEarn.cpp" />
     <ClCompile Include="Solution744NextGreatestLetter.cpp" />
+    <ClCompile Include="Solution754ReachNumber.cpp" />
     <ClCompile Include="Solution762CountPrimeSetBits.cpp" />
     <ClCompile Include="Solution746MinCostClimbingStairs.cpp" />
     <ClCompile Include="Solution780ReachingPoints.cpp" />
     <ClCompile Include="Solution796RotateString.cpp" />
     <ClCompile Include="Solution798BestRotation.cpp" />
+    <ClCompile Include="Solution808SoupServings.cpp" />
     <ClCompile Include="Solution844BackspaceCompare.cpp" />
+    <ClCompile Include="Solution857MincostToHireWorkers.cpp" />
     <ClCompile Include="Solution876MiddleNode.cpp" />
     <ClCompile Include="Solution918MaxSubarraySumCircular.cpp" />
     <ClCompile Include="Solution931MinFallingPathSum.cpp" />

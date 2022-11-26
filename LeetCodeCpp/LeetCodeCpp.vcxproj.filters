@@ -406,6 +406,12 @@
     <Filter Include="源文件\1-1000\401-500\441-450">
       <UniqueIdentifier>{74889fe4-44fa-4b9e-9353-507131f73df1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1-1000\801-900\851-860">
+      <UniqueIdentifier>{515d6080-d248-435d-951c-566507bbc1e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\801-900\801-810">
+      <UniqueIdentifier>{325080c3-703e-4ec9-85ec-13db89d9d425}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution001TwoSum.cpp">
@@ -1461,6 +1467,18 @@
     <ClCompile Include="Solution1582NumSpecial.cpp">
       <Filter>源文件\1001-2000\1501-1600\1581-1590</Filter>
     </ClCompile>
+    <ClCompile Include="Solution857MincostToHireWorkers.cpp">
+      <Filter>源文件\1-1000\801-900\851-860</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1619TrimMean.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution754ReachNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution808SoupServings.cpp">
+      <Filter>源文件\1-1000\801-900\801-810</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ListNode.h">
@@ -1473,6 +1491,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -1518,10 +1539,5 @@
     <Text Include="Solution262JournalAndUser.txt">
       <Filter>源文件\1-1000\201-300\261-270</Filter>
     </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="LeetCodeCpp.rc">
-      <Filter>资源文件</Filter>
-    </ResourceCompile>
   </ItemGroup>
 </Project>

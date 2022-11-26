@@ -42,6 +42,8 @@ public:
 				}
 				else {
 					result.emplace_back(vector<int>{nums[i], nums[middle], nums[right]});
+					++middle;
+					--right;
 				}
 			}
 		}
