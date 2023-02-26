@@ -345,7 +345,10 @@
     <ClCompile Include="Solution1779NearestValidPoint.cpp" />
     <ClCompile Include="Solution1790AreAlmostEqual.cpp" />
     <ClCompile Include="Solution1791FindCenter.cpp" />
+    <ClCompile Include="Solution1792MaxAverageRatio.cpp" />
     <ClCompile Include="Solution179LargestNumber.cpp" />
+    <ClCompile Include="Solution1805NumDifferentIntegers.cpp" />
+    <ClCompile Include="Solution1812SquareIsWhite.cpp" />
     <ClCompile Include="Solution1822ArraySign.cpp" />
     <ClCompile Include="Solution187FindRepeatedDnaSequences.cpp" />
     <ClCompile Include="Solution188MaxProfit.cpp" />
@@ -503,11 +506,26 @@
     <ClInclude Include="TreeNode.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Solution1141ViewPoet.sql" />
+    <None Include="Solution1484SortProductByDate.sql" />
+    <None Include="Solution1527PatientWithSomeDisease.sql" />
+    <None Include="Solution1581CustomerNeverShop.sql" />
+    <None Include="Solution1667FixNameInTable.sql" />
+    <None Include="Solution1757RecyclableAndLowFats.sql" />
     <None Include="Solution175JoinTwoTable.txt" />
     <None Include="Solution176SecondSalary.txt" />
     <None Include="Solution177TopNSalary.txt" />
     <None Include="Solution178GradeOrder.txt" />
+    <None Include="Solution1795DIfferencePrice.sql" />
     <None Include="Solution180ContinueNumber.txt" />
+    <None Include="Solution1873CalSpecialBonus.sql" />
+    <None Include="Solution1965EmployeeLoseInfo.sql" />
+    <None Include="Solution196RemoveDuplicateEmail.sql" />
+    <None Include="Solution584SearchReferee.sql" />
+    <None Include="Solution595BigCountry.sql" />
+    <None Include="Solution607SalesPerson.sql" />
+    <None Include="Solution608TreeNode.sql" />
+    <None Include="Solution627ChangeSex.sql" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Solution181EmployeeRicherThanManager.txt" />
@@ -515,7 +533,6 @@
     <Text Include="Solution183CustomerNoOrder.txt" />
     <Text Include="Solution184RichestEmployeeEachDepartment.txt" />
     <Text Include="Solution185TopThreeSalaryEachDepartment.txt" />
-    <Text Include="Solution196RemoveDuplicateEmail.txt" />
     <Text Include="Solution197IncreaseTemperature.txt" />
     <Text Include="Solution262JournalAndUser.txt" />
   </ItemGroup>

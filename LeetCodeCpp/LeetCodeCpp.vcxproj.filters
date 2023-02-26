@@ -412,6 +412,33 @@
     <Filter Include="源文件\1-1000\801-900\801-810">
       <UniqueIdentifier>{325080c3-703e-4ec9-85ec-13db89d9d425}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1001-2000\1701-1800\1751-1760">
+      <UniqueIdentifier>{7d8a8215-d691-43b3-8515-80de0a52c5b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1801-1900\1871-1880">
+      <UniqueIdentifier>{2337f2b0-cad7-442a-80ab-8d13a194d477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\601-700\621-630">
+      <UniqueIdentifier>{bda90f29-8e25-4c9f-a731-7eed0a1acae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1601-1700\1661-1670">
+      <UniqueIdentifier>{1bd4d818-02bb-4652-a881-c0de6b1a70db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1401-1500\1481-1490">
+      <UniqueIdentifier>{b610170d-dd06-4655-a222-96ca5c6b4439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1901-2000">
+      <UniqueIdentifier>{b8559fb4-50b3-4f25-aa9b-99ede27d29ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1901-2000\1961-1970">
+      <UniqueIdentifier>{cfb00ff3-1e8a-41d6-94f1-f8b84d5e6370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1101-1200\1141-1150">
+      <UniqueIdentifier>{a962d7f5-74f0-49f2-89e8-d9e53be8382e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1801-1900\1801-1810">
+      <UniqueIdentifier>{88d28069-5e21-497a-9959-ea29f24c3485}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution001TwoSum.cpp">
@@ -1479,6 +1506,15 @@
     <ClCompile Include="Solution808SoupServings.cpp">
       <Filter>源文件\1-1000\801-900\801-810</Filter>
     </ClCompile>
+    <ClCompile Include="Solution1805NumDifferentIntegers.cpp">
+      <Filter>源文件\1001-2000\1801-1900\1801-1810</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1812SquareIsWhite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1792MaxAverageRatio.cpp">
+      <Filter>源文件\1001-2000\1701-1800\1791-1800</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ListNode.h">
@@ -1513,6 +1549,51 @@
     <None Include="Solution180ContinueNumber.txt">
       <Filter>源文件\1-1000\101-200\171-180</Filter>
     </None>
+    <None Include="Solution595BigCountry.sql">
+      <Filter>源文件\1-1000\501-600\591-600</Filter>
+    </None>
+    <None Include="Solution1757RecyclableAndLowFats.sql">
+      <Filter>源文件\1001-2000\1701-1800\1751-1760</Filter>
+    </None>
+    <None Include="Solution584SearchReferee.sql">
+      <Filter>源文件\1-1000\501-600\581-590</Filter>
+    </None>
+    <None Include="Solution1873CalSpecialBonus.sql">
+      <Filter>源文件\1001-2000\1801-1900\1871-1880</Filter>
+    </None>
+    <None Include="Solution627ChangeSex.sql">
+      <Filter>源文件\1-1000\601-700\621-630</Filter>
+    </None>
+    <None Include="Solution196RemoveDuplicateEmail.sql">
+      <Filter>源文件\1-1000\101-200\191-200</Filter>
+    </None>
+    <None Include="Solution1667FixNameInTable.sql">
+      <Filter>源文件\1001-2000\1601-1700\1661-1670</Filter>
+    </None>
+    <None Include="Solution1484SortProductByDate.sql">
+      <Filter>源文件\1001-2000\1401-1500\1481-1490</Filter>
+    </None>
+    <None Include="Solution1527PatientWithSomeDisease.sql">
+      <Filter>源文件\1001-2000\1501-1600\1521-1530</Filter>
+    </None>
+    <None Include="Solution1965EmployeeLoseInfo.sql">
+      <Filter>源文件\1001-2000\1901-2000\1961-1970</Filter>
+    </None>
+    <None Include="Solution1795DIfferencePrice.sql">
+      <Filter>源文件\1001-2000\1701-1800\1791-1800</Filter>
+    </None>
+    <None Include="Solution608TreeNode.sql">
+      <Filter>源文件\1-1000\601-700\601-610</Filter>
+    </None>
+    <None Include="Solution1581CustomerNeverShop.sql">
+      <Filter>源文件\1001-2000\1501-1600\1581-1590</Filter>
+    </None>
+    <None Include="Solution1141ViewPoet.sql">
+      <Filter>源文件\1001-2000\1101-1200\1141-1150</Filter>
+    </None>
+    <None Include="Solution607SalesPerson.sql">
+      <Filter>源文件\1-1000\601-700\601-610</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Solution181EmployeeRicherThanManager.txt">
@@ -1529,9 +1610,6 @@
     </Text>
     <Text Include="Solution185TopThreeSalaryEachDepartment.txt">
       <Filter>源文件\1-1000\101-200\181-190</Filter>
-    </Text>
-    <Text Include="Solution196RemoveDuplicateEmail.txt">
-      <Filter>源文件\1-1000\101-200\191-200</Filter>
     </Text>
     <Text Include="Solution197IncreaseTemperature.txt">
       <Filter>源文件\1-1000\101-200\191-200</Filter>
