@@ -1,16 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
-#include "ListNode.h"
-#include "TreeNode.h"
-#include "Node.h"
-#include <set>
+#include "stdafx.h"
 
 using namespace std;
 
@@ -18,7 +6,7 @@ class Solution149MaxPoints
 {
 public:
 	/// <summary>
-	/// Çó×î´ó¹«Ô¼Êý
+	/// ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½
 	/// </summary>
 	/// <returns></returns>
 	int Gcd(int a, int b) {
@@ -49,7 +37,7 @@ public:
 					x = 1;
 				}
 				else {
-					// Í¬Ò»ÏóÏÞ
+					// Í¬Ò»ï¿½ï¿½ï¿½ï¿½
 					if (y < 0) {
 						x = -x;
 						y = -y;

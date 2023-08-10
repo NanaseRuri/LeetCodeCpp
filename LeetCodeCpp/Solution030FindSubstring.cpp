@@ -1,20 +1,15 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
+#include "stdafx.h"
 
 using namespace std;
 
 class Solution030FindSubstring {
 public:
 	vector<int> findSubstring(string s, vector<string>& words) {
-		// ÏÂ±êÓëµ¥´ÊµÄÓ³Éä
+		// ï¿½Â±ï¿½ï¿½ëµ¥ï¿½Êµï¿½Ó³ï¿½ï¿½
 		unordered_map<int, string> indexWordMap;
-		// Ã¿¸öµ¥´ÊµÄ¼ÆÊý
+		// Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ÊµÄ¼ï¿½ï¿½ï¿½
 		unordered_map<string, int> wordCountMap;
-		// µ±Ç°ÒÑÓÐµÄÃ¿¸öµ¥´ÊµÄ¼ÆÊý
+		// ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Ðµï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ÊµÄ¼ï¿½ï¿½ï¿½
 		unordered_map<string, vector<int>> currentCountMap;
 		vector<int> result;
 
@@ -31,7 +26,7 @@ public:
 
 		int wordSize = words[0].size();
 		int strSize = s.size();
-		// ÉÏ´ÎÊÇ·ñÓÐÐÂ¼ÓÈëµÄµ¥´Ê
+		// ï¿½Ï´ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½
 		bool lastContainsWord = false;
 		int matchingWordStartIndex = 0;
 		int currentMatchingSize = 0;
@@ -45,7 +40,7 @@ public:
 						indexWordMap.insert({ j, currentWord });
 						currentMatchingSize++;
 
-						// ÕÒµ½µ«³¬¹ýÊýÄ¿ÏÞÖÆ£¬Çå³ý¸Ãµ¥´ÊµÚÒ»´ÎµÄÐÅÏ¢
+						// ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½Æ£ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½ï¿½Êµï¿½Ò»ï¿½Îµï¿½ï¿½ï¿½Ï¢
 						if (currentCountMap[currentWord].size() > wordCountMap[currentWord]) {
 							int currentWordLastIndex = currentCountMap[currentWord][0];
 							for (int k = matchingWordStartIndex; k <= currentWordLastIndex; k += wordSize) {
@@ -57,7 +52,7 @@ public:
 						}
 					}
 					else {
-						// Ö®Ç°ÕÒµ½µ¥´Ê£¬ÏÖÔÚÃ»ÕÒµ½£¬Çå³ýÐÅÏ¢
+						// Ö®Ç°ï¿½Òµï¿½ï¿½ï¿½ï¿½Ê£ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
 						for (auto iterator = indexWordMap.begin(); iterator != indexWordMap.end(); iterator++)
 						{
 							currentCountMap[iterator->second].clear();
@@ -77,7 +72,7 @@ public:
 					}
 				}
 
-				// ÕÒµ½Ò»×é£¬Çå³ýµÚÒ»¸öµ¥´ÊµÄÐÅÏ¢
+				// ï¿½Òµï¿½Ò»ï¿½é£¬ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½Ï¢
 				if (currentMatchingSize == wordArraySize) {
 					result.push_back(matchingWordStartIndex);
 
@@ -88,7 +83,7 @@ public:
 				}
 			}
 
-			// ÏÂÒ»ÂÖÑ­»·Ç°Çå³ýÐÅÏ¢
+			// ï¿½ï¿½Ò»ï¿½ï¿½Ñ­ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
 			for (auto iterator = indexWordMap.begin(); iterator != indexWordMap.end(); iterator++)
 			{
 				currentCountMap[iterator->second].clear();

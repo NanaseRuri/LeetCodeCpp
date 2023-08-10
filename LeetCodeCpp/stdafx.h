@@ -1,3 +1,5 @@
+#pragma once
+
 #include <string>
 #include <vector>
 #include <iostream>
@@ -10,6 +12,8 @@
 #include <set>
 #include <random>
 #include <numeric>
-#include "TreeNode.h"
-#include "ListNode.h"
 #include <map>
+#include <immintrin.h>
+#include "ListNode.h"
+#include "TreeNode.h"
+#include "Node.h"

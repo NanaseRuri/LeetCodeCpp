@@ -1,12 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
+#include "stdafx.h"
 
 using namespace std;
 
@@ -21,17 +13,17 @@ public:
 			return "";
 		}
 
-		// Ã¿¸öµ¥´Ê³öÏÖµÄ´ÎÊı
+		// Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½Ê³ï¿½ï¿½ÖµÄ´ï¿½ï¿½ï¿½
 		int* charaterTotalCount = new int[256]{};
-		// ×Ö·ûÓëÆä³öÏÖµÄ¸öÊı
+		// ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÖµÄ¸ï¿½ï¿½ï¿½
 		unordered_map<char, int> charCountMap;
-		// ×ÜµÄ×Ö·û¸öÊı
+		// ï¿½Üµï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½
 		int totalCharCount = 0;
-		// µ±Ç°µÄ×Ö·û¸öÊı£¬µ±×Ö·ûÓëÆä³öÏÖµÄ´ÎÊıÏàÍ¬Ê±¼ÓÒ»£¬·ñÔòĞèÒª¸ù¾İ characterIndexes¡¢indexOfAddedCharacter ÒÔ¼° existsIndexes ¼õÈ¥µÈÍ¬µÄÖµ
+		// ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÖµÄ´ï¿½ï¿½ï¿½ï¿½ï¿½Í¬Ê±ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ characterIndexesï¿½ï¿½indexOfAddedCharacter ï¿½Ô¼ï¿½ existsIndexes ï¿½ï¿½È¥ï¿½ï¿½Í¬ï¿½ï¿½Öµ
 		int currentCharCount = 0;
-		// ÆğÊ¼ÏÂ±ê
+		// ï¿½ï¿½Ê¼ï¿½Â±ï¿½
 		int minResultStartIndex = -1;
-		// ³¤¶È
+		// ï¿½ï¿½ï¿½ï¿½
 		int minResultLength = INT32_MAX;
 
 		int slidingWindowStartIndex = 0;

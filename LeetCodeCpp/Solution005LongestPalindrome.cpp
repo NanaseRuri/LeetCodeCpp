@@ -1,5 +1,4 @@
-#include <string>
-#include <vector>
+#include "stdafx.h"
 
 using namespace std;
 class Solution005LongestPalindrome {
@@ -15,7 +14,7 @@ public:
 		{
 			currentLength = 0;
 			currentLeft = i - currentLength;
-			// »ØÎÄ´®ÎªÆæÊýµÄÇé¿ö
+			// ï¿½ï¿½ï¿½Ä´ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			for (int j = i; j < strLength && i - currentLength >= 0; j++)
 			{
 				if (s[j] == s[i - currentLength])
@@ -36,7 +35,7 @@ public:
 
 			currentLength = 0;
 			currentLeft = i;
-			// »ØÎÄ´®ÎªÅ¼ÊýµÄÇé¿ö
+			// ï¿½ï¿½ï¿½Ä´ï¿½ÎªÅ¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			for (int j = i + 1; j < strLength && i - currentLength >= 0; j++)
 			{
 				if (s[j] == s[i - currentLength])

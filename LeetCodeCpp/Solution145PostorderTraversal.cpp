@@ -1,16 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
-#include "ListNode.h"
-#include "TreeNode.h"
-#include "Node.h"
-#include <set>
+#include "stdafx.h"
 
 using namespace std;
 
@@ -31,7 +19,7 @@ public:
 			}
 			root = nodeStack.top();
 			nodeStack.pop();
-			// 右节点没有或被访问过
+			// 锟揭节碉拷没锟叫或被凤拷锟绞癸拷
 			if (root->right == nullptr || root->right == preTreeNode) {
 				result.push_back(root->val);
 				preTreeNode = root;

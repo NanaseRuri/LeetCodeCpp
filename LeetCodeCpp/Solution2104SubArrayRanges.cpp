@@ -1,16 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
-#include "ListNode.h"
-#include "TreeNode.h"
-#include "Node.h"
-#include <set>
+#include "stdafx.h"
 
 using namespace std;
 
@@ -49,7 +37,7 @@ public:
 
 		for (int i = 0; i < numsSize; i++)
 		{
-			// ¹æ¶¨×ó±ßµÈÓÚÓÒ±ßÊ±£¬ÊÓÎª×ó±ßµÄÊý±ÈÓÒ±ßµÄÐ¡
+			// ï¿½æ¶¨ï¿½ï¿½ßµï¿½ï¿½ï¿½ï¿½Ò±ï¿½Ê±ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ßµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò±ßµï¿½Ð¡
 			while (!minStack.empty() && nums[minStack.top()] > nums[i])
 			{
 				minStack.pop();

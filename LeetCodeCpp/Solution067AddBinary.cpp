@@ -1,12 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
+#include "stdafx.h"
 
 using namespace std;
 
@@ -22,7 +14,7 @@ public:
 		int shortSize = aSize;
 		int longerSize = bSize;
 
-		// Ô¼¶¨ a ÊÇ³¤¶È½Ï¶ÌµÄÊý×é£¬·½±ã±éÀú
+		// Ô¼ï¿½ï¿½ a ï¿½Ç³ï¿½ï¿½È½Ï¶Ìµï¿½ï¿½ï¿½ï¿½é£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		if (aSize > bSize) {
 			shorterString = &b;
 			longerString = &a;

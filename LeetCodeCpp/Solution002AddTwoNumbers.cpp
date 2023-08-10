@@ -1,5 +1,4 @@
-#include <vector>
-#include "ListNode.h"
+#include "stdafx.h"
 
 using namespace std;
 class Solution {

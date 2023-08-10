@@ -1,6 +1,5 @@
 #pragma once
-#include <vector>
-#include <queue>
+#include "stdafx.h"
 using namespace std;
 
 class Node

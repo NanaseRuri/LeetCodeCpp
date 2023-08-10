@@ -1,18 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
-#include "ListNode.h"
-#include "TreeNode.h"
-#include "Node.h"
-#include <set>
-#include <numeric>
-#include <functional>
+#include "stdafx.h"
 
 using namespace std;
 
@@ -30,33 +16,33 @@ private:
 			return;
 		}
 
-		// µ±Ç°µÄ×Ö·û´®³¤¶È¼´ÎªºóÐø¼ÓÈë·ûºÅÎ»µÄÏÂ±ê
+		// ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¼ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½Â±ï¿½
 		int operatorIndex = currentString.size();
 
-		// ·ÅÈëÁÙÊ±Î»£¬×÷Îª·ûºÅÎ»ºóÐø¸ü¸Ä
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±Î»ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		if (index > 0) {
 			currentString.push_back(0);
 		}
 
 		long long currentNum = 0;
-		// ±ÜÃâÇ°ÖÃ 0
+		// ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ 0
 		for (int j = index; j < _numSize && (j == index || num[index] != '0'); j++)
 		{
 			currentNum = currentNum * 10 + (num[j] - '0');
 			currentString.push_back(num[j]);
-			// µ±µÚÒ»²ãÊ±£¬²»»áÍù·ûºÅÎ»¼´µÚ 0 Î»·ÅÈë·ûºÅ£¬ºóÐø²ã²Å»á¿ªÊ¼
+			// ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ 0 Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å»á¿ªÊ¼
 			if (index == 0) {
 				Dfs(num, currentString, j + 1, currentNum, currentNum);
 			}
 			else {
 				currentString[operatorIndex] = '+';
-				// ×îºóµÄÖµÎª currentNum
+				// ï¿½ï¿½ï¿½ï¿½ÖµÎª currentNum
 				Dfs(num, currentString, j + 1, currentSum + currentNum, currentNum);
 				currentString[operatorIndex] = '-';
-				// ×îºóµÄÖµÎª -currentNum
+				// ï¿½ï¿½ï¿½ï¿½ÖµÎª -currentNum
 				Dfs(num, currentString, j + 1, currentSum - currentNum, -currentNum);
 				currentString[operatorIndex] = '*';
-				// ×îºóµÄÖµÎª lastNum * currentNum
+				// ï¿½ï¿½ï¿½ï¿½ÖµÎª lastNum * currentNum
 				Dfs(num, currentString, j + 1, currentSum - lastNum + lastNum * currentNum, lastNum * currentNum);
 			}
 		}

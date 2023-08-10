@@ -1,9 +1,4 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <queue>
-#include <stack>
-#include "Node.h"
+#include "stdafx.h"
 
 using namespace std;
 class Offer58ReverseLeftWords {

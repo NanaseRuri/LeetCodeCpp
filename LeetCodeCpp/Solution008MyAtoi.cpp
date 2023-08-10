@@ -1,6 +1,4 @@
-#include <string>
-#include <limits>
-#include <iostream>
+#include "stdafx.h"
 
 using namespace std;
 class Solution008MyAtoi {

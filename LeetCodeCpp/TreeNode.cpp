@@ -1,6 +1,4 @@
-#include "TreeNode.h"
-#include <vector>
-#include <queue>
+#include "stdafx.h"
 
 using namespace std;
 

@@ -1,5 +1,4 @@
-#include <string>
-#include <iostream>
+#include "stdafx.h"
 
 using namespace std;
 class Solution006Convert {

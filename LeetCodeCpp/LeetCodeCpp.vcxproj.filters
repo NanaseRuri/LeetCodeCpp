@@ -439,6 +439,93 @@
     <Filter Include="源文件\1001-2000\1801-1900\1801-1810">
       <UniqueIdentifier>{88d28069-5e21-497a-9959-ea29f24c3485}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1001-2000\1201-1300\1241-1250">
+      <UniqueIdentifier>{9be25357-a8d0-4464-8be2-a00c84936a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2001-3000\2301-2400">
+      <UniqueIdentifier>{7a4310e1-7c35-41c6-97f3-66c1c2fb9646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2001-3000\2301-2400\2361-2370">
+      <UniqueIdentifier>{766a14c9-34b3-4fe8-b80b-f7d95f90ffa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Cracking the Coding Interview">
+      <UniqueIdentifier>{4093a45b-122d-4ce8-b6de-46fdff0bca16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\501-600\541-550">
+      <UniqueIdentifier>{b68f714e-91cd-4dba-b107-87a4290ebd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1901-2000\1901-1910">
+      <UniqueIdentifier>{db986caa-93a8-4970-a667-7c649eaecc4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2001-3000\2301-2400\2381-2390">
+      <UniqueIdentifier>{4c5d1de3-28c8-497e-ae47-2c6ba0ea0d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2001-3000\2401-2500">
+      <UniqueIdentifier>{01b48122-e6af-4bd5-9418-d7e940d51356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2001-3000\2401-2500\2481-2490">
+      <UniqueIdentifier>{d882a80c-634e-48d7-ab7a-88d96c7e7ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1201-1300\1250-1260">
+      <UniqueIdentifier>{f15e3c7f-ca01-43c6-bc26-f7a78523c3eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2001-3000\2401-2500\2461-2470">
+      <UniqueIdentifier>{52993f3e-0c8c-4176-8706-684e621c780f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1601-1700\1621-1630">
+      <UniqueIdentifier>{b81254b2-fa72-44fc-802c-5a8d1b3d370f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1601-1700\1631-1640">
+      <UniqueIdentifier>{438a88ac-6e09-45e1-abc1-c47c29151024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2001-3000\2301-2400\2390-2400">
+      <UniqueIdentifier>{c7832ba5-7544-46e4-a3e3-59b185d2beee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1601-1700\1641-1650">
+      <UniqueIdentifier>{cc076045-d86f-476c-bbac-7c72edfa480b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1001-1100\1031-1040">
+      <UniqueIdentifier>{4fe69f3c-34d8-4b44-a168-19a49874b4dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\901-1000\991-1000">
+      <UniqueIdentifier>{7b6a76d1-f494-4d6a-abb0-26b3167857c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2001-3000\2401-2500\2421-2430">
+      <UniqueIdentifier>{ac2a6709-a70d-4884-9542-99ecfb452bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1001-1100\1021-1030">
+      <UniqueIdentifier>{3839f236-15b2-46e5-a226-68d36558fc94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1001-1100\1041-1050">
+      <UniqueIdentifier>{3920eba5-fe61-4084-b968-8f04076ccdeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1601-1700\1611-1620">
+      <UniqueIdentifier>{29cdfb44-3f3d-4ec5-bd23-33e1d2393fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1-1000\701-800\751-760">
+      <UniqueIdentifier>{73a8033a-769f-4ea4-9223-0ea5eb793bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1801-1900\1811-1820">
+      <UniqueIdentifier>{3a564f04-e714-470b-bdae-e00351f75161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2001-3000\2401-2500\2401-2410">
+      <UniqueIdentifier>{be6ff692-e3c0-4677-a6fb-426559c97129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2001-3000\2301-2400\2371-2380">
+      <UniqueIdentifier>{e8ca0a23-e292-44fb-8467-a5cdd471f01f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2001-3000\2401-2500\2411-2420">
+      <UniqueIdentifier>{859a94c6-688e-48ae-b0b2-4223938a31b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1101-1200\1101-1110">
+      <UniqueIdentifier>{d018f053-3988-433e-8d27-de6576ae3b57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1101-1200\1171-1180">
+      <UniqueIdentifier>{2c8bb04d-4886-49ac-b2b0-78ece813bb27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-2000\1601-1700\1681-1690">
+      <UniqueIdentifier>{e1f38590-936f-4221-865b-bbd21a6b6750}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution001TwoSum.cpp">
@@ -1497,23 +1584,146 @@
     <ClCompile Include="Solution857MincostToHireWorkers.cpp">
       <Filter>源文件\1-1000\801-900\851-860</Filter>
     </ClCompile>
-    <ClCompile Include="Solution1619TrimMean.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution754ReachNumber.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Solution808SoupServings.cpp">
       <Filter>源文件\1-1000\801-900\801-810</Filter>
     </ClCompile>
     <ClCompile Include="Solution1805NumDifferentIntegers.cpp">
       <Filter>源文件\1001-2000\1801-1900\1801-1810</Filter>
     </ClCompile>
-    <ClCompile Include="Solution1812SquareIsWhite.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Solution1792MaxAverageRatio.cpp">
       <Filter>源文件\1001-2000\1701-1800\1791-1800</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1247MinimumSwap.cpp">
+      <Filter>源文件\1001-2000\1201-1300\1241-1250</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution733FloodFill.cpp">
+      <Filter>源文件\1-1000\701-800\731-740</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution2363MergeSimilarItems.cpp">
+      <Filter>源文件\2001-3000\2301-2400\2361-2370</Filter>
+    </ClCompile>
+    <ClCompile Include="CTCI0502PrintBin.cpp">
+      <Filter>源文件\Cracking the Coding Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1144MovesToMakeZigzag.cpp">
+      <Filter>源文件\1001-2000\1101-1200\1141-1150</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution695MaxAreaOfIsland.cpp">
+      <Filter>源文件\1-1000\601-700\691-700</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1254ClosedIsland.cpp">
+      <Filter>源文件\1001-2000\1201-1300\1250-1260</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution542UpdateMatrix.cpp">
+      <Filter>源文件\1-1000\501-600\541-550</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1020NumEnclaves.cpp">
+      <Filter>源文件\1001-2000\1001-1100\1011-1020</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1905CountSubIslands.cpp">
+      <Filter>源文件\1001-2000\1901-2000\1901-1910</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution2383MinNumberOfHours.cpp">
+      <Filter>源文件\2001-3000\2301-2400\2381-2390</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1605RestoreMatrix.cpp">
+      <Filter>源文件\1001-2000\1601-1700\1601-1610</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution2488CountSubarrays.cpp">
+      <Filter>源文件\2001-3000\2401-2500\2481-2490</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution2469ConvertTemperature.cpp">
+      <Filter>源文件\2001-3000\2401-2500\2461-2470</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1626BestTeamScore.cpp">
+      <Filter>源文件\1001-2000\1601-1700\1621-1630</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1574FindLengthOfShortestSubarray.cpp">
+      <Filter>源文件\1001-2000\1501-1600\1571-1580</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution2395FindSubarrays.cpp">
+      <Filter>源文件\2001-3000\2301-2400\2390-2400</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1630CheckArithmeticSubarrays.cpp">
+      <Filter>源文件\1001-2000\1601-1700\1621-1630</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1638CountSubstrings.cpp">
+      <Filter>源文件\1001-2000\1601-1700\1631-1640</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1637MaxWidthOfVerticalArea.cpp">
+      <Filter>源文件\1001-2000\1601-1700\1631-1640</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution2367ArithmeticTriplets.cpp">
+      <Filter>源文件\2001-3000\2301-2400\2361-2370</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1039MinScoreTriangulation.cpp">
+      <Filter>源文件\1001-2000\1001-1100\1031-1040</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1000MergeStones.cpp">
+      <Filter>源文件\1-1000\901-1000\991-1000</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution2427CommonFactors.cpp">
+      <Filter>源文件\2001-3000\2401-2500\2421-2430</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1023CamelMatch.cpp">
+      <Filter>源文件\1001-2000\1001-1100\1021-1030</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1041IsRobotBounded.cpp">
+      <Filter>源文件\1001-2000\1001-1100\1041-1050</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1019NextLargerNodes.cpp">
+      <Filter>源文件\1001-2000\1001-1100\1011-1020</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1619TrimMean.cpp">
+      <Filter>源文件\1001-2000\1601-1700\1611-1620</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution754ReachNumber.cpp">
+      <Filter>源文件\1-1000\701-800\751-760</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1812SquareIsWhite.cpp">
+      <Filter>源文件\1001-2000\1801-1900\1811-1820</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution2404MostFrequentEven.cpp">
+      <Filter>源文件\2001-3000\2401-2500\2401-2410</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution2399CheckDistances.cpp">
+      <Filter>源文件\2001-3000\2301-2400\2390-2400</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution2379MinimumRecolors.cpp">
+      <Filter>源文件\2001-3000\2301-2400\2371-2380</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1042GardenNoAdj.cpp">
+      <Filter>源文件\1001-2000\1001-1100\1041-1050</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution2409CountDaysTogether.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1026MaxAncestorDiff.cpp">
+      <Filter>源文件\1001-2000\1001-1100\1021-1030</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1043MaxSumAfterPartitioning.cpp">
+      <Filter>源文件\1001-2000\1001-1100\1041-1050</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution2413SmallestEvenMultiple.cpp">
+      <Filter>源文件\2001-3000\2401-2500\2411-2420</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1027LongestArithSeqLength.cpp">
+      <Filter>源文件\1001-2000\1001-1100\1021-1030</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1105MinHeightShelves.cpp">
+      <Filter>源文件\1001-2000\1101-1200\1101-1110</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution2418SortPeople.cpp">
+      <Filter>源文件\2001-3000\2401-2500\2411-2420</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1171RemoveZeroSumSublists.cpp">
+      <Filter>源文件\1001-2000\1101-1200\1171-1180</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1681MinimumIncompatibility.cpp">
+      <Filter>源文件\1001-2000\1601-1700\1681-1690</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1588,11 +1798,14 @@
     <None Include="Solution1581CustomerNeverShop.sql">
       <Filter>源文件\1001-2000\1501-1600\1581-1590</Filter>
     </None>
-    <None Include="Solution1141ViewPoet.sql">
+    <None Include="Solution1148ViewPoet.sql">
       <Filter>源文件\1001-2000\1101-1200\1141-1150</Filter>
     </None>
     <None Include="Solution607SalesPerson.sql">
       <Filter>源文件\1-1000\601-700\601-610</Filter>
+    </None>
+    <None Include="Solution1641CountVowelStrings.cpp">
+      <Filter>源文件\1001-2000\1601-1700\1641-1650</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

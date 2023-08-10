@@ -1,7 +1,4 @@
-#include <string>
-#include <unordered_map>
-#include <vector>
-#include <iostream>
+#include "stdafx.h"
 
 using namespace std;
 

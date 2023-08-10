@@ -1,3 +1,4 @@
+#include "stdafx.h"
 class Solution009IsPalindrome {
 public:
 	bool isPalindrome(int x) {

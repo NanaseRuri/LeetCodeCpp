@@ -1,5 +1,4 @@
-#include <string>
-#include <iostream>
+#include "stdafx.h"
 
 using namespace std;
 class Solution044IsMatch {
@@ -7,8 +6,8 @@ public:
 	/// <summary>
 	/// 
 	/// </summary>
-	/// <param name="s">´ýÆ¥Åä×Ö·û´®</param>
-	/// <param name="p">ÕýÔò±í´ïÊ½</param>
+	/// <param name="s">ï¿½ï¿½Æ¥ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½</param>
+	/// <param name="p">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½</param>
 	/// <returns></returns>
 	bool isMatch(string s, string p) {
 		int sSize = s.size();

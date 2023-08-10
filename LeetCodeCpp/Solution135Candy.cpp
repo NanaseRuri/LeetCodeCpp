@@ -1,16 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
-#include "ListNode.h"
-#include "TreeNode.h"
-#include "Node.h"
-#include <set>
+#include "stdafx.h"
 
 using namespace std;
 
@@ -74,7 +62,7 @@ public:
 			}
 			else {
 				decrease++;
-				// ¼´Îª´ÓÓÒµ½×óµÝÔö£¬µ±±È´Ó×óµ½ÓÒµÝÔöµÄ¸ü¶àÊ±£¬ÐèÒª¶îÍâ +1
+				// ï¿½ï¿½Îªï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È´ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ +1
 				if (decrease == increase) {
 					decrease++;
 				}

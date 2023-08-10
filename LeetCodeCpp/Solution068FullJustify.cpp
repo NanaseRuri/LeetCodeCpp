@@ -1,12 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
+#include "stdafx.h"
 
 using namespace std;
 
@@ -17,7 +9,7 @@ public:
 		vector<string> result;
 
 		string currentResult;
-		// ´æ·Åµ±Ç°½á¹û¸÷¸öµ¥´ÊµÄÎ»ÖÃ£¬ÓÉÓÚµ¥´ÊÖ®¼äÐèÒªÓÐ¿Õ¸ñ£¬Òò´Ë×î¶àÓÐ maxWidth / 2 ¸öµ¥´Ê
+		// ï¿½ï¿½Åµï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½Î»ï¿½Ã£ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½ï¿½Òªï¿½Ð¿Õ¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ maxWidth / 2 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		int* indexes = new int[maxWidth] {};
 		int currentWordsCount = 0;
 		int currentRemainingLength = maxWidth;
@@ -39,12 +31,12 @@ public:
 				wordsIndex++;
 			}
 			else {
-				// Ö»ÓÐÒ»¸öµ¥´Ê»ò×îºóÒ»ÐÐµÄÇé¿ö
+				// Ö»ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ê»ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Ðµï¿½ï¿½ï¿½ï¿½
 				if (currentWordsCount == 1 || wordsIndex == wordsLength) {
 					currentResult.insert(currentResult.end(), currentRemainingLength, ' ');
 				}
 				else {
-					// µ¥´Ê¼äÓÐ¿Õ¸ñµÄÇé¿ö
+					// ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½Ð¿Õ¸ï¿½ï¿½ï¿½ï¿½ï¿½
 					for (int i = currentWordsCount - 1; i > 0; --i)
 					{
 						if (currentRemainingLength >= i) {
@@ -62,7 +54,7 @@ public:
 			}
 		}
 
-		// ×îºóÒ»ÐÐÎª×ó¶ÔÆë
+		// ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½
 		if (currentRemainingLength != maxWidth) {
 			if (currentRemainingLength > 0) {
 				currentResult.insert(currentResult.end(), currentRemainingLength, ' ');

@@ -1,16 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
-#include "ListNode.h"
-#include "TreeNode.h"
-#include "Node.h"
-#include <set>
+#include "stdafx.h"
 
 using ll = long long;
 class LCP29OrchestraLayout
@@ -27,16 +15,16 @@ public:
 		ll index = (area - currentCircle) % 9 + 1;
 		int right = num - layer;
 		int left = layer - 1;
-		// ÔÚ ¡ª¡ª¡ªÉÏ
+		// ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		if (xPos == left) {
 			index += yPos - left;
 		}
-		// ÔÚ  | ÓÒ
+		// ï¿½ï¿½  | ï¿½ï¿½
 		else if (yPos == right) {
 			index += right - left;
 			index += xPos - left;
 		}
-		// ÔÚ ¡ª¡ª¡ª ÏÂ
+		// ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 		else if (xPos == right) {
 			index += 2 * (right - left);
 			index += right - yPos;

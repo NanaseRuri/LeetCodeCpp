@@ -1,8 +1,4 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <queue>
-#include <stack>
+#include "stdafx.h"
 
 using namespace std;
 class MinStack {

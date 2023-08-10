@@ -1,7 +1,4 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <queue>
+#include "stdafx.h"
 
 using namespace std;
 

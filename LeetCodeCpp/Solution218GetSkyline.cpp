@@ -1,16 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
-#include "ListNode.h"
-#include "TreeNode.h"
-#include "Node.h"
-#include <set>
+#include "stdafx.h"
 
 using namespace std;
 
@@ -33,7 +21,7 @@ public:
 		auto cmp = [](const pair<int, int>& left, const pair<int, int>& right)->bool {return left.second < right.second; };
 		priority_queue<pair<int, int>, vector<pair<int, int>>, decltype(cmp)> buildingQueue(cmp);
 
-		// ½¨Öþ¸÷¸ö±ßµÄ×ø±ê£¬½øÐÐÅÅÐò£¬È»ºóÒÀ´ÎÕÒ±ä»¯µÄ¸ß¶È
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ßµï¿½ï¿½ï¿½ï¿½ê£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò±ä»¯ï¿½Ä¸ß¶ï¿½
 		vector<int> boundaries;
 		for (auto& building : buildings)
 		{
@@ -47,22 +35,22 @@ public:
 		int index = 0;
 		for (auto& boundary : boundaries)
 		{
-			// µ±Ç°½¨Öþ×ó±ß½çÓë boundary ÖØµþ£¬ÔÚ´Ë·ÅÈëÓÒ±ß±ßÒÔ¼°·ÅÈë¸ß¶È
-			// Í¬Ê±ÓÉÓÚ buildingQueue ÊÇ´ó¸ù¶Ñ£¬ËùÒÔ×ÜÊÇÏÈµÃµ½×î¸ßµÄ¸ß¶È
+			// ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß½ï¿½ï¿½ï¿½ boundary ï¿½Øµï¿½ï¿½ï¿½ï¿½Ú´Ë·ï¿½ï¿½ï¿½ï¿½Ò±ß±ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ß¶ï¿½
+			// Í¬Ê±ï¿½ï¿½ï¿½ï¿½ buildingQueue ï¿½Ç´ï¿½ï¿½ï¿½Ñ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÈµÃµï¿½ï¿½ï¿½ßµÄ¸ß¶ï¿½
 			while (index < buildingsSize && buildings[index][0] <= boundary)
 			{
 				buildingQueue.emplace(buildings[index][1], buildings[index][2]);
 				index++;
 			}
-			// ÕÒµ½´Ó×óµ½ÓÒ¿´µÄ×î¸ß¸ß¶È£¬³ýÈ¥Õû¸ö building ±»µ±Ç°±ß¸²¸ÇµÄÇé¿ö
+			// ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò¿ï¿½ï¿½ï¿½ï¿½ï¿½ß¸ß¶È£ï¿½ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ building ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ß¸ï¿½ï¿½Çµï¿½ï¿½ï¿½ï¿½
 			while (!buildingQueue.empty() && buildingQueue.top().first <= boundary)
 			{
 				buildingQueue.pop();
 			}
 
-			// ±ß½çÏßÊÇ·ñÃ»´©¹ýÈÎºÎ½¨Öþ
+			// ï¿½ß½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ÎºÎ½ï¿½ï¿½ï¿½
 			int maxHeight = buildingQueue.empty() ? 0 : buildingQueue.top().second;
-			// ¿´¸ß¶ÈÊÇ·ñ·¢Éú¹ý±ä»¯
+			// ï¿½ï¿½ï¿½ß¶ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ä»¯
 			if (result.size() == 0 || maxHeight != result.back()[1]) {
 				result.push_back({ boundary,maxHeight });
 			}

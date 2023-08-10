@@ -1,4 +1,4 @@
-#include <vector>
+#include "stdafx.h"
 
 using namespace std;
 class Solution004MedianOfTwoSortedArrays {
@@ -87,7 +87,7 @@ public:
 	}
 
 	double findKth(vector<int>& arr1, vector<int>& arr2, int start1, int start2, int len1, int len2, int k) {
-		// ±£Ö¤arr1ÊÇ½Ï¶ÌµÄÊý×é
+		// ï¿½ï¿½Ö¤arr1ï¿½Ç½Ï¶Ìµï¿½ï¿½ï¿½ï¿½ï¿½
 		if (len1 > len2) {
 			return findKth(arr2, arr1, start2, start1, len2, len1, k);
 		}

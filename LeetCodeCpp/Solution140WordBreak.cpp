@@ -1,16 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
-#include "ListNode.h"
-#include "TreeNode.h"
-#include "Node.h"
-#include <set>
+#include "stdafx.h"
 
 using namespace std;
 
@@ -24,11 +12,11 @@ private:
 	unordered_set<string> _wordSet;
 	int _sLength;
 	/// <summary>
-	/// ÊÇ·ñÎª¿É²ð·Öµ¥´Ê
+	/// ï¿½Ç·ï¿½Îªï¿½É²ï¿½Öµï¿½ï¿½ï¿½
 	/// </summary>
 	vector<vector<int>> _canBreakRecord;
 	/// <summary>
-	/// ´ÓÏÂ±ê i È¡ j ³¤¶È»ñÈ¡µ½µÄ×Ö·û´®
+	/// ï¿½ï¿½ï¿½Â±ï¿½ i È¡ j ï¿½ï¿½ï¿½È»ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½
 	/// </summary>
 	vector<vector<string>> _existsWordRecord;
 

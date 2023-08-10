@@ -1,11 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include "ListNode.h"
+#include "stdafx.h"
 
 using namespace std;
 

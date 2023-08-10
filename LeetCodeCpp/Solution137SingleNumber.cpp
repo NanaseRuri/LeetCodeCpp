@@ -1,16 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
-#include "ListNode.h"
-#include "TreeNode.h"
-#include "Node.h"
-#include <set>
+#include "stdafx.h"
 
 using namespace std;
 
@@ -25,7 +13,7 @@ public:
 			int currentNum = 0;
 			for (int j = 0; j < numsSize; j++)
 			{
-				// 取第 i 位
+				// 取锟斤拷 i 位
 				currentNum += ((nums[j] >> i) & 1);
 			}
 			if (currentNum % 3 == 1) {

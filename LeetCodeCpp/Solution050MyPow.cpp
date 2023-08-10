@@ -1,12 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
+#include "stdafx.h"
 
 using namespace std;
 
@@ -33,7 +25,7 @@ public:
 				tempX *= tempX;
 			}
 
-			// ÎÞÇîÐ¡
+			// ï¿½ï¿½ï¿½ï¿½Ð¡
 			if (tempX == 0 || tempX == INFINITY) {
 				return 0;
 			}

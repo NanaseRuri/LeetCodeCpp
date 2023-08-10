@@ -1,19 +1,14 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
+#include "stdafx.h"
 
 using namespace std;
 
 class Solution031NextPermutation {
 private:
 	/// <summary>
-	/// ½¨Ò»¸ö´ó¸ù¶Ñ£¬ÓÃÓÚ½«Êý×é´ÓÐ¡µ½´óÅÅÐò
+	/// ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ£ï¿½ï¿½ï¿½ï¿½Ú½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	/// </summary>
-	/// <param name = "nums">Êý×é< / param>
-	///	<param name = "head">Í·½áµã< / param>
+	/// <param name = "nums">ï¿½ï¿½ï¿½ï¿½< / param>
+	///	<param name = "head">Í·ï¿½ï¿½ï¿½< / param>
 	///	<param name = "left">< / param>
 	///	<param name = "right">< / param>
 	void BuildHeap(vector<int>& nums, int startIndex, int size) {
@@ -95,7 +90,7 @@ public:
 			}
 		}
 
-		// Ã»ÓÐ·¢Éú¹ý½»»»ÔòÐèÒª½«Êý×éÑØÖÐ¼ä¾µÏñÌæ»»ÒÔ»ñµÃ×îÐ¡Öµ
+		// Ã»ï¿½Ð·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¼ä¾µï¿½ï¿½ï¿½æ»»ï¿½Ô»ï¿½ï¿½ï¿½ï¿½Ð¡Öµ
 		int left = 0;
 		int right = numSize - 1;
 		while (left < right)

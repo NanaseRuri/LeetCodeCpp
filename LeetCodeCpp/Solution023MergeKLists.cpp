@@ -1,11 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include "ListNode.h"
+#include "stdafx.h"
 
 using namespace std;
 
@@ -72,7 +65,7 @@ public:
 	}
 
 	/// <summary>
-	/// Èç¹ûµ±Ç°·µ»Ø½ÚµãµÄ×Ó½Úµã²»Îª¿Õ£¬ÔòÖÃÎª×Ó½Úµã£¬·ñÔò½«×îºóÒ»¸öÔªËØ·ÅÉÏÀ´£¬Í¬Ê±³¤¶È-1£¬×îºó½øÐÐµ÷Õû
+	/// ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Ø½Úµï¿½ï¿½ï¿½Ó½Úµã²»Îªï¿½Õ£ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½Ó½Úµã£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ôªï¿½Ø·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬Ê±ï¿½ï¿½ï¿½ï¿½-1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½
 	/// </summary>
 	/// <returns></returns>
 	ListNode* GetMinListNode() {

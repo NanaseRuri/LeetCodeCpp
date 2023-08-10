@@ -1,6 +1,4 @@
 #include "stdafx.h"
-#include "ListNode.h"
-#include "Node.h"
 
 using namespace std;
 

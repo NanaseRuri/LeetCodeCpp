@@ -1,12 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
+#include "stdafx.h"
 
 using namespace std;
 
@@ -46,9 +38,9 @@ public:
 	vector<vector<int>> ans;
 
 	vector<vector<int>> combine1(int n, int k) {
-		// 初始化
-		// 将 temp 中 [0, k - 1] 每个位置 i 设置为 i + 1，即 [0, k - 1] 存 [1, k]
-		// 末尾加一位 n + 1 作为哨兵
+		// 锟斤拷始锟斤拷
+		// 锟斤拷 temp 锟斤拷 [0, k - 1] 每锟斤拷位锟斤拷 i 锟斤拷锟斤拷为 i + 1锟斤拷锟斤拷 [0, k - 1] 锟斤拷 [1, k]
+		// 末尾锟斤拷一位 n + 1 锟斤拷为锟节憋拷
 		for (int i = 1; i <= k; ++i) {
 			temp.push_back(i);
 		}
@@ -58,13 +50,13 @@ public:
 		while (j < k) {
 			ans.emplace_back(temp.begin(), temp.begin() + k);
 			j = 0;
-			// 寻找第一个 temp[j] + 1 != temp[j + 1] 的位置 t
-			// 我们需要把 [0, t - 1] 区间内的每个位置重置成 [1, t]
+			// 寻锟揭碉拷一锟斤拷 temp[j] + 1 != temp[j + 1] 锟斤拷位锟斤拷 t
+			// 锟斤拷锟斤拷锟斤拷要锟斤拷 [0, t - 1] 锟斤拷锟斤拷锟节碉拷每锟斤拷位锟斤拷锟斤拷锟矫筹拷 [1, t]
 			while (j < k && temp[j] + 1 == temp[j + 1]) {
 				temp[j] = j + 1;
 				++j;
 			}
-			// j 是第一个 temp[j] + 1 != temp[j + 1] 的位置
+			// j 锟角碉拷一锟斤拷 temp[j] + 1 != temp[j + 1] 锟斤拷位锟斤拷
 			++temp[j];
 		}
 		return ans;

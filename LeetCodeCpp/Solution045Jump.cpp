@@ -1,11 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
+#include "stdafx.h"
 
 using namespace std;
 
@@ -25,7 +18,7 @@ public:
 					minIndexStack.push(i);
 				}
 			}
-			// ÕÒ²»µ½¿ÉÒÔÌøµ½Õâ¸ö¸ñ×ÓµÄ¸ñ×Ó
+			// ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÓµÄ¸ï¿½ï¿½ï¿½
 			if (minIndexStackSize == minIndexStack.size())
 			{
 				lastIndex = minIndexStack.top();

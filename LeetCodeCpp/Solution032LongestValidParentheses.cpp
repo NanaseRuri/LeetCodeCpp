@@ -1,10 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
+#include "stdafx.h"
 
 using namespace std;
 
@@ -12,7 +6,7 @@ class Solution032LongestValidParentheses {
 public:
 
 	/// <summary>
-	/// ·½·¨ 1 £ºÁ½ÂÖ±éÀú£¬O(n)£¬O(1)
+	/// ï¿½ï¿½ï¿½ï¿½ 1 ï¿½ï¿½ï¿½ï¿½ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ï¿½O(n)ï¿½ï¿½O(1)
 	/// </summary>
 	/// <param name="s"></param>
 	/// <returns></returns>
@@ -71,7 +65,7 @@ public:
 	}
 
 	/// <summary>
-	/// Ê¹ÓÃÕ»£¬O(n)£¬O(n)
+	/// Ê¹ï¿½ï¿½Õ»ï¿½ï¿½O(n)ï¿½ï¿½O(n)
 	/// </summary>
 	/// <param name="s"></param>
 	/// <returns></returns>
@@ -103,7 +97,7 @@ public:
 	}
 
 	/// <summary>
-	/// Ê¹ÓÃ¶¯Ì¬¹æ»®£¬O(n)£¬O(n)
+	/// Ê¹ï¿½Ã¶ï¿½Ì¬ï¿½æ»®ï¿½ï¿½O(n)ï¿½ï¿½O(n)
 	/// </summary>
 	/// <param name="s"></param>
 	/// <returns></returns>

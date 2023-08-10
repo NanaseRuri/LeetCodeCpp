@@ -1,16 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
-#include "ListNode.h"
-#include "TreeNode.h"
-#include "Node.h"
-
+#include "stdafx.h"
 using namespace std;
 
 class Solution126FindLadders
@@ -19,7 +7,7 @@ class Solution126FindLadders
 	//	int _minBfsTime = INT32_MAX;
 	//
 	//	/// <summary>
-	//	/// ¼ÇÂ¼×îºóÄÜ×ª»»³É endWord µÄ×Ö·û´®
+	//	/// ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½ endWord ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½
 	//	/// </summary>
 	//	vector<string> _lastString;
 	//
@@ -34,7 +22,7 @@ class Solution126FindLadders
 	//		}
 	//
 	//		bool findByLastString = false;
-	//		// ÅÐ¶ÏÊÇ·ñÕÒµ½
+	//		// ï¿½Ð¶ï¿½ï¿½Ç·ï¿½ï¿½Òµï¿½
 	//		for (auto iter = _lastString.begin(); iter < _lastString.end(); iter++)
 	//		{
 	//			int differenceCount = 0;
@@ -170,17 +158,17 @@ public:
 	vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {
 		vector<vector<string>> result;
 
-		// ÓÃÀ´ÅÐ¶ÏÀ©Õ¹³öµÄµ¥´ÊÊÇ·ñÔÚ WordList ÖÐ£¬ÅÐ¶Ï 26 ´Î£¬µ± wordList ºÜ´óÊ±ÓÃÀ´½ÚÊ¡Ê±¼ä
+		// ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½ï¿½Õ¹ï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ WordList ï¿½Ð£ï¿½ï¿½Ð¶ï¿½ 26 ï¿½Î£ï¿½ï¿½ï¿½ wordList ï¿½Ü´ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¡Ê±ï¿½ï¿½
 		unordered_set<string> dict{ wordList.begin(),wordList.end() };
-		// ÌâÒâ£¬wordList ÕÒ²»µ½ endWord ÔòÃ»ÓÐ
+		// ï¿½ï¿½ï¿½â£¬wordList ï¿½Ò²ï¿½ï¿½ï¿½ endWord ï¿½ï¿½Ã»ï¿½ï¿½
 		if (dict.find(endWord) == dict.end()) {
 			return result;
 		}
 		dict.erase(beginWord);
 
-		// µ¥´ÊÊÇµÚ¼¸´ÎÀ©Õ¹µÃµ½µÄ
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ÇµÚ¼ï¿½ï¿½ï¿½ï¿½ï¿½Õ¹ï¿½Ãµï¿½ï¿½ï¿½
 		unordered_map<string, int> steps{ {beginWord,0} };
-		// µ¥´Ê´ÓÄÄÐ©µ¥´ÊÀ©Õ¹¶øÀ´
+		// ï¿½ï¿½ï¿½Ê´ï¿½ï¿½ï¿½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ¹ï¿½ï¿½ï¿½ï¿½
 		unordered_map<string, unordered_set<string>> from{ {beginWord,{}} };
 		int step = 0;
 		bool found = false;
@@ -195,31 +183,31 @@ public:
 				string currentWord = currentWordQueue.front();
 				string nextWord = currentWord;
 				currentWordQueue.pop();
-				// °Ñµ±Ç°×Ö·û´®µÄ¸÷¸öÎ»½øÐÐÌæ»»£¬È»ºóÔÚ×ÖµäÀï²éÕÒÊÇ·ñ´æÔÚÌæ»»ºóµÄµ¥´Ê
+				// ï¿½Ñµï¿½Ç°ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½æ»»ï¿½ï¿½È»ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½æ»»ï¿½ï¿½Äµï¿½ï¿½ï¿½
 				for (int j = 0; j < wordLength; j++)
 				{
 					char originChar = nextWord[j];
 					for (char c = 'a'; c <= 'z'; c++)
 					{
 						nextWord[j] = c;
-						// ÓÉÓÚÕÒ¹ý£¬»áÔÚ dict ÀïÃæ±»³ýÈ¥£¬Í¬Ê±±»³ýÈ¥ºóÁôÏÂ×î¶ÌÂ·¾¶£¬Òò´ËÔÚ´ËÅÐ¶ÏÊÇ·ñÍ¬Ñù´óÐ¡µÄÂ·¾¶ÒÔÅÐ¶ÏÊÇ·ñÐèÒª²åÈëÍ¼
+						// ï¿½ï¿½ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ dict ï¿½ï¿½ï¿½æ±»ï¿½ï¿½È¥ï¿½ï¿½Í¬Ê±ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½ï¿½Ð¶ï¿½ï¿½Ç·ï¿½Í¬ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½Ç·ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½Í¼
 						if (steps[nextWord] == step) {
 							from[nextWord].insert(currentWord);
 						}
 						if (dict.find(nextWord) == dict.end()) {
 							continue;
 						}
-						// Èç¹û±»±éÀú¹ý£¬¿Ï¶¨¸üÔ¶£¬Òò´Ë³ýÈ¥
+						// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½Ë³ï¿½È¥
 						dict.erase(nextWord);
 						currentWordQueue.push(nextWord);
-						// nextWord Í¨¹ý currentWord ×ª»»¹ýÀ´
+						// nextWord Í¨ï¿½ï¿½ currentWord ×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 						from[nextWord].insert(currentWord);
 						steps[nextWord] = step;
 						if (nextWord == endWord) {
 							found = true;
 						}
 					}
-					// ±éÀúÍêºó¸´Ô­
+					// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô­
 					nextWord[j] = originChar;
 				}
 			}

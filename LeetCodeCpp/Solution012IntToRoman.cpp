@@ -1,6 +1,4 @@
-#include <string>
-#include <map>
-#include <vector>
+#include "stdafx.h"
 
 using namespace std;
 

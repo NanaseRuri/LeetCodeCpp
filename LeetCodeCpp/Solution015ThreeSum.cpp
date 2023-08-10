@@ -1,8 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_set>
-#include <algorithm>
+#include "stdafx.h"
 
 using namespace std;
 

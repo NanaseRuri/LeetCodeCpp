@@ -1,12 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
+#include "stdafx.h"
 
 using namespace std;
 
@@ -56,7 +48,7 @@ public:
 				result.push_back(intervals[i]);
 			}
 
-			// ÊÇ·ñµ¥´¿²åÈë¶ø·ÇÓëÖ®Ç°ºÏ²¢
+			// ï¿½Ç·ñµ¥´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®Ç°ï¿½Ï²ï¿½
 			int resultLastIndex = insertPosition - 1;
 			if (i > 0 && newInterval[0] <= result[i - 1][1]) {
 				result[i - 1][1] = max(result[i - 1][1], newInterval[1]);

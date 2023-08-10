@@ -1,5 +1,4 @@
-#include <vector>
-#include <iostream>
+#include "stdafx.h"
 
 using namespace std;
 class Solution011MaxArea {

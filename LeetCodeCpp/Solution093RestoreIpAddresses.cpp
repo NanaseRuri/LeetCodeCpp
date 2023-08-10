@@ -1,13 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
-#include "ListNode.h"
+#include "stdafx.h"
 
 using namespace std;
 
@@ -22,17 +13,17 @@ private:
 			_result.push_back(_currentResult);
 		}
 
-		// ×î¶Ì¿ÉÒÔ¶à¶Ì
+		// ï¿½ï¿½Ì¿ï¿½ï¿½Ô¶ï¿½ï¿½
 		int currentLength = sSize - startIndex - 3 * (3 - currentSegment);
-		// ×î³¤¿ÉÒÔ¶à³¤
+		// ï¿½î³¤ï¿½ï¿½ï¿½Ô¶à³¤
 		int maxLength = sSize - startIndex - 3 + currentSegment;
-		// ²»ÄÜ±È 1 ¶Ì
+		// ï¿½ï¿½ï¿½Ü±ï¿½ 1 ï¿½ï¿½
 		currentLength = max(currentLength, 1);
-		// ²»ÄÜ±È 3 ³¤
+		// ï¿½ï¿½ï¿½Ü±ï¿½ 3 ï¿½ï¿½
 		maxLength = min(maxLength, 3);
 		while (currentLength <= maxLength)
 		{
-			// ÅÅ³ýÇ°ÖÃ 0
+			// ï¿½Å³ï¿½Ç°ï¿½ï¿½ 0
 			if (currentLength > 1 && s[startIndex] == '0') {
 				return;
 			}
@@ -66,7 +57,7 @@ public:
 	vector<string> restoreIpAddresses(string s) {
 		_result.clear();
 		int sSize = s.size();
-		// ³ýÈ¥Ã»ÓÃµÄÇé¿ö
+		// ï¿½ï¿½È¥Ã»ï¿½Ãµï¿½ï¿½ï¿½ï¿½
 		if (sSize > 12 || sSize < 4) {
 			return _result;
 		}

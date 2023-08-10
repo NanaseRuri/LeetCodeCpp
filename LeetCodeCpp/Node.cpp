@@ -1,4 +1,5 @@
-#include "Node.h"
+#include "stdafx.h"
+
 Node::Node() : val(0), left(nullptr), right(nullptr), next(nullptr), random(nullptr) {}
 
 Node::Node(int val) : val(val), left(nullptr), right(nullptr), next(nullptr), random(nullptr) {}

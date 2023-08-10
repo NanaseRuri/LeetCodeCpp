@@ -1,16 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
-#include "ListNode.h"
-#include "TreeNode.h"
-#include "Node.h"
-#include <set>
+#include "stdafx.h"
 
 using namespace std;
 
@@ -36,7 +24,7 @@ public:
 	}
 
 	int GetBucketId(int x, long w) {
-		// +1 确保如 -10 - -1 分到的桶与 0 - 9 分到的分子相同，然后 -1 确保分到的桶号从 -1 开始
+		// +1 确锟斤拷锟斤拷 -10 - -1 锟街碉拷锟斤拷桶锟斤拷 0 - 9 锟街碉拷锟侥凤拷锟斤拷锟斤拷同锟斤拷然锟斤拷 -1 确锟斤拷锟街碉拷锟斤拷桶锟脚达拷 -1 锟斤拷始
 		return x < 0 ? (x + 1ll) / w - 1 : x / w;
 	}
 	bool containsNearbyAlmostDuplicate1(vector<int>& nums, int k, int t) {

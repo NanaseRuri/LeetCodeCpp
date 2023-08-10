@@ -1,13 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>
-#include <limits>
-#include <stack>
-#include <queue>
-#include <unordered_set>
-#include "ListNode.h"
+#include "stdafx.h"
 
 using namespace std;
 
@@ -52,7 +43,7 @@ private:
 			return true;
 		}
 
-		// Ã»ÓÐ½»»»µÄÇé¿ö
+		// Ã»ï¿½Ð½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		for (int i = 1; i < length; i++)
 		{
 			if (Dfs(s1Index, s2Index, i) && Dfs(s1Index + i, s2Index + i, length - i)) {
@@ -61,7 +52,7 @@ private:
 			}
 		}
 
-		// ½»»»µÄÇé¿ö
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		for (int i = 1; i < length; i++)
 		{
 			if (Dfs(s1Index + i, s2Index, length - i) && Dfs(s1Index, s2Index + length - i, i)) {

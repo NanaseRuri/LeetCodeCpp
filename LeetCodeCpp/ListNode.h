@@ -1,6 +1,5 @@
 #pragma once
-
-#include <vector>
+#include "stdafx.h"
 using namespace std;
 
 class ListNode {

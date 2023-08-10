@@ -1,6 +1,4 @@
-#include <vector>
-#include <algorithm>
-#include <unordered_map>
+#include "stdafx.h"
 
 using namespace std;
 class Solution001TwoSum {
